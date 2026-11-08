@@ -1,4 +1,4 @@
-import { useCurrentFrame } from "remotion";
+import { Img, staticFile, useCurrentFrame } from "remotion";
 
 export const INK = "#F1EEE6";
 export const PENCIL = "url(#pencil)";
@@ -26,13 +26,16 @@ export const PencilDefs = () => {
   );
 };
 
+const LOGO_SCALE = 2.35;
+const LOGO_RATIO = 1307 / 736;
+
 export const Avatar = ({ size }: { size: number }) => (
-  <svg width={size} height={size} viewBox="0 0 64 64" fill="none" stroke={INK} strokeWidth={3} strokeLinecap="round">
-    <circle cx={32} cy={32} r={28} />
-    <circle cx={23} cy={27} r={2.6} fill={INK} />
-    <circle cx={41} cy={27} r={2.6} fill={INK} />
-    <path d="M 21 40 Q 32 49 43 40" />
-  </svg>
+  <div style={{ width: size, height: size, borderRadius: "50%", overflow: "hidden", position: "relative", border: `${Math.max(2, size / 28)}px solid ${INK}`, boxSizing: "border-box", background: "#FAF8F3" }}>
+    <Img
+      src={staticFile("logo.jpg")}
+      style={{ position: "absolute", width: size * LOGO_SCALE, height: size * LOGO_SCALE * LOGO_RATIO, left: -0.62 * size, top: -0.155 * size * 1.0 }}
+    />
+  </div>
 );
 
 export const WavyLine = ({ width, progress }: { width: number; progress: number }) => (

@@ -1,8 +1,20 @@
 export type Series = { name: string; handle: string; initials: string; avatar: string };
 
-const SERIES: Record<string, Series> = {
-  ru: { name: "facts-factory", handle: "@your_handle", initials: "FF", avatar: "avatar.jpg" },
-  en: { name: "facts-factory", handle: "@your_handle", initials: "FF", avatar: "avatar.jpg" },
+const fromEnv = (name: string, fallback: string): string => {
+  const value = typeof process === "undefined" ? undefined : process.env[name];
+  return value && value.trim() ? value.trim() : fallback;
 };
 
-export const seriesFor = (lang: string): Series => SERIES[lang] ?? SERIES.ru;
+const channelName = (): string => fromEnv("CHANNEL_NAME", "facts-factory");
+
+const channelHandle = (): string => {
+  const raw = fromEnv("CHANNEL_HANDLE", `@${channelName()}`);
+  return raw.startsWith("@") ? raw : `@${raw}`;
+};
+
+export const seriesFor = (_lang: string): Series => ({
+  name: channelName(),
+  handle: channelHandle(),
+  initials: channelName().slice(0, 2).toUpperCase(),
+  avatar: "logo.jpg",
+});

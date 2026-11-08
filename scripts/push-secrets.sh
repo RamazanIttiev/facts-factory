@@ -10,6 +10,7 @@ for name in "${SECRETS[@]}"; do
   if [ -z "$value" ]; then echo "skip $name (empty in .env)"; continue; fi
   printf '%s' "$value" | gh secret set "$name" --repo "$REPO" --body - >/dev/null && echo "set $name"
 done
+for v in CHANNEL_NAME CHANNEL_HANDLE; do [ -n "${!v:-}" ] && gh variable set "$v" --repo "$REPO" --body "${!v}" >/dev/null && echo "set variable $v"; done
 gh variable set TTS_PROVIDER --repo "$REPO" --body "elevenlabs"
 gh variable set GRAPH_API_VERSION --repo "$REPO" --body "${GRAPH_API_VERSION:-v27.0}"
 gh variable set AUDIENCE_TZ --repo "$REPO" --body "Europe/Moscow"

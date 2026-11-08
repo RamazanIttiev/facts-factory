@@ -18,6 +18,8 @@ jobs:
     timeout-minutes: 40
     env:
       TTS_PROVIDER: ${{ vars.TTS_PROVIDER }}
+      CHANNEL_NAME: ${{ vars.CHANNEL_NAME }}
+      CHANNEL_HANDLE: ${{ vars.CHANNEL_HANDLE }}
       GRAPH_API_VERSION: ${{ vars.GRAPH_API_VERSION }}
       AUDIENCE_TZ: ${{ vars.AUDIENCE_TZ }}
       ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
