@@ -20,7 +20,7 @@ If a drawing is missing (person look, prop), add it once in `src/scenes/Doodle.t
 
 ## Tone and profanity
 - Voice: a smart friend telling a wild true story over a beer. Joking, but the facts are serious and exact. Short sentences, one idea each, each term explained once.
-- Мат is seasoning that lands on telling details and reactions. Owner asked for MORE (2026-11-08, after the first episode): 5-8 swear words per episode, spread across scenes, 1-2 per scene at most, never in the hook or caption. Mild words (хрен, охренеть) count half.
+- Мат is seasoning that lands on telling details and reactions. Amount: 10-14 swear words per episode, at least 1 in every scene, 3 per scene at most, mostly strong words (mild ones like хрен, охренеть count half). Never in the hook or caption. Each one must land on a reaction or a detail, not fill a gap; if a swear can be removed without losing the joke, move it to where it hits harder.
 - Direct the swearing at situations, decisions, institutions, bureaucracy, "the system". Never at private individuals, never at protected groups (ethnicity, religion, gender, orientation, disability), never at tragedy victims. Real people are described by what they did, per the sources.
 - Humor never changes a fact. A joke may exaggerate the reaction, never the event.
 - Platform risk: Instagram and TikTok cut reach and monetization for explicit profanity, mostly in the first seconds, the on-screen text and the post text. Defaults until the owner decides otherwise:
@@ -28,7 +28,6 @@ If a drawing is missing (person look, prop), add it once in `src/scenes/Doodle.t
   - `caption` (post text) is clean;
   - мат lives in narration and speech bubbles.
 - Decided by the owner: profanity is voiced in full but masked on screen (`б***ь`). `src/profanity.ts` `maskProfanity` is applied to captions, bubbles, signs, titles and hook; the list is a stem heuristic, extend it when a new word slips through (add a test first).
-- Amount: more than the first episode (5-8 per episode). Still aimed at situations, decisions and institutions, never at people or groups; no mat in the hook or caption; the joke never changes a fact.
 - TTS voice: `4kvTPHWbXEs0w5qHB4Ed` (used in published episodes). To change it, compare voices on one swearing phrase first (many voices soften or garble мат).
 
 ## Architecture
