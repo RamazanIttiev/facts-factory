@@ -20,7 +20,7 @@ If a drawing is missing (person look, prop), add it once in `src/scenes/Doodle.t
 
 ## Tone and profanity
 - Voice: a smart friend telling a wild true story over a beer. Joking, but the facts are serious and exact. Short sentences, one idea each, each term explained once.
-- Мат is seasoning, not filler: it lands on a telling detail or a slightly exaggerated reaction. One or two in a whole episode. Mild words (хрен, кинуть) count for much less than hard ones.
+- Мат is seasoning that lands on telling details and reactions. Owner asked for MORE (2026-11-08, after the first episode): 5-8 swear words per episode, spread across scenes, 1-2 per scene at most, never in the hook or caption. Mild words (хрен, охренеть) count half.
 - Direct the swearing at situations, decisions, institutions, bureaucracy, "the system". Never at private individuals, never at protected groups (ethnicity, religion, gender, orientation, disability), never at tragedy victims. Real people are described by what they did, per the sources.
 - Humor never changes a fact. A joke may exaggerate the reaction, never the event.
 - Platform risk: Instagram and TikTok cut reach and monetization for explicit profanity, mostly in the first seconds, the on-screen text and the post text. Defaults until the owner decides otherwise:
@@ -28,7 +28,7 @@ If a drawing is missing (person look, prop), add it once in `src/scenes/Doodle.t
   - `caption` (post text) is clean;
   - мат lives in narration and speech bubbles.
 - Decided by the owner: profanity is voiced in full but masked on screen (`б***ь`). `src/profanity.ts` `maskProfanity` is applied to captions, bubbles, signs, titles and hook; the list is a stem heuristic, extend it when a new word slips through (add a test first).
-- Amount: little. Мат only underlines a detail or a small exaggeration, one or two per episode, never in every scene and never as filler.
+- Amount: more than the first episode (5-8 per episode). Still aimed at situations, decisions and institutions, never at people or groups; no mat in the hook or caption; the joke never changes a fact.
 - TTS: compare voices on one swearing phrase before choosing a `voiceId` (many voices soften or garble мат). `voiceId` in the template is a leftover from the first account.
 
 ## Architecture
@@ -50,7 +50,7 @@ Old scene types (`diagram`, `code`, `checklist`, `browser`, `media`, `custom`) s
 Dark charcoal paper (`#16181D`), chalk-white line (`#F1EEE6`), one accent: warm yellow `#FFD166` (hook accent word, caption accent, handle). No other colors.
 All ink goes through one SVG filter (`#pencil` in `src/Pencil.tsx`): wobble that re-seeds every 3 frames (hand-drawn boil) plus graphite grain. Lines draw on in 12 frames. Text is still after it appears (entrance only).
 Fonts: PT Sans Bold (titles, captions, hook), Neucha (handwriting: bubbles, labels, handle). Both support Cyrillic.
-Header: drawn smiley avatar, handle `@your_handle` (placeholder, set in `src/series.ts`), step pill `n/N`.
+Header: drawn smiley avatar, handle from env `CHANNEL_HANDLE` (name `CHANNEL_NAME`), read in `src/series.ts`; never hardcode it, step pill `n/N`.
 
 ## Doodle scene (`type: "doodle"`)
 `visual.<lang>.json` scene: `{ id, type: "doodle", title, items: [...] }`. `title` max 36 chars, caps on screen, top of the frame. Each item has `at` (seconds from scene start, about 2.9 words per second, anchor it to the moment the matching word is spoken: render a preview with audio first, read the real word times, then place `at`. Real speech runs about 2.4-2.6 words per second with the current voice) and optional `until` (item disappears).
