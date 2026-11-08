@@ -66,10 +66,10 @@
    ],
    "sources_status": "to_fetch",
    "status": {
-    "ru": "todo",
+    "ru": "published",
     "en": "todo"
    },
-   "fact_sheet": null,
+   "fact_sheet": "facts/great-stink.json",
    "scene_types": [
     "doodle"
    ]

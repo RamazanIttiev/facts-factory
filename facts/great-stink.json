@@ -1,0 +1,137 @@
+{
+  "slug": "great-stink",
+  "topic_id": 3,
+  "created": "2026-11-08",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Great Stink: hot weather made the smell of untreated waste on the Thames banks unbearable in July and August 1858",
+      "url": "https://en.wikipedia.org/wiki/Great_Stink",
+      "tier": 1,
+      "quote": "The Great Stink was an event in Central London during July and August 1858 in which the hot weather exacerbated the smell of untreated human waste and industrial effluent",
+      "accessed": "2026-11-08",
+      "source_date": "2005-03-29T22:09:07Z",
+      "version": null
+    },
+    {
+      "id": "c2",
+      "text": "Bazalgette completed his definitive sewer plans in June 1856",
+      "url": "https://en.wikipedia.org/wiki/Great_Stink",
+      "tier": 1,
+      "quote": "By June 1856 Bazalgette completed his definitive plans",
+      "accessed": "2026-11-08",
+      "source_date": "2005-03-29T22:09:07Z",
+      "version": null
+    },
+    {
+      "id": "c3",
+      "text": "Consultants' alternative plan cost over 5.4 million pounds versus 2.4 million for Bazalgette's",
+      "url": "https://en.wikipedia.org/wiki/Great_Stink",
+      "tier": 1,
+      "quote": "the cost of their plans was to be over £5.4 million, considerably more than the maximum estimate of Bazalgette's plan, which was £2.4 million",
+      "accessed": "2026-11-08",
+      "source_date": "2005-03-29T22:09:07Z",
+      "version": null
+    },
+    {
+      "id": "c4",
+      "text": "Queen Victoria and Prince Albert cut a Thames cruise short because of the smell",
+      "url": "https://en.wikipedia.org/wiki/Great_Stink",
+      "tier": 1,
+      "quote": "Queen Victoria and Prince Albert attempted to take a pleasure cruise on the Thames, but returned to shore within a few minutes because the smell was so terrible",
+      "accessed": "2026-11-08",
+      "source_date": "2005-03-29T22:09:07Z",
+      "version": null
+    },
+    {
+      "id": "c5",
+      "text": "Curtains in Parliament were soaked in lime chloride and moving Parliament to Oxford or St Albans was discussed",
+      "url": "https://en.wikipedia.org/wiki/Great_Stink",
+      "tier": 1,
+      "quote": "the curtains on the river side of the building were soaked in lime chloride to overcome the smell. The measure was not successful, and discussions were held about possibly moving the business of government to Oxford or St Albans",
+      "accessed": "2026-11-08",
+      "source_date": "2005-03-29T22:09:07Z",
+      "version": null
+    },
+    {
+      "id": "c6",
+      "text": "Minister Manners replied the Thames was not under his jurisdiction",
+      "url": "https://en.wikipedia.org/wiki/Great_Stink",
+      "tier": 1,
+      "quote": "Manners replied that the Thames was not under his jurisdiction",
+      "accessed": "2026-11-08",
+      "source_date": "2005-03-29T22:09:07Z",
+      "version": null
+    },
+    {
+      "id": "c7",
+      "text": "Disraeli left a committee room with a handkerchief on his nose",
+      "url": "https://en.wikipedia.org/wiki/Great_Stink",
+      "tier": 1,
+      "quote": "with a mass of papers in one hand, and with his pocket handkerchief applied to his nose",
+      "accessed": "2026-11-08",
+      "source_date": "2005-03-29T22:09:07Z",
+      "version": null
+    },
+    {
+      "id": "c8",
+      "text": "Disraeli tabled the sewage bill on 15 June and called the Thames a Stygian pool",
+      "url": "https://en.wikipedia.org/wiki/Great_Stink",
+      "tier": 1,
+      "quote": "On 15 June Disraeli tabled the Metropolis Local Management Amendment Bill",
+      "accessed": "2026-11-08",
+      "source_date": "2005-03-29T22:09:07Z",
+      "version": null
+    },
+    {
+      "id": "c9",
+      "text": "The Times said Parliament was compelled to legislate by sheer stench",
+      "url": "https://en.wikipedia.org/wiki/Great_Stink",
+      "tier": 1,
+      "quote": "Parliament was all but compelled to legislate upon the great London nuisance by the force of sheer stench",
+      "accessed": "2026-11-08",
+      "source_date": "2005-03-29T22:09:07Z",
+      "version": null
+    },
+    {
+      "id": "c10",
+      "text": "The bill allowed borrowing 3 million pounds repaid by a levy over forty years and passed on 2 August",
+      "url": "https://en.wikipedia.org/wiki/Great_Stink",
+      "tier": 1,
+      "quote": "it also allowed the Board to borrow £3 million, which was to be repaid from a three-penny levy on all London households for the next forty years",
+      "accessed": "2026-11-08",
+      "source_date": "2005-03-29T22:09:07Z",
+      "version": null
+    },
+    {
+      "id": "c11",
+      "text": "The bill passed into law on 2 August",
+      "url": "https://en.wikipedia.org/wiki/Great_Stink",
+      "tier": 1,
+      "quote": "The bill was debated in late July and was passed into law on 2 August",
+      "accessed": "2026-11-08",
+      "source_date": "2005-03-29T22:09:07Z",
+      "version": null
+    },
+    {
+      "id": "c12",
+      "text": "Work on the new sewers lasted from 1859 to 1875",
+      "url": "https://en.wikipedia.org/wiki/Great_Stink",
+      "tier": 1,
+      "quote": "started at the beginning of 1859 and lasted until 1875",
+      "accessed": "2026-11-08",
+      "source_date": "2005-03-29T22:09:07Z",
+      "version": null
+    },
+    {
+      "id": "c13",
+      "text": "Bazalgette's work ended the cholera outbreaks and the system still operates in the 21st century",
+      "url": "https://en.wikipedia.org/wiki/Great_Stink",
+      "tier": 1,
+      "quote": "brought an end to the cholera outbreaks; his actions are thought to have saved more lives than the efforts of any other Victorian official. His sewer system operates into the 21st century",
+      "accessed": "2026-11-08",
+      "source_date": "2005-03-29T22:09:07Z",
+      "version": null
+    }
+  ]
+}

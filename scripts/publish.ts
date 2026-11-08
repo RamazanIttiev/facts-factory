@@ -161,3 +161,8 @@ try {
   console.error(`Published, but record failed: ${error instanceof Error ? error.message : String(error)}`);
   console.error(`Run by hand: npm run record -- ${slug} --lang ${lang} --ig-media-id ${mediaId}`);
 }
+
+if (process.env.YOUTUBE_ENABLED === "true") {
+  const youtube = spawnSync("npm", ["run", "-s", "publish:yt", "--", slug, "--lang", lang, "--channel", "facts"], { stdio: "inherit" });
+  console.log(youtube.status === 0 ? `youtube: uploaded ${slug}` : `youtube failed for ${slug}, Instagram is already published. Retry: npm run publish:yt -- ${slug} --lang ${lang} --channel facts`);
+}

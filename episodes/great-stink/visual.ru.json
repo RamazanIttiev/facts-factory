@@ -1,0 +1,476 @@
+{
+  "slug": "great-stink",
+  "scenes": [
+    {
+      "id": "heat",
+      "type": "doodle",
+      "title": "ЛОНДОН, ЛЕТО 1858",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.2,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "1858",
+          "sub": "ГОД"
+        },
+        {
+          "kind": "thing",
+          "at": 1.6,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЛОНДОН",
+          "until": 2.9
+        },
+        {
+          "kind": "thing",
+          "at": 3,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЖАРА",
+          "until": 4.4
+        },
+        {
+          "kind": "person",
+          "id": "man",
+          "at": 3.8,
+          "x": 0.55,
+          "mood": "open",
+          "label": "ЛОНДОНЕЦ"
+        },
+        {
+          "kind": "say",
+          "at": 5.8,
+          "who": "man",
+          "text": "ЧЕМ ЭТО ПАХНЕТ?",
+          "until": 7
+        },
+        {
+          "kind": "thing",
+          "at": 7.1,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "СТОКИ",
+          "until": 8.5
+        },
+        {
+          "kind": "thing",
+          "at": 8.6,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ТЕМЗА = ТУАЛЕТ",
+          "until": 10.8
+        },
+        {
+          "kind": "say",
+          "at": 10.9,
+          "who": "man",
+          "text": "НЕ ВДОХНУТЬ",
+          "until": 12.2
+        },
+        {
+          "kind": "thing",
+          "at": 12.2,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ВОНЬ"
+        }
+      ]
+    },
+    {
+      "id": "queen",
+      "type": "doodle",
+      "title": "КОРОЛЕВА НА ЛОДКЕ",
+      "items": [
+        {
+          "kind": "person",
+          "id": "victoria",
+          "at": 0.2,
+          "x": 0.3,
+          "mood": "smile",
+          "label": "КОРОЛЕВА"
+        },
+        {
+          "kind": "person",
+          "id": "albert",
+          "at": 0.9,
+          "x": 0.75,
+          "face": "left",
+          "look": [
+            "mustache"
+          ],
+          "mood": "flat",
+          "label": "АЛЬБЕРТ"
+        },
+        {
+          "kind": "say",
+          "at": 1.6,
+          "who": "victoria",
+          "text": "ПОКАТАЕМСЯ?",
+          "until": 3.3
+        },
+        {
+          "kind": "thing",
+          "at": 4.4,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "НЕСКОЛЬКО МИНУТ",
+          "until": 5.5
+        },
+        {
+          "kind": "say",
+          "at": 5.6,
+          "who": "victoria",
+          "text": "ДОМОЙ, СРОЧНО"
+        }
+      ]
+    },
+    {
+      "id": "parliament",
+      "type": "doodle",
+      "title": "ПАРЛАМЕНТ НЮХАЕТ РЕКУ",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.2,
+          "name": "building",
+          "x": 0.2,
+          "text": "ПАРЛАМЕНТ"
+        },
+        {
+          "kind": "thing",
+          "at": 1.7,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ОКНА НА РЕКУ",
+          "until": 3.3
+        },
+        {
+          "kind": "thing",
+          "at": 3.4,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ХЛОРКА НЕ ПОМОГЛА",
+          "until": 5.4
+        },
+        {
+          "kind": "person",
+          "id": "disraeli",
+          "at": 6.3,
+          "x": 0.8,
+          "face": "left",
+          "look": [
+            "tie"
+          ],
+          "mood": "angry",
+          "label": "ДИЗРАЭЛИ"
+        },
+        {
+          "kind": "say",
+          "at": 8,
+          "who": "disraeli",
+          "text": "ФУУУ!",
+          "dx": -120,
+          "until": 9.2
+        },
+        {
+          "kind": "thing",
+          "at": 9.2,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ПЕРЕЕЗД В ОКСФОРД",
+          "until": 11.4
+        },
+        {
+          "kind": "person",
+          "id": "minister",
+          "at": 11.5,
+          "x": 0.5,
+          "look": [
+            "mustache"
+          ],
+          "mood": "flat",
+          "label": "МИНИСТР"
+        },
+        {
+          "kind": "say",
+          "at": 12.5,
+          "who": "disraeli",
+          "text": "ЧТО С РЕКОЙ?",
+          "dx": -120,
+          "until": 14
+        },
+        {
+          "kind": "say",
+          "at": 14.1,
+          "who": "minister",
+          "text": "ТЕМЗА НЕ МОЁ ДЕЛО",
+          "dx": 90,
+          "until": 15.7
+        },
+        {
+          "kind": "thing",
+          "at": 15.8,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЧИНОВНИЧЬЯ ЛОГИКА"
+        }
+      ]
+    },
+    {
+      "id": "plan",
+      "type": "doodle",
+      "title": "ПЛАН УЖЕ ЛЕЖАЛ НА СТОЛЕ",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.2,
+          "name": "desk",
+          "x": 0.2
+        },
+        {
+          "kind": "person",
+          "id": "baz",
+          "at": 1.6,
+          "x": 0.55,
+          "look": [
+            "glasses"
+          ],
+          "mood": "smile",
+          "label": "БАЗАЛДЖЕТ"
+        },
+        {
+          "kind": "say",
+          "at": 2.8,
+          "who": "baz",
+          "text": "МОЙ ПЛАН",
+          "until": 4.3
+        },
+        {
+          "kind": "thing",
+          "at": 4.4,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ИЮНЬ 1856",
+          "until": 6
+        },
+        {
+          "kind": "thing",
+          "at": 6,
+          "name": "money",
+          "x": 0.85
+        },
+        {
+          "kind": "thing",
+          "at": 6,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "~2,4 МЛН £",
+          "until": 8.3
+        },
+        {
+          "kind": "thing",
+          "at": 8.5,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ИХ ПЛАН: 5,4 МЛН £",
+          "until": 11
+        },
+        {
+          "kind": "say",
+          "at": 11,
+          "who": "baz",
+          "text": "ЖДЁМ...",
+          "until": 12.6
+        },
+        {
+          "kind": "thing",
+          "at": 12.7,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ВОНЬ ВСЁ СИЛЬНЕЕ",
+          "until": 14.2
+        },
+        {
+          "kind": "thing",
+          "at": 14.3,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ГОРОД ТОНЕТ"
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "type": "doodle",
+      "title": "ЗАКОН ЗА ДВА МЕСЯЦА",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.2,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "15",
+          "sub": "ИЮНЯ"
+        },
+        {
+          "kind": "person",
+          "id": "disraeli",
+          "at": 1.2,
+          "x": 0.55,
+          "look": [
+            "tie"
+          ],
+          "mood": "open",
+          "arm": "up",
+          "label": "ДИЗРАЭЛИ"
+        },
+        {
+          "kind": "say",
+          "at": 2.1,
+          "who": "disraeli",
+          "text": "ЗАКОН!",
+          "until": 2.9
+        },
+        {
+          "kind": "thing",
+          "at": 2.9,
+          "name": "money",
+          "x": 0.88
+        },
+        {
+          "kind": "thing",
+          "at": 3.1,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "3 МЛН £ В ДОЛГ",
+          "until": 5.6
+        },
+        {
+          "kind": "thing",
+          "at": 5.8,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "НАЛОГ 40 ЛЕТ",
+          "until": 7.3
+        },
+        {
+          "kind": "thing",
+          "at": 7.4,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "2 АВГУСТА: ЗАКОН",
+          "until": 9.2
+        },
+        {
+          "kind": "thing",
+          "at": 9.3,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ТАЙМС: ВОНЬ ЗАСТАВИЛА",
+          "until": 12.4
+        },
+        {
+          "kind": "thing",
+          "at": 11,
+          "name": "chart",
+          "x": 0.88
+        },
+        {
+          "kind": "say",
+          "at": 13.8,
+          "who": "disraeli",
+          "text": "НОС РЕШАЕТ",
+          "until": 15
+        },
+        {
+          "kind": "thing",
+          "at": 15.2,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ВОТ И ВСЯ ПОЛИТИКА"
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "type": "doodle",
+      "title": "1859–1875",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.2,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "1859",
+          "sub": "–1875"
+        },
+        {
+          "kind": "person",
+          "id": "official",
+          "at": 2,
+          "x": 0.55,
+          "look": [
+            "tie"
+          ],
+          "mood": "smile",
+          "label": "ЧИНОВНИК"
+        },
+        {
+          "kind": "thing",
+          "at": 3.3,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ХОЛЕРА — ВСЁ",
+          "until": 5
+        },
+        {
+          "kind": "thing",
+          "at": 5,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "РАБОТАЕТ ДО СИХ ПОР",
+          "until": 7
+        },
+        {
+          "kind": "thing",
+          "at": 8,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЗАПАХЛО У СВОИХ",
+          "until": 10
+        },
+        {
+          "kind": "say",
+          "at": 10,
+          "who": "official",
+          "text": "ФУ, ВОНЯЕТ!",
+          "until": 12
+        }
+      ]
+    }
+  ]
+}
