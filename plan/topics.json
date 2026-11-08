@@ -1,0 +1,79 @@
+{
+  "_note": "facts-factory topics. Add real topics here.",
+  "version": 1,
+  "topics": [
+    {
+      "id": 1,
+      "slug": "doodle-demo",
+      "category": "demo",
+      "level": "demo",
+      "kind": "demo",
+      "title_en": "Doodle demo",
+      "hook_en": "Doodle demo",
+      "hook_ru": "Проверка новой рисовки",
+      "hook_type": "demo",
+      "visual": "doodle",
+      "sources": [],
+      "sources_status": "none",
+      "status": {
+        "ru": "drafted",
+        "en": "todo"
+      },
+      "fact_sheet": null,
+      "scene_types": [
+        "doodle"
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "cadaver-synod",
+      "category": "history",
+      "level": "general",
+      "kind": "story",
+      "title_en": "Cadaver Synod, 897",
+      "hook_en": "They put a corpse on trial",
+      "hook_ru": "Труп судили и признали виновным",
+      "hook_type": "contradiction",
+      "visual": "doodle",
+      "sources": ["Wikipedia: Cadaver Synod", "Britannica: Pope Formosus"],
+      "sources_status": "to_fetch",
+      "status": { "ru": "todo", "en": "todo" },
+      "fact_sheet": null,
+      "scene_types": ["doodle"]
+    },
+    {
+      "id": 3,
+      "slug": "great-stink",
+      "category": "history",
+      "level": "general",
+      "kind": "story",
+      "title_en": "Great Stink, London 1858",
+      "hook_en": "A smell rebuilt London",
+      "hook_ru": "Из-за вони перестроили Лондон",
+      "hook_type": "contradiction",
+      "visual": "doodle",
+      "sources": ["Wikipedia: Great Stink", "Britannica: Joseph Bazalgette"],
+      "sources_status": "to_fetch",
+      "status": { "ru": "todo", "en": "todo" },
+      "fact_sheet": null,
+      "scene_types": ["doodle"]
+    },
+    {
+      "id": 4,
+      "slug": "toledo-war",
+      "category": "history",
+      "level": "general",
+      "kind": "story",
+      "title_en": "Toledo War, 1835",
+      "hook_en": "Two states fought over a strip of land",
+      "hook_ru": "Два штата воевали за город",
+      "hook_type": "contradiction",
+      "visual": "doodle",
+      "sources": ["Wikipedia: Toledo War", "Britannica: Toledo War"],
+      "sources_status": "to_fetch",
+      "status": { "ru": "todo", "en": "todo" },
+      "fact_sheet": null,
+      "scene_types": ["doodle"]
+    }
+  ]
+}

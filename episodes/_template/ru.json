@@ -1,0 +1,42 @@
+{
+  "lang": "ru",
+  "voiceId": "nkvv6waLzFah2jTNUZGT",
+  "caption": "ONE_SENTENCE_POST_CAPTION",
+  "hook": {
+    "text": "Вопрос или смелое утверждение",
+    "accent": "смелое",
+    "icon": "code",
+    "claims": []
+  },
+  "scenes": {
+    "problem": {
+      "narration": "Проблема в двух-трёх коротких предложениях.",
+      "labels": {
+        "caption": "Что ломается"
+      },
+      "claims": []
+    },
+    "fix": {
+      "narration": "Как это лечится, коротко.",
+      "labels": {
+        "caption": "Схема решения",
+        "result": "Итог"
+      },
+      "claims": []
+    },
+    "summary": {
+      "narration": "Три способа одной строкой.",
+      "labels": {
+        "caption": "3 способа",
+        "one": "Первый",
+        "two": "Второй",
+        "three": "Третий"
+      },
+      "claims": []
+    }
+  },
+  "outro": {
+    "text": "Больше разборов на scalelab",
+    "narration": "<мягкий призыв, связанный с темой ролика; см. CLAUDE.md, «Outro»>"
+  }
+}

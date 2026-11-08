@@ -1,0 +1,11 @@
+{
+  "timezone": "UTC",
+  "slots": [
+    "06:00",
+    "12:00",
+    "17:00"
+  ],
+  "slot_window_minutes": 150,
+  "low_queue_alert_below": 3,
+  "_note": "All times are UTC for every language. The publish workflow runs every 20 minutes; a slot is usable for slot_window_minutes after its time, so late or dropped cron runs still publish. Missed slots are skipped, never caught up. max_posts_per_day comes from rules.json."
+}

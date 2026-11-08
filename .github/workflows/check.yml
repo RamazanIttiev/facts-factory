@@ -1,0 +1,46 @@
+name: check
+
+on:
+  push:
+    branches: [main]
+    paths: ["episodes/**", "facts/**", "plan/**", "src/**", "scripts/**", "config/**"]
+  pull_request: {}
+  schedule:
+    - cron: "15 */6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 30
+    env:
+      TTS_PROVIDER: mock
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npx vitest run
+      - name: Gate every episode that is not published yet (verify, words, layout)
+        run: |
+          fail=0
+          for dir in episodes/*/; do
+            slug=$(basename "$dir")
+            case "$slug" in _template|doodle-demo) continue ;; esac
+            [ -f "episodes/$slug/ru.json" ] || continue
+            for step in verify check layout; do
+              npm run -s "$step" -- "$slug" --lang ru > /tmp/out.txt 2>&1 || { echo "FAIL $step $slug"; tail -8 /tmp/out.txt; fail=1; }
+            done
+          done
+          exit $fail
+      - name: Alert on failure
+        if: failure() && github.event_name == 'schedule'
+        run: npm run -s alert -- --lang ru "check workflow failed: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true

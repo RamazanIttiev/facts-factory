@@ -1,0 +1,208 @@
+{
+  "slug": "doodle-demo",
+  "scenes": [
+    {
+      "id": "office",
+      "type": "doodle",
+      "title": "ТЕСТ РИСОВКИ",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.2,
+          "name": "window",
+          "x": 0.12
+        },
+        {
+          "kind": "thing",
+          "at": 0.6,
+          "name": "chart",
+          "x": 0.62
+        },
+        {
+          "kind": "person",
+          "id": "boss",
+          "at": 1.2,
+          "x": 0.35,
+          "look": [
+            "tie"
+          ],
+          "mood": "smile",
+          "arm": "point",
+          "label": "НАЧАЛЬНИК"
+        },
+        {
+          "kind": "thing",
+          "at": 2.2,
+          "name": "desk",
+          "x": 0.7
+        },
+        {
+          "kind": "person",
+          "id": "you",
+          "at": 3.2,
+          "x": 0.88,
+          "face": "left",
+          "look": [
+            "glasses",
+            "tie"
+          ],
+          "mood": "open",
+          "label": "ТЫ"
+        },
+        {
+          "kind": "say",
+          "at": 4.4,
+          "until": 5.8,
+          "who": "boss",
+          "text": "ОГОНЬ!"
+        },
+        {
+          "kind": "say",
+          "at": 5.8,
+          "who": "you",
+          "text": "А МОЖНО БЕЗ ЗАТРАТ?",
+          "dx": -120
+        },
+        {
+          "kind": "thing",
+          "at": 7.0,
+          "name": "money",
+          "x": 0.7,
+          "y": 150
+        }
+      ]
+    },
+    {
+      "id": "book",
+      "type": "doodle",
+      "title": "КНИГА ЗА 5 МИНУТ",
+      "items": [
+        {
+          "kind": "person",
+          "id": "pink",
+          "at": 0.2,
+          "x": 0.18,
+          "look": [
+            "glasses",
+            "mustache"
+          ],
+          "mood": "smile",
+          "arm": "point",
+          "label": "АВТОР"
+        },
+        {
+          "kind": "thing",
+          "at": 1.4,
+          "name": "book",
+          "x": 0.52,
+          "text": "ДРАЙВ",
+          "sub": "2009"
+        },
+        {
+          "kind": "thing",
+          "at": 2.6,
+          "name": "calendar",
+          "x": 0.2,
+          "text": "21",
+          "sub": "ДЕНЬ"
+        },
+        {
+          "kind": "person",
+          "id": "you",
+          "at": 3.8,
+          "x": 0.82,
+          "look": [
+            "spikes"
+          ],
+          "mood": "angry",
+          "arm": "up",
+          "label": "ТЫ"
+        },
+        {
+          "kind": "say",
+          "at": 5.2,
+          "who": "you",
+          "text": "ЗА 21 ДЕНЬ?!",
+          "dx": -140,
+          "until": 6.0
+        },
+        {
+          "kind": "thing",
+          "at": 6.0,
+          "name": "phone",
+          "x": 0.52,
+          "y": 0,
+          "scale": 0.9,
+          "lines": [
+            "ТЫ СМОЖЕШЬ!",
+            "РАСКРОЙСЯ!",
+            "ОПЛАТА ДО ПЯТНИЦЫ"
+          ],
+          "until": 7.0
+        },
+        {
+          "kind": "say",
+          "at": 7.0,
+          "who": "pink",
+          "text": "ЭТО ЖЕ РАЗВОД",
+          "dx": 120
+        }
+      ]
+    },
+    {
+      "id": "win",
+      "type": "doodle",
+      "title": "ЛОГИКА 1 : 0",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.2,
+          "name": "building",
+          "x": 0.3,
+          "text": "ИНСТИТУТ"
+        },
+        {
+          "kind": "person",
+          "id": "exile",
+          "at": 1.4,
+          "x": 0.08,
+          "mood": "sad",
+          "look": [
+            "cap"
+          ],
+          "label": "УВОЛЕН"
+        },
+        {
+          "kind": "thing",
+          "at": 2.6,
+          "name": "trophy",
+          "x": 0.68
+        },
+        {
+          "kind": "person",
+          "id": "you",
+          "at": 3.8,
+          "x": 0.8,
+          "mood": "smile",
+          "arm": "up",
+          "label": "ТЫ"
+        },
+        {
+          "kind": "say",
+          "at": 5.0,
+          "who": "exile",
+          "text": "А ТЫ КТО ТАКОЙ?",
+          "dx": 140
+        },
+        {
+          "kind": "thing",
+          "at": 6.4,
+          "name": "sign",
+          "x": 0.5,
+          "y": 800,
+          "text": "ТЫ ПОБЕДИЛ"
+        }
+      ]
+    }
+  ]
+}
