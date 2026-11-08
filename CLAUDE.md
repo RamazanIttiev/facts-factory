@@ -2,7 +2,7 @@
 
 Pipeline for 60-120s vertical reels (9:16, 1080x1920, 30fps) rendered from code: true stories, facts and surprising topics told in a funny-but-serious voice with profanity (мат), drawn as chalk/pencil doodles on a dark background.
 Owner: Ramazan (Russian-speaking). Reel language: Russian. Reply to the owner in Russian, briefly.
-Second account, not education. Engine copied from `reels-factory`; the two repos are independent, port engine fixes by hand. Local only for now (no remote).
+Second account, not education. Engine copied from `reels-factory`; the two repos are independent, port engine fixes by hand. Remote: GitHub `origin`.
 
 ## Core principle: code once, data forever
 A new reel = ONE new JSON pair in `episodes/<slug>/` (`visual.ru.json` + `ru.json`). Never edit components, theme or scripts to produce an episode.
@@ -29,7 +29,7 @@ If a drawing is missing (person look, prop), add it once in `src/scenes/Doodle.t
   - мат lives in narration and speech bubbles.
 - Decided by the owner: profanity is voiced in full but masked on screen (`б***ь`). `src/profanity.ts` `maskProfanity` is applied to captions, bubbles, signs, titles and hook; the list is a stem heuristic, extend it when a new word slips through (add a test first).
 - Amount: more than the first episode (5-8 per episode). Still aimed at situations, decisions and institutions, never at people or groups; no mat in the hook or caption; the joke never changes a fact.
-- TTS: compare voices on one swearing phrase before choosing a `voiceId` (many voices soften or garble мат). `voiceId` in the template is a leftover from the first account.
+- TTS voice: `4kvTPHWbXEs0w5qHB4Ed` (used in published episodes). To change it, compare voices on one swearing phrase first (many voices soften or garble мат).
 
 ## Architecture
 ```
@@ -69,7 +69,7 @@ Hook (`ru.json`): up to 6 words, `accent` = the word in yellow, `icon` + `orbit`
 4. `npm run layout -- <slug> --lang ru`, `npm run check -- <slug>`, `npm run verify -- <slug> --lang ru`, then the `double-check` skill as the meaning pass. `npm run status -- <slug> ru drafted`.
 5. `npm run preview -- <slug> --lang ru`, then 3 frames, fix overlaps.
 6. After the owner approves: `npm run render -- <slug> --lang ru`.
-7. `npm run publish` only on the owner's explicit command; none of the publishing credentials of this account are set up yet.
+7. `npm run publish` only on the owner's explicit command. Instagram and YouTube are live; TikTok is not set up.
 
 ## Storytelling (a story, not a list of facts)
 Every episode is ONE story with a spine. Before writing, answer in one line each: who wants what (stakes), what absurd or bold thing they do, what goes wrong (escalation, 2-3 beats), the twist that changes how we see it, and what it means now (a punchline that turns to "you" or to the system).
@@ -107,10 +107,9 @@ Every episode is ONE story with a spine. Before writing, answer in one line each
 - `npm run publish:dry -- <slug> --lang ru` dry run only; `npm run publish` ASK THE OWNER FIRST
 
 ## Not done yet (do not pretend otherwise)
-- Real handle, avatar, channel name, accounts, API keys, R2, Meta app.
-- `config/*`, `plan/taxonomy.json` and the scheduler/learning loop are from the first account.
-- General-purpose hook icons, TTS voice choice, the profanity-on-screen decision above.
-- No git commits yet, no remote.
+- `config/*` and the scheduler/learning loop are from the first account. `plan/taxonomy.json` is adapted (2026-11-08): add a new category or hook type there before using it in a topic.
+- General-purpose hook icons.
+- TikTok publishing.
 
 ## External services (keys in `.env`, never read or print)
 TTS: `TTS_PROVIDER` (default `mock` = silence). AI-generated content must be labeled as AI on Meta/TikTok. If the network is blocked, say so once and ask the owner to run the command.

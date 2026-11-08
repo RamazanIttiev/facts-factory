@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "_note": "facts-factory tags. Every topic and published video uses only these values. Add a new value here first, never invent it ad hoc. npm run plan:check enforces it.",
+  "attributes": {
+    "category": ["history", "experiments", "animals", "space", "ocean", "mistakes", "spies", "cons", "demo"],
+    "level": ["general", "demo"],
+    "kind": ["story", "demo"],
+    "hook_type": {
+      "contradiction": "Opens with two things that should not fit together; the video explains how they do",
+      "question": "Opens with a question the viewer wants answered",
+      "number": "Opens with a concrete number (must be in the fact sheet)",
+      "myth_bust": "Opens by attacking a common belief",
+      "mystery": "Opens with an unexplained event, the answer comes in the twist",
+      "demo": "Engine test, not a real episode"
+    },
+    "visual": ["doodle"],
+    "cta_type": ["none", "follow", "save", "share", "comment_question"],
+    "length_bucket": ["60-80s", "81-100s", "101-120s"],
+    "post_slot": ["morning", "midday", "evening", "night"],
+    "language": ["ru", "en"]
+  },
+  "derived_fields": {
+    "hook_words": "word count of the hook text",
+    "hook_has_number": "true if the hook contains a digit",
+    "hook_is_question": "true if the hook ends with a question mark",
+    "weekday": "0-6 from published_at in the audience time zone",
+    "avg_watch_pct": "avg_watch_time_s / length_s",
+    "shares_per_1k_reach": "shares / reach * 1000",
+    "saves_per_1k_reach": "saves / reach * 1000",
+    "follows_per_1k_reach": "follows / reach * 1000"
+  },
+  "controlled_in_explore_phase": ["voice_id", "length_bucket", "post_slot"],
+  "_controlled_note": "During the explore phase these stay fixed so that differences come from topic and hook.",
+  "visual_to_scene_types": {
+    "doodle": ["doodle"]
+  },
+  "_visual_note": "doodle is the only visual of this account. Old scene types stay in the engine but are not used by topics."
+}
