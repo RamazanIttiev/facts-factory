@@ -43,4 +43,5 @@ jobs:
           exit $fail
       - name: Alert on failure
         if: failure() && github.event_name == 'schedule'
-        run: npm run -s alert -- --lang ru "check workflow failed: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
+        run: |
+          npm run -s alert -- --lang ru "check workflow failed ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" || true
