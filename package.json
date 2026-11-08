@@ -25,6 +25,8 @@
     "batch": "tsx scripts/batch.ts",
     "schedule": "tsx scripts/schedule.ts",
     "ready": "tsx scripts/ready.ts",
+    "stage": "tsx scripts/stage.ts",
+    "words": "tsx scripts/words.ts",
     "alert": "tsx scripts/alert.ts",
     "review": "tsx scripts/review.ts",
     "queue": "tsx scripts/queue-cli.ts",

@@ -104,15 +104,11 @@ if (!existsSync(videoFile) && r2Configured()) {
   if (gotVideo) await getFile(readyCoverKey(next.slug, lang), `covers/${next.slug}.${lang}.jpg`);
   say(gotVideo ? `downloaded ready video for ${next.slug} from R2` : `no ready video in R2 for ${next.slug}, will render`);
 }
-const needsRender = !existsSync(videoFile);
-if (needsRender) {
-  const rendered = run(["render", "--", next.slug, "--lang", lang]);
-  if (!rendered.ok) {
-    setState(lang, next.slug, "failed", "render failed or blocked by the fact gate");
-    await pushQueue(lang);
-    await sendAlert(lang, `render failed for ${next.slug}: ${rendered.output.trim().split("\n").slice(-3).join(" | ")}`);
-    process.exit(1);
-  }
+if (!existsSync(videoFile)) {
+  setState(lang, next.slug, "failed", "no ready video in R2: render it locally and run npm run stage");
+  await pushQueue(lang);
+  await sendAlert(lang, `slot ${slotLabel}: no ready video in R2 for ${next.slug}, skipped`);
+  process.exit(1);
 }
 
 const attempt = (): { published: boolean; output: string } => {

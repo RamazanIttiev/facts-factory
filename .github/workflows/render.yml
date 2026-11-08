@@ -1,8 +1,6 @@
-name: render
+name: render (manual only, the owner renders locally)
 
 on:
-  schedule:
-    - cron: "30 */3 * * *"
   workflow_dispatch: {}
 
 concurrency:
