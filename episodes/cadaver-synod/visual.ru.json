@@ -1,0 +1,582 @@
+{
+  "slug": "cadaver-synod",
+  "scenes": [
+    {
+      "id": "rome",
+      "type": "doodle",
+      "title": "РИМ, 896 ГОД",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.2,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "896",
+          "sub": "ГОД"
+        },
+        {
+          "kind": "person",
+          "id": "formoz",
+          "at": 2.4,
+          "x": 0.5,
+          "mood": "sad",
+          "label": "ПАПА ФОРМОЗ"
+        },
+        {
+          "kind": "thing",
+          "at": 2.9,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "УМЕР",
+          "until": 4.3
+        },
+        {
+          "kind": "person",
+          "id": "boni",
+          "at": 4.8,
+          "x": 0.75,
+          "look": [
+            "tie"
+          ],
+          "mood": "smile",
+          "label": "БОНИФАЦИЙ"
+        },
+        {
+          "kind": "thing",
+          "at": 6.0,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ДВЕ НЕДЕЛИ",
+          "until": 7.9
+        },
+        {
+          "kind": "thing",
+          "at": 7.9,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "896–904",
+          "until": 10.4
+        },
+        {
+          "kind": "thing",
+          "at": 10.4,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "НОВЫЙ ПАПА КАЖДЫЙ ГОД",
+          "until": 12.8
+        },
+        {
+          "kind": "say",
+          "at": 12.8,
+          "who": "boni",
+          "text": "НЕРВНАЯ РАБОТА",
+          "dx": -60,
+          "until": 15.0
+        },
+        {
+          "kind": "person",
+          "id": "stephen",
+          "at": 16.2,
+          "x": 0.88,
+          "face": "left",
+          "look": [
+            "mustache"
+          ],
+          "mood": "angry",
+          "label": "СТЕФАН"
+        },
+        {
+          "kind": "thing",
+          "at": 17.4,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ПОЛИТИКА?",
+          "until": 18.9
+        },
+        {
+          "kind": "say",
+          "at": 18.9,
+          "who": "stephen",
+          "text": "ЭТО ПОЛИТИКА",
+          "dx": -140
+        }
+      ]
+    },
+    {
+      "id": "dig",
+      "type": "doodle",
+      "title": "ВЫКОПАТЬ ПРЕДШЕСТВЕННИКА",
+      "items": [
+        {
+          "kind": "person",
+          "id": "stephen",
+          "at": 0.2,
+          "x": 0.15,
+          "look": [
+            "mustache"
+          ],
+          "mood": "angry",
+          "arm": "point",
+          "label": "СТЕФАН"
+        },
+        {
+          "kind": "thing",
+          "at": 0.3,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЯНВАРЬ 897",
+          "until": 1.7
+        },
+        {
+          "kind": "say",
+          "at": 2.1,
+          "who": "stephen",
+          "text": "ВЫКОПАТЬ ФОРМОЗА!",
+          "dx": 60,
+          "until": 4.1
+        },
+        {
+          "kind": "person",
+          "id": "formoz",
+          "at": 4.1,
+          "x": 0.55,
+          "mood": "flat",
+          "label": "ФОРМОЗ"
+        },
+        {
+          "kind": "thing",
+          "at": 5.0,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ДЕВЯТЬ МЕСЯЦЕВ",
+          "until": 7.2
+        },
+        {
+          "kind": "thing",
+          "at": 8.2,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ТРОН",
+          "until": 9.0
+        },
+        {
+          "kind": "person",
+          "id": "deacon",
+          "at": 10.4,
+          "x": 0.88,
+          "face": "left",
+          "look": [
+            "glasses"
+          ],
+          "mood": "open",
+          "label": "ДИАКОН"
+        },
+        {
+          "kind": "say",
+          "at": 11.8,
+          "who": "deacon",
+          "text": "ЗА НЕГО ОТВЕЧАЮ Я",
+          "dx": -140,
+          "until": 13.2
+        },
+        {
+          "kind": "say",
+          "at": 13.2,
+          "who": "stephen",
+          "text": "ОХРЕНЕННЫЙ ПЛАН!",
+          "dx": 60,
+          "until": 14.6
+        },
+        {
+          "kind": "thing",
+          "at": 14.6,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "СУД СЕЙЧАС"
+        }
+      ]
+    },
+    {
+      "id": "trial",
+      "type": "doodle",
+      "title": "СУД НАД ТРУПОМ",
+      "items": [
+        {
+          "kind": "person",
+          "id": "formoz",
+          "at": 0.1,
+          "x": 0.15,
+          "mood": "flat",
+          "label": "ФОРМОЗ"
+        },
+        {
+          "kind": "person",
+          "id": "stephen",
+          "at": 0.1,
+          "x": 0.88,
+          "face": "left",
+          "look": [
+            "mustache"
+          ],
+          "mood": "angry",
+          "arm": "point",
+          "label": "СТЕФАН"
+        },
+        {
+          "kind": "thing",
+          "at": 1.4,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЛОЖНАЯ КЛЯТВА",
+          "until": 2.4
+        },
+        {
+          "kind": "thing",
+          "at": 2.4,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ДВЕ ЕПАРХИИ",
+          "until": 4.3
+        },
+        {
+          "kind": "say",
+          "at": 5.1,
+          "who": "formoz",
+          "text": "МОЛЧУ",
+          "dx": 40,
+          "until": 7.2
+        },
+        {
+          "kind": "thing",
+          "at": 7.2,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ОН МЁРТВ",
+          "until": 8.3
+        },
+        {
+          "kind": "thing",
+          "at": 9.0,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ВИНОВЕН"
+        }
+      ]
+    },
+    {
+      "id": "punish",
+      "type": "doodle",
+      "title": "ПРИГОВОР",
+      "items": [
+        {
+          "kind": "person",
+          "id": "stephen",
+          "at": 0.1,
+          "x": 0.15,
+          "look": [
+            "mustache"
+          ],
+          "mood": "angry",
+          "arm": "point",
+          "label": "СТЕФАН"
+        },
+        {
+          "kind": "person",
+          "id": "formoz",
+          "at": 0.2,
+          "x": 0.6,
+          "mood": "flat",
+          "label": "ТРУП"
+        },
+        {
+          "kind": "thing",
+          "at": 2.0,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ОБЛАЧЕНИЕ СНЯТО",
+          "until": 3.0
+        },
+        {
+          "kind": "thing",
+          "at": 3.0,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ТРИ ПАЛЬЦА",
+          "until": 4.9
+        },
+        {
+          "kind": "thing",
+          "at": 4.9,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ИМИ БЛАГОСЛОВЛЯЮТ",
+          "until": 7.1
+        },
+        {
+          "kind": "thing",
+          "at": 7.7,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ПОХОРОНЕН",
+          "until": 8.6
+        },
+        {
+          "kind": "thing",
+          "at": 8.6,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ВЫКОПАН",
+          "until": 9.4
+        },
+        {
+          "kind": "thing",
+          "at": 9.4,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ГРУЗЫ",
+          "until": 10.8
+        },
+        {
+          "kind": "thing",
+          "at": 10.8,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ТИБР",
+          "until": 11.6
+        },
+        {
+          "kind": "say",
+          "at": 11.6,
+          "who": "stephen",
+          "text": "ВСЁ ПО ЗАКОНУ!",
+          "dx": 60,
+          "until": 12.5
+        },
+        {
+          "kind": "thing",
+          "at": 12.5,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ПРОЦЕДУРА"
+        }
+      ]
+    },
+    {
+      "id": "twist",
+      "type": "doodle",
+      "title": "РИМ НЕ ОЦЕНИЛ",
+      "items": [
+        {
+          "kind": "person",
+          "id": "romans",
+          "at": 0.1,
+          "x": 0.15,
+          "mood": "open",
+          "arm": "up",
+          "label": "РИМЛЯНЕ"
+        },
+        {
+          "kind": "thing",
+          "at": 2.0,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ВОССТАНИЕ",
+          "until": 3.1
+        },
+        {
+          "kind": "person",
+          "id": "stephen",
+          "at": 3.1,
+          "x": 0.85,
+          "face": "left",
+          "look": [
+            "mustache"
+          ],
+          "mood": "sad",
+          "label": "СТЕФАН"
+        },
+        {
+          "kind": "thing",
+          "at": 4.2,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ТЮРЬМА",
+          "until": 5.4
+        },
+        {
+          "kind": "thing",
+          "at": 5.4,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЛЕТОМ: ЗАДУШЕН",
+          "until": 7.7
+        },
+        {
+          "kind": "thing",
+          "at": 7.7,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "СЛУХИ",
+          "until": 9.1
+        },
+        {
+          "kind": "thing",
+          "at": 9.1,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ТЕЛО В ТИБРЕ — ЧУДЕСА",
+          "until": 12.0
+        },
+        {
+          "kind": "say",
+          "at": 10.2,
+          "who": "romans",
+          "text": "ЧУДО!",
+          "dx": 60,
+          "until": 12.0
+        },
+        {
+          "kind": "thing",
+          "at": 12.0,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ДЕКАБРЬ 897",
+          "until": 13.5
+        },
+        {
+          "kind": "thing",
+          "at": 13.5,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "СУД ОТМЕНЁН",
+          "until": 14.7
+        },
+        {
+          "kind": "thing",
+          "at": 14.7,
+          "name": "trophy",
+          "x": 0.3
+        },
+        {
+          "kind": "thing",
+          "at": 15.8,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ДОБРОЕ ИМЯ ВЕРНУЛИ"
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "type": "doodle",
+      "title": "ИТОГ",
+      "items": [
+        {
+          "kind": "person",
+          "id": "church",
+          "at": 0.1,
+          "x": 0.15,
+          "look": [
+            "mustache"
+          ],
+          "mood": "smile",
+          "arm": "point",
+          "label": "ЦЕРКОВЬ"
+        },
+        {
+          "kind": "thing",
+          "at": 0.1,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЗАПРЕТ: СУДИТЬ ТРУПЫ",
+          "until": 3.7
+        },
+        {
+          "kind": "say",
+          "at": 1.5,
+          "who": "church",
+          "text": "НЕЛЬЗЯ СУДИТЬ ТРУПЫ",
+          "dx": 60,
+          "until": 3.7
+        },
+        {
+          "kind": "person",
+          "id": "you",
+          "at": 3.7,
+          "x": 0.85,
+          "face": "left",
+          "look": [
+            "glasses",
+            "tie"
+          ],
+          "mood": "open",
+          "label": "ТЫ"
+        },
+        {
+          "kind": "thing",
+          "at": 4.5,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "БЕСПРЕДЕЛ НА РАБОТЕ?",
+          "until": 6.3
+        },
+        {
+          "kind": "say",
+          "at": 6.3,
+          "who": "you",
+          "text": "У МЕНЯ ХОТЬ ЖИВЫЕ",
+          "dx": -140,
+          "until": 8.1
+        },
+        {
+          "kind": "thing",
+          "at": 8.1,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ПРИШЛОСЬ ЗАПРЕЩАТЬ",
+          "until": 8.7
+        },
+        {
+          "kind": "thing",
+          "at": 8.7,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "СУД НАД МЁРТВЫМ"
+        }
+      ]
+    }
+  ]
+}

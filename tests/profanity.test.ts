@@ -14,6 +14,10 @@ describe("maskProfanity", () => {
     expect(maskProfanity("нахуй похуй охуеть ёбаный")).toBe("н***й п***й о****ь ё****й");
   });
 
+  it("masks the colloquial 'охрененный' and its forms", () => {
+    expect(maskProfanity("Охрененный план, охренеть")).toBe("О********й план, о******ь");
+  });
+
   it("masks a standalone short interjection", () => {
     expect(maskProfanity("бля")).toBe("б*я");
   });
