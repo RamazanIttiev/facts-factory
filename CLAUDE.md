@@ -33,7 +33,7 @@ If a drawing is missing (person look, prop), add it once in `src/scenes/Doodle.t
 
 ## Architecture
 ```
-plan/topics.json           topic list with status per language (currently only doodle-demo)
+plan/topics.json           topic list with status per language
 config/                    COPIED from the first account (rules, sources, experiment, schedule): not adapted yet, do not trust their content
 episodes/<slug>/visual.<lang>.json   scenes: id, type "doodle", title, items
 episodes/<slug>/<lang>.json          hook, narration per scene id, caption, outro, voiceId, claims
@@ -79,6 +79,17 @@ Every episode is ONE story with a spine. Before writing, answer in one line each
 - Say why it matters in plain words once; no definitions the viewer did not ask for.
 - Length: 60-120 s, 150-285 words (`config/rules.json` in this repo is adapted; the first account's 50-60 s does not apply). Slow voice: about 2.4 words per second.
 - Check: read the narration aloud as one text. If a friend asks "so what?" after any scene, rewrite that scene.
+
+### Connected story (owner asked, 2026-11-08)
+1. Spine first, facts second. Before `npm run facts`, write `episodes/<slug>/spine.md`: one sentence "X wanted Y, BUT Z, SO W, BUT then V, and it means U". If you need "and also" to say it, it is a list, not a story: pick another angle or topic.
+2. Collect facts for the spine, not about the topic. Search for: the hero's motive (why they did it), the cause between beats (why each event led to the next), the price (a number for the stakes), one direct quote, and what happened after. In `facts/<slug>.json` each claim serves one beat; a claim that serves no beat is dropped.
+3. One hero, from the hook to the end. Name them in scene 1 and keep the same `person` id and `look` in every scene where they appear. A second character comes in only as an obstacle or an ally to the hero.
+4. "But / so" between scenes, never "and". Scene N+1 opens as a consequence of scene N: "и тогда", "но", "поэтому", "а дальше хуже". If two scenes can swap places without breaking the story, they are not connected: merge them or drop one.
+5. Setup and payoff. The hook asks a question; the twist scene answers it out loud. A detail, number or prop shown early must come back later (a callback); one that never comes back gets cut. The punchline points back to the hook.
+6. Time runs forward. Chronological order; a flashback only when it is the twist.
+7. Rising stakes. Each beat costs more than the last (money, people, reputation, time). Say the price as a number when the sources give one.
+8. Visual continuity. Props and people that carry over between scenes keep their name, `x` side and look, so the viewer reads one world, not separate slides.
+9. Before writing the JSON, check the spine against the scene list: every scene is one beat of the spine sentence, in that order.
 
 ## Content rules
 - One concrete story or fact per reel, with a date and a name. Structure: hook (the absurd or surprising point) -> context in 2-3 short scenes -> the twist -> a punchline that turns to "you".

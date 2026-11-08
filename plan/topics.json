@@ -98,6 +98,577 @@
    "scene_types": [
     "doodle"
    ]
+  },
+  {
+   "id": 5,
+   "slug": "pitch-drop",
+   "category": "experiments",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Pitch drop experiment, since 1927",
+   "hook_en": "A drop nobody saw for 86 years",
+   "hook_ru": "Каплю ждали почти сто лет",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Pitch drop experiment",
+    "University of Queensland: Pitch drop"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 6,
+   "slug": "forssmann-catheter",
+   "category": "experiments",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Werner Forssmann, catheter in his own heart, 1929",
+   "hook_en": "He was fired, then got a Nobel",
+   "hook_ru": "Его уволили, потом дали Нобеля",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Werner Forssmann",
+    "NobelPrize.org: Werner Forssmann"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 7,
+   "slug": "marshall-helicobacter",
+   "category": "experiments",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Barry Marshall drinks H. pylori, 1984",
+   "hook_en": "He drank bacteria to win an argument",
+   "hook_ru": "Он выпил бактерии ради спора",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Barry Marshall",
+    "NobelPrize.org: Medicine 2005"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 8,
+   "slug": "randy-gardner",
+   "category": "experiments",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Randy Gardner, 11 days without sleep, 1964",
+   "hook_en": "A school project: no sleep for 11 days",
+   "hook_ru": "Одиннадцать суток без сна ради школы",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Randy Gardner sleep deprivation experiment"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 9,
+   "slug": "siffre-cave",
+   "category": "experiments",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Michel Siffre lives in a cave, 1962",
+   "hook_en": "He lost a month underground",
+   "hook_ru": "Под землёй он потерял месяц",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Michel Siffre"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 10,
+   "slug": "universe-25",
+   "category": "experiments",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Calhoun's Universe 25 mouse utopia",
+   "hook_en": "Paradise for mice ended in extinction",
+   "hook_ru": "Рай для мышей закончился вымиранием",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Behavioral sink",
+    "Calhoun 1973, Proc. R. Soc. Med."
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 11,
+   "slug": "emu-war",
+   "category": "animals",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Great Emu War, Australia 1932",
+   "hook_en": "An army lost a war to birds",
+   "hook_ru": "Армия проиграла войну птицам",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Emu War",
+    "National Archives of Australia"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 12,
+   "slug": "greenland-shark",
+   "category": "animals",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Greenland shark lives ~400 years",
+   "hook_en": "This shark lives about 400 years",
+   "hook_ru": "Эта акула живёт около 400 лет",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Greenland shark",
+    "Nielsen et al. 2016, Science"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 13,
+   "slug": "wombat-cubes",
+   "category": "animals",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Wombats poop cubes",
+   "hook_en": "Why is wombat poop square?",
+   "hook_ru": "Почему вомбат какает кубиками?",
+   "hook_type": "question",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Wombat",
+    "Ig Nobel Prize 2019 Physics"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 14,
+   "slug": "tardigrades-space",
+   "category": "animals",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Tardigrades survive open space, FOTON-M3 2007",
+   "hook_en": "An animal survived open space",
+   "hook_ru": "Это животное выжило в космосе",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Tardigrade",
+    "Jönsson et al. 2008, Current Biology"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 15,
+   "slug": "naked-mole-rat",
+   "category": "animals",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Naked mole-rat barely ages",
+   "hook_en": "An animal that barely ages",
+   "hook_ru": "Зверь, который почти не стареет",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Naked mole-rat"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 16,
+   "slug": "octopus-brain",
+   "category": "animals",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Octopus: three hearts, blue blood, thinking arms",
+   "hook_en": "Its arms think for themselves",
+   "hook_ru": "У него руки думают сами",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Octopus"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 17,
+   "slug": "skylab-fine",
+   "category": "space",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Skylab falls on Australia, $400 litter fine, 1979",
+   "hook_en": "A town fined NASA for littering",
+   "hook_ru": "Город оштрафовал NASA за мусор",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Skylab",
+    "Esperance Shire records"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 18,
+   "slug": "krikalev",
+   "category": "space",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Sergei Krikalev, left the USSR, returned to Russia, 1991-92",
+   "hook_en": "He flew from one country, landed in another",
+   "hook_ru": "Улетел из одной страны, вернулся в другую",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Sergei Krikalev",
+    "Roscosmos"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 19,
+   "slug": "apollo-12-lightning",
+   "category": "space",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Apollo 12 struck by lightning at launch, 1969",
+   "hook_en": "Lightning hit the Moon rocket twice",
+   "hook_ru": "Молния дважды ударила лунную ракету",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Apollo 12",
+    "NASA: Apollo 12 mission report"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 20,
+   "slug": "space-pen-myth",
+   "category": "space",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Space pen myth: NASA, Fisher and pencils",
+   "hook_en": "Did NASA spend millions on a pen?",
+   "hook_ru": "NASA потратило миллионы на ручку?",
+   "hook_type": "question",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Fisher Space Pen",
+    "Scientific American: Fact or Fiction space pen"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 21,
+   "slug": "friendly-floatees",
+   "category": "ocean",
+   "level": "general",
+   "kind": "story",
+   "title_en": "28,800 rubber ducks lost at sea, 1992",
+   "hook_en": "Rubber ducks mapped the ocean",
+   "hook_ru": "Резиновые утки нанесли океан на карту",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Friendly Floatees spill",
+    "Curtis Ebbesmeyer: Flotsametrics"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 22,
+   "slug": "bloop",
+   "category": "ocean",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Bloop, the mystery ocean sound, 1997",
+   "hook_en": "The ocean monster turned out to be ice",
+   "hook_ru": "Монстром из океана оказался лёд",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Bloop",
+    "NOAA PMEL Acoustics"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 23,
+   "slug": "trieste-dive",
+   "category": "ocean",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Trieste reaches Challenger Deep, 1960",
+   "hook_en": "At 11 km deep, the window cracked",
+   "hook_ru": "На глубине 11 км треснуло стекло",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Trieste (bathyscaphe)",
+    "Wikipedia: Jacques Piccard"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 24,
+   "slug": "whale-52hz",
+   "category": "ocean",
+   "level": "general",
+   "kind": "story",
+   "title_en": "The 52-hertz whale",
+   "hook_en": "A whale nobody answers",
+   "hook_ru": "Кит, которому никто не отвечает",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: 52-hertz whale",
+    "Watkins et al. 2004"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 25,
+   "slug": "mars-climate-orbiter",
+   "category": "mistakes",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Mars Climate Orbiter lost over units, 1999",
+   "hook_en": "125 million dollars lost to pounds",
+   "hook_ru": "125 миллионов погубили фунты",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Mars Climate Orbiter",
+    "NASA Mishap Investigation Board report 1999"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 26,
+   "slug": "acoustic-kitty",
+   "category": "spies",
+   "level": "general",
+   "kind": "story",
+   "title_en": "CIA Acoustic Kitty, 1960s",
+   "hook_en": "The CIA wired a cat as a spy",
+   "hook_ru": "ЦРУ сделало из кошки шпиона",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Acoustic Kitty",
+    "CIA declassified memo 'Views on Trained Cats' (NSA archive)"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 27,
+   "slug": "lustig-eiffel",
+   "category": "cons",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Victor Lustig sells the Eiffel Tower, 1925",
+   "hook_en": "He sold the Eiffel Tower twice",
+   "hook_ru": "Он продал Эйфелеву башню дважды",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Victor Lustig",
+    "Smithsonian Magazine"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
   }
  ]
 }
