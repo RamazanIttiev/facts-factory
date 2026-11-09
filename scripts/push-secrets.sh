@@ -8,7 +8,7 @@ set -a; . ./.env; set +a
 for name in "${SECRETS[@]}"; do
   value="${!name:-}"
   if [ -z "$value" ]; then echo "skip $name (empty in .env)"; continue; fi
-  printf '%s' "$value" | gh secret set "$name" --repo "$REPO" --body - >/dev/null && echo "set $name"
+  printf '%s' "$value" | gh secret set "$name" --repo "$REPO" >/dev/null && echo "set $name"
 done
 for v in CHANNEL_NAME CHANNEL_HANDLE; do [ -n "${!v:-}" ] && gh variable set "$v" --repo "$REPO" --body "${!v}" >/dev/null && echo "set variable $v"; done
 gh variable set TTS_PROVIDER --repo "$REPO" --body "elevenlabs"
