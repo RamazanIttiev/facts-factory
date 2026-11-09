@@ -4,18 +4,18 @@
   "phases": [
     {
       "name": "explore",
-      "videos": "1-30",
+      "videos": "1-10",
       "goal": "Measure demand across categories and hook types with everything else fixed",
       "scheduler": "balanced rotation",
-      "min_videos_per_category": 4,
-      "min_videos_per_hook_type": 3,
+      "min_videos_per_category": 2,
+      "min_videos_per_hook_type": 2,
       "same_category_twice_in_a_row": false,
       "change_one_variable_at_a_time": true,
       "lessons_allowed": false
     },
     {
       "name": "learn",
-      "videos": "31-80",
+      "videos": "11-80",
       "goal": "Confirm patterns and start varying format variables (length, slot, CTA)",
       "scheduler": "70 percent best-performing categories, 30 percent exploration",
       "lessons_allowed": true
@@ -51,7 +51,7 @@
     "_note": "Percentile ranks avoid arbitrary scaling between metrics. Weights are an initial guess."
   },
   "promotion_rule": {
-    "min_videos_per_attribute_value": 10,
+    "min_videos_per_attribute_value": 3,
     "min_values_compared": 2,
     "method": "bootstrap difference of composite score",
     "confidence": 0.8,

@@ -11,3 +11,6 @@ const mask = (word: string): string => {
 
 export const maskProfanity = (text: string): string =>
   text.replace(/\p{L}+/gu, (word) => (PROFANE.test(word.toLowerCase()) ? mask(word) : word));
+
+export const countProfanity = (text: string): number =>
+  (text.match(/\p{L}+/gu) ?? []).filter((word) => PROFANE.test(word.toLowerCase())).length;
