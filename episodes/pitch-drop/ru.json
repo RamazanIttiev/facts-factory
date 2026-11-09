@@ -14,7 +14,8 @@
     "claims": [
       "c8",
       "c11"
-    ]
+    ],
+    "inVideo": false
   },
   "scenes": {
     "idea": {

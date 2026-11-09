@@ -36,7 +36,7 @@ export const spokenWordCount = (text: string): number =>
   stripAudioTags(text).split(/\s+/).filter(isSpoken).length;
 
 export const narrations = (episode: Episode): { id: string; text: string }[] => [
-  { id: "hook", text: episode.hook.text },
+  ...(episode.hook.inVideo === false ? [] : [{ id: "hook", text: episode.hook.text }]),
   ...episode.scenes.map((scene) => ({ id: scene.id, text: scene.narration })),
   { id: "outro", text: episode.outro.narration },
 ];

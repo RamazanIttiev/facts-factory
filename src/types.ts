@@ -89,7 +89,7 @@ export type VisualScene = (DiagramVisual | CodeVisual | ChecklistVisual | Browse
 
 export type Visual = { slug: string; scenes: VisualScene[] };
 
-export type HookText = { text: string; accent: string; claims: string[]; icon?: string; orbit?: string[] };
+export type HookText = { text: string; accent: string; claims: string[]; icon?: string; orbit?: string[]; inVideo?: boolean };
 
 export type OutroText = { text: string; narration: string };
 

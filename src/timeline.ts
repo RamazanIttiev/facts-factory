@@ -112,10 +112,14 @@ export const buildTimeline = (episode: Episode, audio: Record<string, AudioInfo>
   handle: seriesFor(episode.lang).handle,
   avatar: seriesFor(episode.lang).avatar,
   segments: [
-    {
-      ...spokenSegment("hook", episode.hook.text, audio.hook, 0, { kind: "hook", hook: episode.hook }),
-      words: [],
-    },
+    ...(episode.hook.inVideo === false
+      ? []
+      : [
+          {
+            ...spokenSegment("hook", episode.hook.text, audio.hook, 0, { kind: "hook", hook: episode.hook }),
+            words: [],
+          },
+        ]),
     ...episode.scenes.map((scene, index) =>
       spokenSegment(scene.id, scene.narration, audio[scene.id], index + 1, {
         kind: "scene",

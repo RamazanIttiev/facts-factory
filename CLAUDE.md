@@ -59,7 +59,7 @@ Stage: `x` is 0..1 across the page margins. Ground line at y=1260, people stand 
 - `thing {name, x, y?, scale?, text?, sub?, lines?}`: `desk`, `window`, `picture`, `book` (text, sub), `building` (text on the banner), `money`, `chart`, `trophy`, `calendar` (text big, sub small), `phone` (lines = chat bubbles alternating left/right), `sign` (framed text). `y` lifts it above the ground (window, picture, chart, calendar, sign hang on the wall by default).
 Plan 4-8 items per scene, 2-3 people at most, one action per scene. Bubbles replace each other with `until`.
 Rhythm: an `at`/`until` event at least every 2.5 s of speech (doodle only; other scene types keep 1.5 s). `npm run layout` uses the real audio durations from `.cache/props` when the preview was rendered with audio, otherwise an estimate; it fails on longer gaps and says where. Keep bubbles and props from overlapping: move with `dx`, `lift`, `x`.
-Hook (`ru.json`): up to 6 words, `accent` = the word in yellow, `icon` + `orbit` (3 icons) from the set in `src/hookIcons.ts` (tech-only for now, extend it once for general topics).
+Hook (`ru.json`): `inVideo: false` keeps the hook only on the cover (preview) and starts the reel straight with scene 1 narration (owner asked, 2026-11-09). Up to 6 words, `accent` = the word in yellow, `icon` + `orbit` (3 icons) from the set in `src/hookIcons.ts` (tech-only for now, extend it once for general topics).
 
 ## Episode workflow
 1. Pick a topic from `plan/topics.json` (add real ones first). `npm run next -- --lang ru` once config is adapted.
