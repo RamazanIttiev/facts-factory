@@ -1,8 +1,9 @@
 import { readFileSync } from "node:fs";
 import { parseArgs } from "node:util";
 import { instagramEnvNames, requireEnv } from "./env";
+import { ACCOUNT_METRICS, accountSnapshot } from "./account";
 import { readMetrics } from "./scoring";
-import { appendJsonl, isRecord, metricsPath, readVideos } from "./state";
+import { appendJsonl, isRecord, metricsPath, readVideos, stateDir } from "./state";
 import type { VideoRecord } from "./state";
 
 const GRAPH_HOST = "https://graph.facebook.com";
@@ -142,3 +143,26 @@ for (const { video, windowH } of due) {
   console.log(`${video.video_id} @${windowH}h saved, unavailable: ${String(row.unavailable)}`);
 }
 if (due.length === 0) console.log("nothing due");
+
+const fetchJson = async (url: string, token: string): Promise<unknown> => {
+  const response = await fetch(url, { headers: { Authorization: `Bearer ${token}` } });
+  const json: unknown = await response.json();
+  if (response.ok) return json;
+  const error = isRecord(json) && isRecord(json.error) ? String(json.error.message) : `HTTP ${response.status}`;
+  console.warn(`account fetch failed: ${error} (token needs instagram_manage_insights)`);
+  return undefined;
+};
+
+if (!values["dry-run"]) {
+  const names = instagramEnvNames(lang);
+  const token = requireEnv(names.token);
+  const userId = requireEnv(names.userId);
+  const base = `${GRAPH_HOST}/${process.env.GRAPH_API_VERSION ?? "v27.0"}/${userId}`;
+  const [profile, insights] = await Promise.all([
+    fetchJson(`${base}?fields=followers_count,media_count`, token),
+    fetchJson(`${base}/insights?metric=${ACCOUNT_METRICS.join(",")}&period=day&metric_type=total_value`, token),
+  ]);
+  const row = accountSnapshot({ profile, insights, fetchedAt: new Date().toISOString() });
+  appendJsonl(`${stateDir(lang)}/account.jsonl`, row);
+  console.log(`account: followers ${String(row.followers)}, reach ${String(row.reach)}`);
+}
