@@ -1,7 +1,7 @@
 # facts-factory
 
 Pipeline for 60-120s vertical reels (9:16, 1080x1920, 30fps) rendered from code: true stories, facts and surprising topics told in a funny-but-serious voice with profanity (мат), drawn as chalk/pencil doodles on a dark background.
-Owner: Ramazan (Russian-speaking). Reel language: Russian. Reply to the owner in Russian, briefly.
+Owner: Ramazan (Russian-speaking). Reel language: Russian. Reply to the owner in English, briefly (owner asked, 2026-11-09).
 Second account, not education. Engine copied from `reels-factory`; the two repos are independent, port engine fixes by hand. Remote: GitHub `origin`.
 
 ## Core principle: code once, data forever
