@@ -1,0 +1,758 @@
+{
+  "slug": "pitch-drop",
+  "scenes": [
+    {
+      "id": "idea",
+      "type": "doodle",
+      "title": "АВСТРАЛИЯ, 1927",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.2,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "1927",
+          "sub": "ГОД"
+        },
+        {
+          "kind": "person",
+          "id": "parnell",
+          "at": 2,
+          "x": 0.3,
+          "look": [
+            "glasses",
+            "tie"
+          ],
+          "mood": "smile",
+          "arm": "point",
+          "label": "ПАРНЕЛЛ"
+        },
+        {
+          "kind": "thing",
+          "at": 3.2,
+          "name": "building",
+          "x": 0.78,
+          "text": "КВИНСЛЕНД"
+        },
+        {
+          "kind": "say",
+          "at": 4.8,
+          "who": "parnell",
+          "text": "СМОТРИТЕ, СТУДЕНТЫ",
+          "dx": 60,
+          "until": 6
+        },
+        {
+          "kind": "thing",
+          "at": 6,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ВЫГЛЯДИТ…",
+          "until": 7.7
+        },
+        {
+          "kind": "thing",
+          "at": 7.7,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ТВЁРДЫМ",
+          "until": 8.6
+        },
+        {
+          "kind": "thing",
+          "at": 8.6,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "НО ЭТО ЖИДКОСТЬ",
+          "until": 11.1
+        },
+        {
+          "kind": "thing",
+          "at": 11.1,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ПЕК = ЧЁРНАЯ СМОЛА",
+          "until": 12.8
+        },
+        {
+          "kind": "thing",
+          "at": 12.8,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "В ВОРОНКУ",
+          "until": 14.9
+        },
+        {
+          "kind": "thing",
+          "at": 14.9,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ПУСТЬ ОСЯДЕТ",
+          "until": 16.4
+        },
+        {
+          "kind": "thing",
+          "at": 16.4,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ТРИ ГОДА"
+        },
+        {
+          "kind": "say",
+          "at": 17.6,
+          "who": "parnell",
+          "text": "ПОДОЖДУ",
+          "dx": 60
+        }
+      ]
+    },
+    {
+      "id": "cut",
+      "type": "doodle",
+      "title": "1930: ПОТЕКЛО",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.2,
+          "name": "desk",
+          "x": 0.6
+        },
+        {
+          "kind": "thing",
+          "at": 0.5,
+          "name": "sign",
+          "x": 0.6,
+          "y": 190,
+          "text": "ПЕК"
+        },
+        {
+          "kind": "thing",
+          "at": 0.7,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "1930",
+          "sub": "ГОД"
+        },
+        {
+          "kind": "thing",
+          "at": 2.2,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ОТРЕЗАЛИ ГОРЛЫШКО",
+          "until": 4.6
+        },
+        {
+          "kind": "thing",
+          "at": 4.6,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ТЕЧЁТ?",
+          "until": 6.7
+        },
+        {
+          "kind": "thing",
+          "at": 6.7,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ВЯЗЧЕ ВОДЫ…",
+          "until": 7.7
+        },
+        {
+          "kind": "thing",
+          "at": 7.7,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "В 230 МЛРД РАЗ",
+          "until": 9.7
+        },
+        {
+          "kind": "thing",
+          "at": 9.7,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "КАПЛЯ РАЗ В ДЕСЯТЬ ЛЕТ",
+          "until": 12.2
+        },
+        {
+          "kind": "thing",
+          "at": 12.2,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ПОД СТЕКЛЯННЫМ КОЛПАКОМ",
+          "until": 14.3
+        },
+        {
+          "kind": "thing",
+          "at": 14.3,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "САМОЕ СТРАННОЕ…",
+          "until": 15.5
+        },
+        {
+          "kind": "thing",
+          "at": 15.5,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "РЕАЛИТИ-ШОУ"
+        }
+      ]
+    },
+    {
+      "id": "keeper",
+      "type": "doodle",
+      "title": "СМОТРИТЕЛЬ КАПЛИ",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.2,
+          "name": "desk",
+          "x": 0.6
+        },
+        {
+          "kind": "thing",
+          "at": 0.5,
+          "name": "sign",
+          "x": 0.6,
+          "y": 190,
+          "text": "ПЕК"
+        },
+        {
+          "kind": "thing",
+          "at": 3.2,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "1961",
+          "sub": "ГОД"
+        },
+        {
+          "kind": "thing",
+          "at": 1.2,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "НОВЫЙ СМОТРИТЕЛЬ",
+          "until": 3.2
+        },
+        {
+          "kind": "person",
+          "id": "keeper",
+          "at": 5.5,
+          "x": 0.25,
+          "look": [
+            "glasses",
+            "mustache"
+          ],
+          "mood": "flat",
+          "label": "МЕЙНСТОУН"
+        },
+        {
+          "kind": "say",
+          "at": 7.1,
+          "who": "keeper",
+          "text": "МОЯ РАБОТА: ЖДАТЬ",
+          "dx": 60,
+          "until": 9.3
+        },
+        {
+          "kind": "thing",
+          "at": 8.4,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "КАПЛЯ РАЗ В ДЕСЯТЬ ЛЕТ",
+          "until": 9.3
+        },
+        {
+          "kind": "say",
+          "at": 9.3,
+          "who": "keeper",
+          "text": "ЕБАТЬ…",
+          "dx": 60,
+          "until": 10.8
+        },
+        {
+          "kind": "say",
+          "at": 10.8,
+          "who": "keeper",
+          "text": "ВОТ ЭТО ГРАФИК",
+          "dx": 60
+        }
+      ]
+    },
+    {
+      "id": "drink",
+      "type": "doodle",
+      "title": "3 ИЮЛЯ 1988",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.2,
+          "name": "desk",
+          "x": 0.6
+        },
+        {
+          "kind": "thing",
+          "at": 0.5,
+          "name": "sign",
+          "x": 0.6,
+          "y": 190,
+          "text": "ПЕК"
+        },
+        {
+          "kind": "thing",
+          "at": 0.2,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "1988",
+          "sub": "3 ИЮЛЯ"
+        },
+        {
+          "kind": "person",
+          "id": "keeper",
+          "at": 4.9,
+          "x": 0.25,
+          "look": [
+            "glasses",
+            "mustache"
+          ],
+          "mood": "flat",
+          "label": "МЕЙНСТОУН",
+          "until": 5.8
+        },
+        {
+          "kind": "thing",
+          "at": 2.8,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "СЕДЬМАЯ КАПЛЯ",
+          "until": 3.6
+        },
+        {
+          "kind": "thing",
+          "at": 3.6,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ВОТ-ВОТ…",
+          "until": 5.8
+        },
+        {
+          "kind": "person",
+          "id": "away",
+          "at": 5.8,
+          "x": 0.08,
+          "look": [
+            "glasses",
+            "mustache"
+          ],
+          "mood": "smile",
+          "label": "",
+          "face": "left"
+        },
+        {
+          "kind": "say",
+          "at": 5.8,
+          "who": "away",
+          "text": "Я НА МИНУТКУ",
+          "dx": 80,
+          "until": 8.6
+        },
+        {
+          "kind": "thing",
+          "at": 6.6,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "И РОВНО ТОГДА…",
+          "until": 8.6
+        },
+        {
+          "kind": "thing",
+          "at": 8.6,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ПЛЮХ!",
+          "until": 9.7
+        },
+        {
+          "kind": "thing",
+          "at": 9.7,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "НИКТО НЕ ВИДЕЛ",
+          "until": 12.4
+        },
+        {
+          "kind": "thing",
+          "at": 12.4,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЗА ОДИН СТАКАН"
+        },
+        {
+          "kind": "say",
+          "at": 11.2,
+          "who": "away",
+          "text": "СУКА!",
+          "dx": 80
+        }
+      ]
+    },
+    {
+      "id": "camera",
+      "type": "doodle",
+      "title": "ПЛАН Б: КАМЕРА",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.2,
+          "name": "desk",
+          "x": 0.6
+        },
+        {
+          "kind": "thing",
+          "at": 0.5,
+          "name": "sign",
+          "x": 0.6,
+          "y": 190,
+          "text": "ПЕК"
+        },
+        {
+          "kind": "thing",
+          "at": 2.6,
+          "name": "camera",
+          "x": 0.85
+        },
+        {
+          "kind": "thing",
+          "at": 3.7,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "2000",
+          "sub": "НОЯБРЬ"
+        },
+        {
+          "kind": "thing",
+          "at": 5,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ВОСЬМАЯ КАПЛЯ",
+          "until": 6.4
+        },
+        {
+          "kind": "thing",
+          "at": 6.4,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ТЕХНИЧЕСКИЕ ПРОБЛЕМЫ",
+          "until": 8.6
+        },
+        {
+          "kind": "person",
+          "id": "keeper",
+          "at": 7.3,
+          "x": 0.25,
+          "look": [
+            "glasses",
+            "mustache"
+          ],
+          "mood": "sad",
+          "label": "МЕЙНСТОУН"
+        },
+        {
+          "kind": "thing",
+          "at": 8.6,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЗАПИСИ НЕТ",
+          "until": 11.5
+        },
+        {
+          "kind": "say",
+          "at": 10.7,
+          "who": "keeper",
+          "text": "НУ ЗАЕБИСЬ",
+          "dx": 60
+        },
+        {
+          "kind": "thing",
+          "at": 11.5,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ТЕХНИКА!",
+          "until": 12.4
+        },
+        {
+          "kind": "thing",
+          "at": 12.4,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "НА СТРАЖЕ НАУКИ"
+        }
+      ]
+    },
+    {
+      "id": "dublin",
+      "type": "doodle",
+      "title": "ДУБЛИН, 2013",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.2,
+          "name": "building",
+          "x": 0.8,
+          "text": "ТРИНИТИ"
+        },
+        {
+          "kind": "thing",
+          "at": 2.5,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "1944",
+          "sub": "ГОД",
+          "until": 5.3
+        },
+        {
+          "kind": "thing",
+          "at": 4.1,
+          "name": "desk",
+          "x": 0.45
+        },
+        {
+          "kind": "thing",
+          "at": 4.3999999999999995,
+          "name": "sign",
+          "x": 0.45,
+          "y": 190,
+          "text": "ПЕК"
+        },
+        {
+          "kind": "thing",
+          "at": 5.3,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "2013",
+          "sub": "11 ИЮЛЯ"
+        },
+        {
+          "kind": "thing",
+          "at": 7.4,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "КАПЛЯ!",
+          "until": 8.5
+        },
+        {
+          "kind": "thing",
+          "at": 10.2,
+          "name": "camera",
+          "x": 0.25
+        },
+        {
+          "kind": "thing",
+          "at": 8.5,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ВПЕРВЫЕ НА ВИДЕО",
+          "until": 11.1
+        },
+        {
+          "kind": "thing",
+          "at": 11.1,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "НЕ В КВИНСЛЕНДЕ",
+          "until": 11.9
+        },
+        {
+          "kind": "thing",
+          "at": 11.9,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ПИЗДЕЦ ОБИДНО"
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "type": "doodle",
+      "title": "ЧТО ДАЛЬШЕ",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.2,
+          "name": "desk",
+          "x": 0.6
+        },
+        {
+          "kind": "thing",
+          "at": 0.5,
+          "name": "sign",
+          "x": 0.6,
+          "y": 190,
+          "text": "ПЕК"
+        },
+        {
+          "kind": "thing",
+          "at": 0.7,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "2013",
+          "sub": "13 АВГУСТА",
+          "until": 5.3
+        },
+        {
+          "kind": "person",
+          "id": "keeper",
+          "at": 0.3,
+          "x": 0.25,
+          "look": [
+            "glasses",
+            "mustache"
+          ],
+          "mood": "sad",
+          "label": "МЕЙНСТОУН",
+          "until": 3.5
+        },
+        {
+          "kind": "thing",
+          "at": 2.6,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "УМЕР В 78",
+          "until": 3.5
+        },
+        {
+          "kind": "thing",
+          "at": 3.5,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ДЕВЯТАЯ КАПЛЯ",
+          "until": 6.9
+        },
+        {
+          "kind": "thing",
+          "at": 6.9,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "УЖЕ БЕЗ НЕГО",
+          "until": 8
+        },
+        {
+          "kind": "thing",
+          "at": 5.3,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "2014",
+          "sub": "АПРЕЛЬ"
+        },
+        {
+          "kind": "thing",
+          "at": 8,
+          "name": "trophy",
+          "x": 0.85
+        },
+        {
+          "kind": "thing",
+          "at": 8,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "САМЫЙ ДОЛГИЙ…",
+          "until": 9.2
+        },
+        {
+          "kind": "thing",
+          "at": 9.2,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ОПЫТ В МИРЕ",
+          "until": 10.9
+        },
+        {
+          "kind": "thing",
+          "at": 10.9,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ПЕКА ХВАТИТ…",
+          "until": 13.1
+        },
+        {
+          "kind": "thing",
+          "at": 13.1,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЕЩЁ НА СТО ЛЕТ",
+          "until": 14
+        },
+        {
+          "kind": "person",
+          "id": "you",
+          "at": 14,
+          "x": 0.3,
+          "mood": "flat",
+          "label": "ТЫ"
+        },
+        {
+          "kind": "say",
+          "at": 15.5,
+          "who": "you",
+          "text": "НЕ ОТХОЖУ!",
+          "dx": 60,
+          "until": 16.6
+        },
+        {
+          "kind": "say",
+          "at": 16.6,
+          "who": "you",
+          "text": "НИХУЯ?",
+          "dx": 60,
+          "until": 18.8
+        },
+        {
+          "kind": "thing",
+          "at": 18.8,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ПЛЮХ!"
+        }
+      ]
+    }
+  ]
+}

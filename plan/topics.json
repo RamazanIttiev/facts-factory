@@ -116,10 +116,10 @@
    ],
    "sources_status": "to_fetch",
    "status": {
-    "ru": "todo",
+    "ru": "rendered",
     "en": "todo"
    },
-   "fact_sheet": null,
+   "fact_sheet": "facts/pitch-drop.json",
    "scene_types": [
     "doodle"
    ]
