@@ -14,5 +14,13 @@
     "state": "approved",
     "added": "2026-11-08T22:12:37.538Z",
     "note": "rendered locally, video in R2, waiting for the owner"
+  },
+  {
+    "slug": "toledo-war",
+    "category": "history",
+    "hook_type": "contradiction",
+    "state": "awaiting_approval",
+    "added": "2026-11-09T10:36:26.002Z",
+    "note": "rendered locally, video in R2, waiting for the owner"
   }
 ]

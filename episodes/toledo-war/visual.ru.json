@@ -1,0 +1,703 @@
+{
+  "slug": "toledo-war",
+  "scenes": [
+    {
+      "id": "strip",
+      "type": "doodle",
+      "title": "МИЧИГАН ПРОТИВ ОГАЙО",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.1,
+          "name": "calendar",
+          "x": 0.85,
+          "text": "1835",
+          "sub": "ГОД"
+        },
+        {
+          "kind": "person",
+          "at": 1.78,
+          "id": "mich",
+          "x": 0.18,
+          "face": "right",
+          "mood": "smile",
+          "label": "МИЧИГАН",
+          "look": [
+            "cap"
+          ]
+        },
+        {
+          "kind": "say",
+          "at": 4.08,
+          "who": "mich",
+          "text": "ХОЧУ В ШТАТЫ!",
+          "dx": 60,
+          "until": 5.38
+        },
+        {
+          "kind": "thing",
+          "at": 5.38,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ПОЛОСКА ЗЕМЛИ",
+          "until": 7.38
+        },
+        {
+          "kind": "thing",
+          "at": 7.38,
+          "name": "building",
+          "x": 0.5,
+          "text": "ТОЛЕДО"
+        },
+        {
+          "kind": "thing",
+          "at": 9.58,
+          "name": "money",
+          "x": 0.64,
+          "scale": 0.7
+        },
+        {
+          "kind": "person",
+          "at": 10.28,
+          "id": "ohio",
+          "x": 0.84,
+          "face": "left",
+          "mood": "angry",
+          "label": "ОГАЙО",
+          "look": [
+            "mustache"
+          ]
+        },
+        {
+          "kind": "say",
+          "at": 11.18,
+          "who": "ohio",
+          "text": "МОЁ!",
+          "dx": -40,
+          "until": 11.98
+        },
+        {
+          "kind": "thing",
+          "at": 11.98,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "КОНГРЕСС: НЕТ",
+          "until": 13.98
+        },
+        {
+          "kind": "thing",
+          "at": 13.98,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "БЮРОКРАТИЯ"
+        },
+        {
+          "kind": "say",
+          "at": 14.78,
+          "who": "mich",
+          "text": "ОПЯТЬ ОТКАЗ, БЛЯДЬ",
+          "dx": 60
+        }
+      ]
+    },
+    {
+      "id": "mason",
+      "type": "doodle",
+      "title": "МАЛЬЧИК-ГУБЕРНАТОР",
+      "items": [
+        {
+          "kind": "person",
+          "at": 0.1,
+          "id": "mich",
+          "x": 0.18,
+          "face": "right",
+          "mood": "angry",
+          "arm": "point",
+          "label": "МЕЙСОН",
+          "look": [
+            "cap"
+          ]
+        },
+        {
+          "kind": "thing",
+          "at": 2.28,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ГУБЕРНАТОР В 24",
+          "until": 4.68
+        },
+        {
+          "kind": "say",
+          "at": 4.68,
+          "who": "mich",
+          "text": "МОЙ ЗАКОН!",
+          "dx": 60,
+          "until": 7.18
+        },
+        {
+          "kind": "thing",
+          "at": 7.18,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ШТРАФ",
+          "until": 7.78
+        },
+        {
+          "kind": "thing",
+          "at": 7.78,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ПЯТЬ ЛЕТ КАТОРГИ",
+          "until": 9.18
+        },
+        {
+          "kind": "person",
+          "at": 9.18,
+          "id": "ohio",
+          "x": 0.84,
+          "face": "left",
+          "mood": "angry",
+          "label": "ОГАЙО",
+          "look": [
+            "mustache"
+          ]
+        },
+        {
+          "kind": "thing",
+          "at": 10.18,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "600 ОПОЛЧЕНЦЕВ",
+          "until": 11.98
+        },
+        {
+          "kind": "thing",
+          "at": 11.98,
+          "name": "building",
+          "x": 0.5,
+          "text": "ТОЛЕДО"
+        },
+        {
+          "kind": "say",
+          "at": 13.48,
+          "who": "mich",
+          "text": "А НАС ТЫСЯЧА!",
+          "dx": 60,
+          "until": 14.28
+        },
+        {
+          "kind": "say",
+          "at": 14.28,
+          "who": "ohio",
+          "text": "ДВЕ АРМИИ?!",
+          "dx": -20,
+          "lift": 130
+        },
+        {
+          "kind": "thing",
+          "at": 15.98,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЗА ПОЛОСКУ ЗЕМЛИ"
+        }
+      ]
+    },
+    {
+      "id": "battle",
+      "type": "doodle",
+      "title": "ЕДИНСТВЕННЫЙ БОЙ",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.1,
+          "name": "book",
+          "x": 0.5,
+          "text": "ГАЗЕТА",
+          "sub": "МИЧИГАН",
+          "until": 3.98
+        },
+        {
+          "kind": "thing",
+          "at": 1.78,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "«ГОСТЕПРИИМНЫЕ МОГИЛЫ»",
+          "until": 3.98
+        },
+        {
+          "kind": "thing",
+          "at": 3.98,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЕДИНСТВЕННЫЙ БОЙ",
+          "until": 8.38
+        },
+        {
+          "kind": "person",
+          "at": 5.18,
+          "id": "mich",
+          "x": 0.18,
+          "face": "right",
+          "mood": "open",
+          "arm": "up",
+          "label": "ОПОЛЧЕНИЕ",
+          "look": [
+            "cap"
+          ]
+        },
+        {
+          "kind": "say",
+          "at": 6.98,
+          "who": "mich",
+          "text": "ПЫЩ! В ВОЗДУХ",
+          "dx": 60,
+          "until": 8.38
+        },
+        {
+          "kind": "thing",
+          "at": 8.38,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ДЕВЯТЬ В ПЛЕНУ",
+          "until": 10.48
+        },
+        {
+          "kind": "thing",
+          "at": 10.48,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ПОГИБШИХ НЕТ",
+          "until": 11.88
+        },
+        {
+          "kind": "person",
+          "at": 13.58,
+          "id": "sher",
+          "x": 0.82,
+          "face": "left",
+          "mood": "sad",
+          "label": "ПОМ. ШЕРИФА",
+          "look": [
+            "tie"
+          ]
+        },
+        {
+          "kind": "say",
+          "at": 14.38,
+          "who": "sher",
+          "text": "АЙ! НОЖИК!",
+          "dx": -60,
+          "until": 15.98
+        },
+        {
+          "kind": "say",
+          "at": 15.98,
+          "who": "mich",
+          "text": "ВОТ ЭТО ВОЙНА",
+          "dx": 60
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "type": "doodle",
+      "title": "ГОЛОСА РЕШАЮТ",
+      "items": [
+        {
+          "kind": "person",
+          "at": 0.1,
+          "id": "ohio",
+          "x": 0.84,
+          "face": "left",
+          "mood": "smile",
+          "label": "ОГАЙО",
+          "look": [
+            "mustache"
+          ]
+        },
+        {
+          "kind": "thing",
+          "at": 1.38,
+          "name": "sign",
+          "x": 0.5,
+          "y": 520,
+          "text": "ВЫБОРЫ",
+          "until": 3.68
+        },
+        {
+          "kind": "person",
+          "at": 3.28,
+          "id": "jack",
+          "x": 0.5,
+          "face": "left",
+          "mood": "flat",
+          "arm": "point",
+          "label": "ДЖЕКСОН",
+          "look": [
+            "tie"
+          ]
+        },
+        {
+          "kind": "thing",
+          "at": 3.68,
+          "name": "chart",
+          "x": 0.62,
+          "y": 820
+        },
+        {
+          "kind": "person",
+          "at": 4.48,
+          "id": "mich",
+          "x": 0.18,
+          "face": "right",
+          "mood": "sad",
+          "label": "МИЧИГАН",
+          "look": [
+            "cap"
+          ]
+        },
+        {
+          "kind": "say",
+          "at": 5.78,
+          "who": "mich",
+          "text": "ОДИН, БЕЗ ГОЛОСА",
+          "dx": 60,
+          "until": 3.28
+        },
+        {
+          "kind": "say",
+          "at": 7.88,
+          "who": "jack",
+          "text": "МЕЙСОН, ВОН!",
+          "dx": -40,
+          "until": 9.18
+        },
+        {
+          "kind": "thing",
+          "at": 9.18,
+          "name": "sign",
+          "x": 0.5,
+          "y": 520,
+          "text": "СУД В ПОЛНОЧЬ",
+          "until": 12.18
+        },
+        {
+          "kind": "say",
+          "at": 11.18,
+          "who": "ohio",
+          "text": "БЕЖИМ!",
+          "dx": -40,
+          "until": 12.18
+        },
+        {
+          "kind": "say",
+          "at": 12.18,
+          "who": "mich",
+          "text": "ЕБАТЬ ПОЛИТИКУ",
+          "dx": 60
+        },
+        {
+          "kind": "thing",
+          "at": 13.68,
+          "name": "sign",
+          "x": 0.5,
+          "y": 520,
+          "text": "ПОЛИТИКА > АРМИЯ"
+        }
+      ]
+    },
+    {
+      "id": "deal",
+      "type": "doodle",
+      "title": "СДЕЛКА ОТ КОНГРЕССА",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.1,
+          "name": "building",
+          "x": 0.78,
+          "text": "КОНГРЕСС"
+        },
+        {
+          "kind": "person",
+          "at": 0.1,
+          "id": "mich",
+          "x": 0.18,
+          "face": "right",
+          "mood": "flat",
+          "label": "МИЧИГАН",
+          "look": [
+            "cap"
+          ]
+        },
+        {
+          "kind": "thing",
+          "at": 1.58,
+          "name": "sign",
+          "x": 0.5,
+          "y": 600,
+          "text": "ТОЛЕДО → ОГАЙО",
+          "until": 2.78
+        },
+        {
+          "kind": "thing",
+          "at": 2.78,
+          "name": "sign",
+          "x": 0.5,
+          "y": 600,
+          "text": "ВАМ ПОЛУОСТРОВ",
+          "until": 3.58
+        },
+        {
+          "kind": "thing",
+          "at": 3.58,
+          "name": "sign",
+          "x": 0.5,
+          "y": 600,
+          "text": "¾ ПОЛУОСТРОВА",
+          "until": 7.28
+        },
+        {
+          "kind": "say",
+          "at": 5.48,
+          "who": "mich",
+          "text": "ЭТУ ГЛУШЬ?",
+          "dx": 60,
+          "until": 8.18
+        },
+        {
+          "kind": "thing",
+          "at": 7.28,
+          "name": "sign",
+          "x": 0.5,
+          "y": 600,
+          "text": "НИКЧЁМНАЯ ГЛУШЬ",
+          "until": 8.18
+        },
+        {
+          "kind": "say",
+          "at": 8.18,
+          "who": "mich",
+          "text": "ИДИТЕ НАХУЙ!",
+          "dx": 60,
+          "until": 13.68
+        },
+        {
+          "kind": "thing",
+          "at": 9.08,
+          "name": "sign",
+          "x": 0.5,
+          "y": 600,
+          "text": "СЕНТЯБРЬ: НЕТ",
+          "until": 11.28
+        },
+        {
+          "kind": "thing",
+          "at": 11.28,
+          "name": "sign",
+          "x": 0.5,
+          "y": 600,
+          "text": "ПОЧТИ БАНКРОТ",
+          "until": 14.48
+        },
+        {
+          "kind": "say",
+          "at": 13.68,
+          "who": "mich",
+          "text": "МЫ НА МЕЛИ",
+          "dx": 60,
+          "until": 16.48
+        },
+        {
+          "kind": "thing",
+          "at": 14.48,
+          "name": "money",
+          "x": 0.5
+        },
+        {
+          "kind": "thing",
+          "at": 15.28,
+          "name": "sign",
+          "x": 0.5,
+          "y": 600,
+          "text": "ТОЛЬКО ШТАТАМ",
+          "until": 16.48
+        },
+        {
+          "kind": "say",
+          "at": 16.48,
+          "who": "mich",
+          "text": "А НАМ?",
+          "dx": 60
+        }
+      ]
+    },
+    {
+      "id": "twist",
+      "type": "doodle",
+      "title": "ОБМОРОЖЕННЫЙ СЪЕЗД",
+      "items": [
+        {
+          "kind": "person",
+          "at": 0.1,
+          "id": "mich",
+          "x": 0.18,
+          "face": "right",
+          "mood": "sad",
+          "label": "МИЧИГАН",
+          "look": [
+            "cap"
+          ]
+        },
+        {
+          "kind": "thing",
+          "at": 0.58,
+          "name": "calendar",
+          "x": 0.85,
+          "text": "14",
+          "sub": "ДЕКАБРЯ",
+          "until": 4.58
+        },
+        {
+          "kind": "say",
+          "at": 1.58,
+          "who": "mich",
+          "text": "ЛАДНО...",
+          "dx": 60,
+          "until": 2.78
+        },
+        {
+          "kind": "thing",
+          "at": 2.78,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ОБМОРОЖЕННЫЙ СЪЕЗД",
+          "until": 4.58
+        },
+        {
+          "kind": "thing",
+          "at": 4.58,
+          "name": "calendar",
+          "x": 0.85,
+          "text": "1837",
+          "sub": "26-Й ШТАТ"
+        },
+        {
+          "kind": "say",
+          "at": 6.88,
+          "who": "mich",
+          "text": "МЫ ШТАТ!",
+          "dx": 60,
+          "until": 7.98
+        },
+        {
+          "kind": "thing",
+          "at": 7.98,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "БЕЗ ТОЛЕДО",
+          "until": 9.08
+        },
+        {
+          "kind": "thing",
+          "at": 11.18,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "МЕДЬ И ЖЕЛЕЗО"
+        },
+        {
+          "kind": "thing",
+          "at": 12.38,
+          "name": "chart",
+          "x": 0.6,
+          "y": 1000
+        },
+        {
+          "kind": "say",
+          "at": 14.68,
+          "who": "mich",
+          "text": "ОГО! МЕДЬ!",
+          "dx": 60
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "type": "doodle",
+      "title": "А ТЕПЕРЬ ФУТБОЛ",
+      "items": [
+        {
+          "kind": "person",
+          "at": 0.1,
+          "id": "mich",
+          "x": 0.18,
+          "face": "right",
+          "mood": "angry",
+          "label": "МИЧИГАН",
+          "look": [
+            "cap"
+          ]
+        },
+        {
+          "kind": "thing",
+          "at": 1.98,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ВРАЖДА В ФУТБОЛЕ",
+          "until": 4.48
+        },
+        {
+          "kind": "person",
+          "at": 2.98,
+          "id": "ohio",
+          "x": 0.84,
+          "face": "left",
+          "mood": "angry",
+          "label": "ОГАЙО",
+          "look": [
+            "mustache"
+          ]
+        },
+        {
+          "kind": "person",
+          "at": 5.28,
+          "id": "you",
+          "x": 0.5,
+          "mood": "flat",
+          "label": "ТЫ"
+        },
+        {
+          "kind": "say",
+          "at": 5.68,
+          "who": "you",
+          "text": "ПЛОХАЯ СДЕЛКА?",
+          "lift": 40,
+          "until": 7.98
+        },
+        {
+          "kind": "say",
+          "at": 7.98,
+          "who": "you",
+          "text": "ВДРУГ ТАМ МЕДЬ",
+          "lift": 40
+        }
+      ]
+    }
+  ]
+}

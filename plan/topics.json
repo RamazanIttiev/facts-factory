@@ -91,10 +91,10 @@
    ],
    "sources_status": "to_fetch",
    "status": {
-    "ru": "todo",
+    "ru": "rendered",
     "en": "todo"
    },
-   "fact_sheet": null,
+   "fact_sheet": "facts/toledo-war.json",
    "scene_types": [
     "doodle"
    ]
