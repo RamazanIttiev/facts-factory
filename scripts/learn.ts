@@ -1,5 +1,6 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { parseArgs } from "node:util";
+import { readChanges } from "./accept";
 import { sendAlert } from "./alert";
 import { loadExperiment, phaseFor } from "./experiment";
 import { episodeFeatures } from "./features";
@@ -9,6 +10,7 @@ import type { Proposal, ProposalInput } from "./propose";
 import { latestRow, readMetrics } from "./scoring";
 import type { MetricRow } from "./scoring";
 import { appendJsonl, readVideos, stateDir } from "./state";
+import { compareChange } from "./weights";
 
 const { values } = parseArgs({ options: { lang: { type: "string" }, "no-alert": { type: "boolean" } } });
 const lang = values.lang ?? "ru";
@@ -40,13 +42,26 @@ const proposals = propose({ videos: inputs, lessonsAllowed: phase.lessons_allowe
 const date = new Date().toISOString().slice(0, 10);
 const scored = inputs.filter((input) => input.avg_watch_pct !== null).length;
 const line = (p: Proposal, index: number): string => `${String(index + 1)}. [${p.area}] ${p.change}\n   данные: ${p.evidence}\n   ждём: ${p.expected}`;
+const VERDICT = { waiting: "ждём данных", worked: "сработало", rollback: "эффекта нет, предлагаю откатить" };
+const checks = readChanges(lang).map((change) => {
+  const points = videos.map((video) => ({
+    published_at: video.published_at,
+    value: numberAt(latestRow(rows, video.video_id, [24, 72, 168]), change.metric),
+  }));
+  const result = compareChange({ acceptedAt: change.accepted_at, points });
+  const show = (value: number | null): string => (value === null ? "n/a" : String(value));
+  return `- ${change.id} «${change.change}»: ${change.metric} до ${show(result.before)} (n=${String(result.n_before)}), после ${show(result.after)} (n=${String(result.n_after)}) — ${VERDICT[result.verdict]}`;
+});
+
 const report = [
   `# Предложения ${date} (${lang})`,
   `Роликов: ${String(videos.length)}, с метриками: ${String(scored)}, фаза: ${phase.name}${phase.lessons_allowed ? "" : " (выводы ещё не разрешены, только тревоги)"}.`,
   "",
   proposals.length ? proposals.map(line).join("\n") : "Изменений не предлагаю: данных мало или всё в норме.",
   "",
-  "Ответь да/нет по каждому пункту. Ничего не применяется без твоего да.",
+  ...(checks.length ? ["", "Принятые изменения, до/после:", ...checks] : []),
+  "",
+  `Принять: npm run accept -- ${date} 1,2 --lang ru. Ничего не применяется без твоего да.`,
 ].join("\n");
 
 mkdirSync(`${stateDir(lang)}/proposals`, { recursive: true });

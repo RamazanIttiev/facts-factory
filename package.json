@@ -22,6 +22,7 @@
     "metrics:import": "tsx scripts/metrics.ts --import",
     "analyze": "tsx scripts/analyze.ts",
     "learn": "tsx scripts/learn.ts",
+    "accept": "tsx scripts/accept.ts",
     "requests": "tsx scripts/requests.ts",
     "next": "tsx scripts/next.ts",
     "make": "tsx scripts/make.ts",

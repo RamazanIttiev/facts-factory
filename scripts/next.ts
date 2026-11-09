@@ -1,4 +1,5 @@
 import { parseArgs } from "node:util";
+import { loadWeights } from "./accept";
 import { loadExperiment, phaseFor } from "./experiment";
 import { attributeStats, loadScored } from "./scoring";
 import { loadQueue } from "./queue";
@@ -38,10 +39,13 @@ const todo = file.topics.filter((topic) => topic.status[lang] === "todo" && !top
 const allowed = phase.same_category_twice_in_a_row === false ? todo.filter((topic) => topic.category !== lastCategory) : todo;
 const pool = allowed.length ? allowed : todo;
 
+const weights = loadWeights(lang);
+const load = (topic: Topic): number => (categoryCounts.get(topic.category) ?? 0) / (weights[topic.category] ?? 1);
+
 const balanced = (topics: Topic[]): Topic[] =>
   [...topics].sort(
     (a, b) =>
-      (categoryCounts.get(a.category) ?? 0) - (categoryCounts.get(b.category) ?? 0) ||
+      load(a) - load(b) ||
       (hookCounts.get(a.hook_type) ?? 0) - (hookCounts.get(b.hook_type) ?? 0) ||
       a.id - b.id,
   );
@@ -77,6 +81,7 @@ console.log(
     `scene_types: ${chosen.scene_types.join(", ")}`,
     ...(chosen.needs_legal_check ? ["needs_legal_check: human approval required before publish"] : []),
     ...(chosen.kind === "incident" ? ["incident: attribute claims to the operator's own report"] : []),
+    `topic weights (approved): ${Object.keys(weights).length ? JSON.stringify(weights) : "none"}`,
     `last published category: ${lastCategory ?? "none"} (not repeated in a row)`,
     imbalance(`category counts (min ${minCategory}, ! = below)`, categoryCounts, categories, minCategory),
     imbalance(`hook_type counts (min ${minHook}, ! = below)`, hookCounts, hookTypes, minHook),

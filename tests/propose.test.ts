@@ -35,6 +35,8 @@ describe("propose", () => {
     const topics = propose({ videos, lessonsAllowed: true }).find((p) => p.area === "topics");
     expect(topics?.change).toContain("history");
     expect(topics?.change).toContain("science");
+    expect(topics?.metric).toBe("shares_per_1k_reach");
+    expect(topics?.data).toEqual({ best: "history", worst: "science" });
   });
 
   it("ignores a category gap backed by fewer than three videos", () => {
@@ -49,6 +51,7 @@ describe("propose", () => {
     ];
     const hook = propose({ videos, lessonsAllowed: true }).find((p) => p.area === "hook");
     expect(hook?.change).toContain("цифр");
+    expect(hook?.metric).toBe("avg_watch_pct");
   });
 
   it("proposes denser drawing when busier scenes hold viewers longer", () => {

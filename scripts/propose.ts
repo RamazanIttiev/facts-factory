@@ -7,7 +7,17 @@ export type ProposalInput = {
   items_per_scene: number;
 };
 
-export type Proposal = { area: "hook" | "topics" | "visual"; change: string; evidence: string; expected: string; strength: number };
+export type ProposalMetric = "avg_watch_pct" | "shares_per_1k_reach";
+
+export type Proposal = {
+  area: "hook" | "topics" | "visual";
+  change: string;
+  evidence: string;
+  expected: string;
+  metric: ProposalMetric;
+  strength: number;
+  data?: { best: string; worst: string };
+};
 
 const LOW_RETENTION = 0.3;
 const MIN_GROUP = 3;
@@ -28,6 +38,7 @@ const retentionAlarm = (videos: ProposalInput[]): Proposal[] => {
         change: "Переписать хук и первую сцену: зрители уходят в первой трети",
         evidence: `среднее удержание ${pct(average)} по ${String(values.length)} роликам (порог ${pct(LOW_RETENTION)})`,
         expected: "avg_watch_pct растёт",
+        metric: "avg_watch_pct",
         strength: (LOW_RETENTION - average) / LOW_RETENTION,
       }]
     : [];
@@ -57,6 +68,7 @@ const watchProposal = ({ videos, test, area, better, worse }: {
     change: wins ? better : worse,
     evidence: `удержание ${pct(split.yes)} против ${pct(split.no)} (по ${String(MIN_GROUP)}+ ролика в группе)`,
     expected: "avg_watch_pct растёт",
+    metric: "avg_watch_pct",
     strength: Math.abs(split.yes - split.no) / Math.max(split.yes, split.no),
   }];
 };
@@ -81,6 +93,8 @@ const topicProposal = (videos: ProposalInput[]): Proposal[] => {
         change: `Больше тем из «${best.category}», меньше из «${worst.category}» (исследование 20-30% сохраняется)`,
         evidence: `репосты на 1k охвата: ${best.average.toFixed(1)} против ${worst.average.toFixed(1)}`,
         expected: "shares_per_1k_reach растёт",
+        metric: "shares_per_1k_reach",
+        data: { best: best.category, worst: worst.category },
         strength: gap,
       }];
 };
