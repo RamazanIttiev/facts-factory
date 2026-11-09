@@ -2,7 +2,7 @@
   "version": 1,
   "_note": "facts-factory tags. Every topic and published video uses only these values. Add a new value here first, never invent it ad hoc. npm run plan:check enforces it.",
   "attributes": {
-    "category": ["history", "experiments", "animals", "space", "ocean", "mistakes", "spies", "cons", "demo"],
+    "category": ["history", "experiments", "animals", "space", "ocean", "mistakes", "spies", "cons", "everyday", "demo"],
     "level": ["general", "demo"],
     "kind": ["story", "demo"],
     "hook_type": {

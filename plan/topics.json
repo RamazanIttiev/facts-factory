@@ -669,6 +669,381 @@
    "scene_types": [
     "doodle"
    ]
+  },
+  {
+   "id": 28,
+   "slug": "microwave-chocolate",
+   "category": "everyday",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Microwave oven: a melted chocolate bar, 1945",
+   "hook_en": "A chocolate bar invented your kitchen",
+   "hook_ru": "Шоколадка в кармане изобрела кухню",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Percy Spencer",
+    "Wikipedia: Microwave oven"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 29,
+   "slug": "railroad-time",
+   "category": "everyday",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Day of Two Noons: railroad time zones, 1883",
+   "hook_en": "The day noon happened twice",
+   "hook_ru": "День, когда полдень был дважды",
+   "hook_type": "mystery",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Time in the United States",
+    "Smithsonian: Railroad time 1883"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 30,
+   "slug": "daylight-saving",
+   "category": "everyday",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Daylight saving time: bugs and coal",
+   "hook_en": "We change clocks because of bugs",
+   "hook_ru": "Время переводят из-за жуков",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Daylight saving time",
+    "Wikipedia: George Hudson (entomologist)"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 31,
+   "slug": "gps-relativity",
+   "category": "everyday",
+   "level": "general",
+   "kind": "story",
+   "title_en": "GPS and relativity",
+   "hook_en": "Without Einstein your map would lie",
+   "hook_ru": "Без Эйнштейна навигатор врал бы",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Error analysis for the Global Positioning System",
+    "Wikipedia: Korean Air Lines Flight 007"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 32,
+   "slug": "barcode-sand",
+   "category": "everyday",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Barcode drawn in beach sand, 1948",
+   "hook_en": "The barcode was drawn in sand",
+   "hook_ru": "Штрихкод нарисовали пальцем на пляже",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Norman Joseph Woodland",
+    "Wikipedia: Barcode"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 33,
+   "slug": "first-password",
+   "category": "everyday",
+   "level": "general",
+   "kind": "story",
+   "title_en": "First computer password and first hack, MIT 1961-62",
+   "hook_en": "The first password was hacked instantly",
+   "hook_ru": "Первый пароль взломали сразу",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Compatible Time-Sharing System",
+    "Wired: The world's first computer password? It was useless too"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 34,
+   "slug": "browser-cookies",
+   "category": "everyday",
+   "level": "general",
+   "kind": "story",
+   "title_en": "HTTP cookies, Netscape 1994",
+   "hook_en": "A cookie for your cart tracks you",
+   "hook_ru": "Печенька для корзины следит за тобой",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: HTTP cookie",
+    "Wikipedia: Lou Montulli"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 35,
+   "slug": "recaptcha-books",
+   "category": "everyday",
+   "level": "general",
+   "kind": "story",
+   "title_en": "reCAPTCHA digitized books",
+   "hook_en": "You digitized books for free",
+   "hook_ru": "Ты бесплатно оцифровывал книги",
+   "hook_type": "myth_bust",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: reCAPTCHA",
+    "Science 2008: reCAPTCHA human-based character recognition"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 36,
+   "slug": "first-spam",
+   "category": "everyday",
+   "level": "general",
+   "kind": "story",
+   "title_en": "First spam email, 1978",
+   "hook_en": "The first spam was a sales pitch",
+   "hook_ru": "Первый спам разослал продавец",
+   "hook_type": "question",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Gary Thuerk",
+    "Wikipedia: History of email spam"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 37,
+   "slug": "black-box",
+   "category": "everyday",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Flight recorder, David Warren",
+   "hook_en": "The black box is actually orange",
+   "hook_ru": "Чёрный ящик на самом деле оранжевый",
+   "hook_type": "myth_bust",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: David Warren (inventor)",
+    "Wikipedia: Flight recorder"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 38,
+   "slug": "penicillin-resistance",
+   "category": "everyday",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Fleming warned about antibiotic resistance, 1945",
+   "hook_en": "Fleming warned us himself",
+   "hook_ru": "Флеминг сам предупредил об этом",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "NobelPrize.org: Alexander Fleming Nobel Lecture 1945",
+    "Wikipedia: Antimicrobial resistance"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 39,
+   "slug": "lithium-battery",
+   "category": "everyday",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Lithium-ion battery: Exxon, Oxford, Sony",
+   "hook_en": "An old man invented your phone battery",
+   "hook_ru": "Батарею телефона изобрёл старик",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "NobelPrize.org: Chemistry 2019",
+    "Wikipedia: John B. Goodenough"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 40,
+   "slug": "weimar-inflation",
+   "category": "everyday",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Weimar hyperinflation, 1923",
+   "hook_en": "People burned money for heat",
+   "hook_ru": "Деньгами топили печи",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Hyperinflation in the Weimar Republic",
+    "Britannica: Weimar Republic inflation"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 41,
+   "slug": "qwerty-myth",
+   "category": "everyday",
+   "level": "general",
+   "kind": "story",
+   "title_en": "QWERTY keyboard myth",
+   "hook_en": "The keyboard was not made to slow you",
+   "hook_ru": "Клавиатура придумана не для медленных",
+   "hook_type": "myth_bust",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: QWERTY",
+    "Smithsonian: Fact of Fiction? The Legend of the QWERTY Keyboard"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
+  },
+  {
+   "id": 42,
+   "slug": "hedy-lamarr",
+   "category": "everyday",
+   "level": "general",
+   "kind": "story",
+   "title_en": "Hedy Lamarr and frequency hopping, 1942",
+   "hook_en": "A film star patented jam-proof radio",
+   "hook_ru": "Кинозвезда придумала основу связи",
+   "hook_type": "contradiction",
+   "visual": "doodle",
+   "sources": [
+    "Wikipedia: Hedy Lamarr",
+    "US Patent 2,292,387"
+   ],
+   "sources_status": "to_fetch",
+   "status": {
+    "ru": "todo",
+    "en": "todo"
+   },
+   "fact_sheet": null,
+   "scene_types": [
+    "doodle"
+   ]
   }
  ]
 }
