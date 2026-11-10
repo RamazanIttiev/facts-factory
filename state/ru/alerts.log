@@ -6,3 +6,6 @@
 2026-11-09T12:35:41.745Z queue is running low: 2 approved/rendered left before this post
 2026-11-09T12:37:42.549Z published toledo-war in slot midday
 2026-11-09T12:37:43.114Z youtube failed for toledo-war, Instagram is already published. Retry: npm run publish:yt -- toledo-war --lang ru --channel facts
+2026-11-10T07:41:52.234Z queue is running low: 1 approved/rendered left before this post
+2026-11-10T07:43:23.051Z published pitch-drop in slot morning
+2026-11-10T07:43:23.576Z youtube failed for pitch-drop, Instagram is already published. Retry: npm run publish:yt -- pitch-drop --lang ru --channel facts

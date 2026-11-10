@@ -27,8 +27,32 @@
     "slug": "pitch-drop",
     "category": "experiments",
     "hook_type": "contradiction",
-    "state": "approved",
+    "state": "published",
     "added": "2026-11-09T11:18:24.725Z",
+    "note": "rendered locally, video in R2, waiting for the owner"
+  },
+  {
+    "slug": "forssmann-catheter",
+    "category": "experiments",
+    "hook_type": "contradiction",
+    "state": "awaiting_approval",
+    "added": "2026-11-09T16:19:35.131Z",
+    "note": "rendered locally, video in R2, waiting for the owner"
+  },
+  {
+    "slug": "marshall-helicobacter",
+    "category": "experiments",
+    "hook_type": "contradiction",
+    "state": "awaiting_approval",
+    "added": "2026-11-09T17:47:12.574Z",
+    "note": "rendered locally, video in R2, waiting for the owner"
+  },
+  {
+    "slug": "randy-gardner",
+    "category": "experiments",
+    "hook_type": "contradiction",
+    "state": "awaiting_approval",
+    "added": "2026-11-09T18:09:30.991Z",
     "note": "rendered locally, video in R2, waiting for the owner"
   }
 ]
