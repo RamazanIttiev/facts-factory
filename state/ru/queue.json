@@ -54,5 +54,28 @@
     "state": "awaiting_approval",
     "added": "2026-11-09T18:09:30.991Z",
     "note": "rendered locally, video in R2, waiting for the owner"
+  },
+  {
+    "slug": "siffre-cave",
+    "category": "experiments",
+    "hook_type": "contradiction",
+    "state": "awaiting_approval",
+    "added": "2026-11-11T11:18:48.195Z",
+    "note": "rendered locally, video in R2, waiting for the owner"
+  },
+  {
+    "slug": "universe-25",
+    "category": "experiments",
+    "hook_type": "contradiction",
+    "state": "awaiting_approval",
+    "added": "2026-11-11T11:30:01.933Z",
+    "note": "rendered locally, video in R2, waiting for the owner"
+  },
+  {
+    "slug": "emu-war",
+    "category": "animals",
+    "hook_type": "contradiction",
+    "state": "awaiting_approval",
+    "added": "2026-11-11T12:11:19.793Z"
   }
 ]

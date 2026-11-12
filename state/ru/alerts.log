@@ -11,3 +11,5 @@
 2026-11-10T07:43:23.576Z youtube failed for pitch-drop, Instagram is already published. Retry: npm run publish:yt -- pitch-drop --lang ru --channel facts
 2026-11-11T08:19:27.846Z queue is running low: 0 approved/rendered left before this post
 2026-11-11T08:19:28.364Z slot morning: no approved videos in the queue
+2026-11-12T19:19:32.461Z queue is running low: 0 approved/rendered left before this post
+2026-11-12T19:19:32.918Z slot evening: no approved videos in the queue
