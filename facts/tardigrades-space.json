@@ -1,0 +1,277 @@
+{
+  "slug": "tardigrades-space",
+  "topic_id": 14,
+  "created": "2026-11-13",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Survived outer space",
+      "url": "https://en.wikipedia.org/wiki/Tardigrade",
+      "tier": 1,
+      "quote": "They have survived exposure to outer space",
+      "accessed": "2026-11-13",
+      "source_date": "2002-03-06T22:10:49Z",
+      "version": null
+    },
+    {
+      "id": "c2",
+      "text": "0.05-0.5 mm long",
+      "url": "https://en.wikipedia.org/wiki/Tardigrade",
+      "tier": 1,
+      "quote": "Most range from 0.05 to 0.5 mm",
+      "accessed": "2026-11-13",
+      "source_date": "2002-03-06T22:10:49Z",
+      "version": null
+    },
+    {
+      "id": "c3",
+      "text": "Goeze 1773 little water bear",
+      "url": "https://en.wikipedia.org/wiki/Tardigrade",
+      "tier": 1,
+      "quote": "first described by the German zoologist Johann August Ephraim Goeze in 1773",
+      "accessed": "2026-11-13",
+      "source_date": "2002-03-06T22:10:49Z",
+      "version": null
+    },
+    {
+      "id": "c4",
+      "text": "Name means slow walker",
+      "url": "https://en.wikipedia.org/wiki/Tardigrade",
+      "tier": 1,
+      "quote": "The name Tardigradum means 'slow walker'",
+      "accessed": "2026-11-13",
+      "source_date": "2002-03-06T22:10:49Z",
+      "version": null
+    },
+    {
+      "id": "c5",
+      "text": "2007 FOTON-M3 low Earth orbit",
+      "url": "https://en.wikipedia.org/wiki/Tardigrades_in_space",
+      "tier": 1,
+      "quote": "began in 2007 with the FOTON-M3 mission in low Earth orbit",
+      "accessed": "2026-11-13",
+      "source_date": "2025-01-04T11:16:43Z",
+      "version": null
+    },
+    {
+      "id": "c6",
+      "text": "Vacuum for 10 days",
+      "url": "https://en.wikipedia.org/wiki/Tardigrades_in_space",
+      "tier": 1,
+      "quote": "where they were exposed to space's vacuum for 10 days",
+      "accessed": "2026-11-13",
+      "source_date": "2025-01-04T11:16:43Z",
+      "version": null
+    },
+    {
+      "id": "c7",
+      "text": "Reanimated just by rehydration",
+      "url": "https://en.wikipedia.org/wiki/Tardigrades_in_space",
+      "tier": 1,
+      "quote": "and reanimated, just by rehydration, back on Earth",
+      "accessed": "2026-11-13",
+      "source_date": "2025-01-04T11:16:43Z",
+      "version": null
+    },
+    {
+      "id": "c8",
+      "text": "Over 68% reanimated",
+      "url": "https://en.wikipedia.org/wiki/Tardigrades_in_space",
+      "tier": 1,
+      "quote": "more than 68% of the subjects protected from solar ultraviolet radiation were reanimated",
+      "accessed": "2026-11-13",
+      "source_date": "2025-01-04T11:16:43Z",
+      "version": null
+    },
+    {
+      "id": "c9",
+      "text": "Within 30 minutes",
+      "url": "https://en.wikipedia.org/wiki/Tardigrades_in_space",
+      "tier": 1,
+      "quote": "within 30 minutes following rehydration",
+      "accessed": "2026-11-13",
+      "source_date": "2025-01-04T11:16:43Z",
+      "version": null
+    },
+    {
+      "id": "c10",
+      "text": "Many produced viable embryos",
+      "url": "https://en.wikipedia.org/wiki/Tardigrades_in_space",
+      "tier": 1,
+      "quote": "although subsequent mortality was high, many produced viable embryos",
+      "accessed": "2026-11-13",
+      "source_date": "2025-01-04T11:16:43Z",
+      "version": null
+    },
+    {
+      "id": "c11",
+      "text": "Vacuum plus full UV",
+      "url": "https://en.wikipedia.org/wiki/Tardigrades_in_space",
+      "tier": 1,
+      "quote": "exposed to the combined effect of vacuum and full solar ultraviolet radiation",
+      "accessed": "2026-11-13",
+      "source_date": "2025-01-04T11:16:43Z",
+      "version": null
+    },
+    {
+      "id": "c12",
+      "text": "Only three survived full UV",
+      "url": "https://en.wikipedia.org/wiki/Tardigrades_in_space",
+      "tier": 1,
+      "quote": "with only three subjects of Milnesium tardigradum surviving",
+      "accessed": "2026-11-13",
+      "source_date": "2025-01-04T11:16:43Z",
+      "version": null
+    },
+    {
+      "id": "c13",
+      "text": "Gyroscopes failed 11 April 2019",
+      "url": "https://en.wikipedia.org/wiki/Beresheet",
+      "tier": 1,
+      "quote": "The lander's gyroscopes failed on 11 April 2019 causing the main engine to shut off",
+      "accessed": "2026-11-13",
+      "source_date": "2018-12-19T12:29:59Z",
+      "version": null
+    },
+    {
+      "id": "c14",
+      "text": "Struck at over 500 km/h",
+      "url": "https://en.wikipedia.org/wiki/Beresheet",
+      "tier": 1,
+      "quote": "struck the lunar surface at over 500 km/h",
+      "accessed": "2026-11-13",
+      "source_date": "2018-12-19T12:29:59Z",
+      "version": null
+    },
+    {
+      "id": "c15",
+      "text": "2019 tardigrade capsule on Beresheet",
+      "url": "https://en.wikipedia.org/wiki/Tardigrades_in_space",
+      "tier": 1,
+      "quote": "In 2019, a capsule containing tardigrades was on board the Israeli lunar lander Beresheet which crashed on the Moon",
+      "accessed": "2026-11-13",
+      "source_date": "2025-01-04T11:16:43Z",
+      "version": null
+    },
+    {
+      "id": "c16",
+      "text": "Shock above 1.14 GPa",
+      "url": "https://en.wikipedia.org/wiki/Tardigrades_in_space",
+      "tier": 1,
+      "quote": "shock pressure of the crash would have been well above the 1.14 GPa that they have been measured as surviving",
+      "accessed": "2026-11-13",
+      "source_date": "2025-01-04T11:16:43Z",
+      "version": null
+    },
+    {
+      "id": "c17",
+      "text": "2021 team: likely destroyed",
+      "url": "https://en.wikipedia.org/wiki/Beresheet",
+      "tier": 1,
+      "quote": "claimed that the tardigrades were most likely destroyed by the force of the crash",
+      "accessed": "2026-11-13",
+      "source_date": "2018-12-19T12:29:59Z",
+      "version": null
+    },
+    {
+      "id": "c18",
+      "text": "May 2021 researchers",
+      "url": "https://en.wikipedia.org/wiki/Beresheet",
+      "tier": 1,
+      "quote": "In May 2021, a team of researchers",
+      "accessed": "2026-11-13",
+      "source_date": "2018-12-19T12:29:59Z",
+      "version": null
+    },
+    {
+      "id": "c19",
+      "text": "No liquid water on Moon",
+      "url": "https://en.wikipedia.org/wiki/Tardigrades_in_space",
+      "tier": 1,
+      "quote": "they would not rehydrate because of the lack of liquid water on the Moon",
+      "accessed": "2026-11-13",
+      "source_date": "2025-01-04T11:16:43Z",
+      "version": null
+    },
+    {
+      "id": "c20",
+      "text": "Spilling tardigrades on Moon is legal",
+      "url": "https://en.wikipedia.org/wiki/Tardigrades_in_space",
+      "tier": 1,
+      "quote": "Spilling tardigrades across the Moon is legal",
+      "accessed": "2026-11-13",
+      "source_date": "2025-01-04T11:16:43Z",
+      "version": null
+    },
+    {
+      "id": "c21",
+      "text": "Outer Space Treaty bans only weapons and interference",
+      "url": "https://en.wikipedia.org/wiki/Tardigrades_in_space",
+      "tier": 1,
+      "quote": "The Outer Space Treaty only explicitly bans weapons and experiments or tools that could interfere with other missions",
+      "accessed": "2026-11-13",
+      "source_date": "2025-01-04T11:16:43Z",
+      "version": null
+    },
+    {
+      "id": "c22",
+      "text": "First privately initiated Moon mission",
+      "url": "https://en.wikipedia.org/wiki/Beresheet",
+      "tier": 1,
+      "quote": "It represented the first privately initiated Moon mission",
+      "accessed": "2026-11-13",
+      "source_date": "2018-12-19T12:29:59Z",
+      "version": null
+    },
+    {
+      "id": "c23",
+      "text": "Would need food lacking on Moon",
+      "url": "https://en.wikipedia.org/wiki/Tardigrades_in_space",
+      "tier": 1,
+      "quote": "they would still need food, lacking on the Moon",
+      "accessed": "2026-11-13",
+      "source_date": "2025-01-04T11:16:43Z",
+      "version": null
+    },
+    {
+      "id": "c24",
+      "text": "Proposed 1964 for radiation tolerance",
+      "url": "https://en.wikipedia.org/wiki/Tardigrades_in_space",
+      "tier": 1,
+      "quote": "first proposed in 1964 because of their extreme tolerance to radiation",
+      "accessed": "2026-11-13",
+      "source_date": "2025-01-04T11:16:43Z",
+      "version": null
+    },
+    {
+      "id": "c25",
+      "text": "Called little water bear",
+      "url": "https://en.wikipedia.org/wiki/Tardigrade",
+      "tier": 1,
+      "quote": "who called them Kleiner Wasserbär",
+      "accessed": "2026-11-13",
+      "source_date": "2002-03-06T22:10:49Z",
+      "version": null
+    },
+    {
+      "id": "c26",
+      "text": "Aug 2019: may have survived the crash",
+      "url": "https://en.wikipedia.org/wiki/Beresheet",
+      "tier": 1,
+      "quote": "may have survived the crash and lived on the Moon for a while",
+      "accessed": "2026-11-13",
+      "source_date": "2018-12-19T12:29:59Z",
+      "version": null
+    },
+    {
+      "id": "c27",
+      "text": "Dehydrated tardigrades taken to orbit",
+      "url": "https://en.wikipedia.org/wiki/Tardigrades_in_space",
+      "tier": 1,
+      "quote": "In 2007, dehydrated tardigrades were taken into low Earth orbit",
+      "accessed": "2026-11-13",
+      "source_date": "2025-01-04T11:16:43Z",
+      "version": null
+    }
+  ]
+}

@@ -116,7 +116,7 @@
    ],
    "sources_status": "to_fetch",
    "status": {
-    "ru": "published",
+    "ru": "rendered",
     "en": "todo"
    },
    "fact_sheet": "facts/pitch-drop.json",
@@ -141,10 +141,10 @@
    ],
    "sources_status": "to_fetch",
    "status": {
-    "ru": "todo",
+    "ru": "rendered",
     "en": "todo"
    },
-   "fact_sheet": null,
+   "fact_sheet": "facts/forssmann-catheter.json",
    "scene_types": [
     "doodle"
    ]
@@ -166,10 +166,10 @@
    ],
    "sources_status": "to_fetch",
    "status": {
-    "ru": "todo",
+    "ru": "rendered",
     "en": "todo"
    },
-   "fact_sheet": null,
+   "fact_sheet": "facts/marshall-helicobacter.json",
    "scene_types": [
     "doodle"
    ]
@@ -190,10 +190,10 @@
    ],
    "sources_status": "to_fetch",
    "status": {
-    "ru": "todo",
+    "ru": "published",
     "en": "todo"
    },
-   "fact_sheet": null,
+   "fact_sheet": "facts/randy-gardner.json",
    "scene_types": [
     "doodle"
    ]
@@ -214,10 +214,10 @@
    ],
    "sources_status": "to_fetch",
    "status": {
-    "ru": "todo",
+    "ru": "rendered",
     "en": "todo"
    },
-   "fact_sheet": null,
+   "fact_sheet": "facts/siffre-cave.json",
    "scene_types": [
     "doodle"
    ]
@@ -239,10 +239,10 @@
    ],
    "sources_status": "to_fetch",
    "status": {
-    "ru": "todo",
+    "ru": "rendered",
     "en": "todo"
    },
-   "fact_sheet": null,
+   "fact_sheet": "facts/universe-25.json",
    "scene_types": [
     "doodle"
    ]
@@ -264,10 +264,10 @@
    ],
    "sources_status": "to_fetch",
    "status": {
-    "ru": "todo",
+    "ru": "rendered",
     "en": "todo"
    },
-   "fact_sheet": null,
+   "fact_sheet": "facts/emu-war.json",
    "scene_types": [
     "doodle"
    ]
@@ -289,10 +289,10 @@
    ],
    "sources_status": "to_fetch",
    "status": {
-    "ru": "todo",
+    "ru": "rendered",
     "en": "todo"
    },
-   "fact_sheet": null,
+   "fact_sheet": "facts/greenland-shark.json",
    "scene_types": [
     "doodle"
    ]
@@ -314,10 +314,10 @@
    ],
    "sources_status": "to_fetch",
    "status": {
-    "ru": "todo",
+    "ru": "rendered",
     "en": "todo"
    },
-   "fact_sheet": null,
+   "fact_sheet": "facts/wombat-cubes.json",
    "scene_types": [
     "doodle"
    ]
@@ -339,10 +339,10 @@
    ],
    "sources_status": "to_fetch",
    "status": {
-    "ru": "todo",
+    "ru": "rendered",
     "en": "todo"
    },
-   "fact_sheet": null,
+   "fact_sheet": "facts/tardigrades-space.json",
    "scene_types": [
     "doodle"
    ]

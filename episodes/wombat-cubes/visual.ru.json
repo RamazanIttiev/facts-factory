@@ -1,0 +1,668 @@
+{
+  "slug": "wombat-cubes",
+  "scenes": [
+    {
+      "id": "first",
+      "type": "doodle",
+      "title": "АВСТРАЛИЯ, 1798",
+      "items": [
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "АВСТРАЛИЯ",
+          "at": 0.1,
+          "until": 3.08
+        },
+        {
+          "kind": "thing",
+          "name": "calendar",
+          "x": 0.2,
+          "text": "1798",
+          "sub": "ЯНВАРЬ",
+          "at": 0.78
+        },
+        {
+          "kind": "person",
+          "id": "price",
+          "x": 0.22,
+          "label": "ПРАЙС",
+          "face": "right",
+          "mood": "flat",
+          "look": [
+            "cap"
+          ],
+          "at": 3.98
+        },
+        {
+          "kind": "person",
+          "id": "wilson",
+          "x": 0.45,
+          "label": "УИЛСОН",
+          "face": "right",
+          "mood": "flat",
+          "look": [
+            "mustache"
+          ],
+          "at": 4.78
+        },
+        {
+          "kind": "say",
+          "who": "price",
+          "text": "БРОДИМ...",
+          "dx": 40,
+          "at": 5.58,
+          "until": 6.78
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЗАПИСИ ПРАЙСА",
+          "at": 6.78,
+          "until": 8.08
+        },
+        {
+          "kind": "say",
+          "who": "price",
+          "text": "ПОМЁТ!",
+          "dx": 40,
+          "at": 8.08,
+          "until": 10.38
+        },
+        {
+          "kind": "say",
+          "who": "wilson",
+          "text": "ЭТО ВОМБАТ",
+          "dx": 40,
+          "at": 10.38,
+          "until": 12.08
+        },
+        {
+          "kind": "person",
+          "id": "wombat",
+          "x": 0.78,
+          "label": "ВОМБАТ",
+          "face": "left",
+          "mood": "smile",
+          "at": 11.18
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЯЗЫК ДАРУК",
+          "at": 12.08,
+          "until": 14.38
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЗНАКОМЫ ПО ГОВНУ",
+          "at": 14.38
+        },
+        {
+          "kind": "say",
+          "who": "wombat",
+          "text": "ПРИВЕТ",
+          "dx": -60,
+          "at": 16.68
+        }
+      ]
+    },
+    {
+      "id": "cubes",
+      "type": "doodle",
+      "title": "ФАБРИКА КУБИКОВ",
+      "items": [
+        {
+          "kind": "person",
+          "id": "wombat",
+          "x": 0.65,
+          "label": "ВОМБАТ",
+          "face": "left",
+          "mood": "smile",
+          "at": 0.1
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "КУБИКИ",
+          "at": 1.48,
+          "until": 2.68
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЗА ОДНУ НОЧЬ",
+          "at": 2.68,
+          "until": 3.88
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "80-100 КУБИКОВ",
+          "at": 3.88,
+          "until": 5.68
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ПО 2 СМ",
+          "at": 5.68,
+          "until": 7.28
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "4-8 ЗА РАЗ",
+          "at": 7.28,
+          "until": 9.08
+        },
+        {
+          "kind": "say",
+          "who": "wombat",
+          "text": "Я ФАБРИКА",
+          "dx": -60,
+          "at": 9.08,
+          "until": 11.08
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ВОПРОС:",
+          "at": 11.08,
+          "until": 12.08
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "КАК ЛЕПИТ УГЛЫ?",
+          "at": 12.08
+        },
+        {
+          "kind": "say",
+          "who": "wombat",
+          "text": "СЕКРЕТ",
+          "dx": -60,
+          "at": 12.78
+        }
+      ]
+    },
+    {
+      "id": "heroes",
+      "type": "doodle",
+      "title": "ФИЗИКИ ЗАХОДЯТ",
+      "items": [
+        {
+          "kind": "person",
+          "id": "wombat",
+          "x": 0.78,
+          "label": "ВОМБАТ",
+          "face": "left",
+          "mood": "smile",
+          "at": 0.1
+        },
+        {
+          "kind": "person",
+          "id": "yang",
+          "x": 0.22,
+          "label": "ПАТРИЦИЯ ЯН",
+          "face": "right",
+          "mood": "flat",
+          "look": [
+            "glasses"
+          ],
+          "at": 1.28
+        },
+        {
+          "kind": "person",
+          "id": "hu",
+          "x": 0.48,
+          "label": "ДЭВИД ХУ",
+          "face": "right",
+          "mood": "flat",
+          "look": [
+            "tie"
+          ],
+          "at": 2.38
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ШНОБЕЛЕВКА",
+          "at": 3.98,
+          "until": 5.18
+        },
+        {
+          "kind": "say",
+          "who": "wombat",
+          "text": "ЗА ЧТО?",
+          "dx": -60,
+          "at": 5.18,
+          "until": 5.98
+        },
+        {
+          "kind": "thing",
+          "name": "calendar",
+          "x": 0.2,
+          "text": "2015",
+          "sub": "ПРЕМИЯ",
+          "at": 5.98
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "МЛЕКОПИТАЮЩИЕ ПИСАЮТ",
+          "at": 7.58,
+          "until": 10.08
+        },
+        {
+          "kind": "say",
+          "who": "yang",
+          "text": "ЗАСЕКАЕМ",
+          "dx": 40,
+          "at": 9.48,
+          "until": 10.08
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "21 ± 13 СЕКУНД",
+          "at": 10.08
+        },
+        {
+          "kind": "say",
+          "who": "yang",
+          "text": "ПОПИСАЛИ!",
+          "dx": 40,
+          "at": 12.38,
+          "until": 14.18
+        },
+        {
+          "kind": "say",
+          "who": "wombat",
+          "text": "ОХУЕННАЯ КАРЬЕРА",
+          "dx": -60,
+          "at": 14.18
+        }
+      ]
+    },
+    {
+      "id": "gut",
+      "type": "doodle",
+      "title": "СЕКРЕТ В КИШКЕ",
+      "items": [
+        {
+          "kind": "person",
+          "id": "yang",
+          "x": 0.22,
+          "label": "ПАТРИЦИЯ ЯН",
+          "face": "right",
+          "mood": "flat",
+          "look": [
+            "glasses"
+          ],
+          "at": 0.1
+        },
+        {
+          "kind": "person",
+          "id": "hu",
+          "x": 0.48,
+          "label": "ДЭВИД ХУ",
+          "face": "right",
+          "mood": "flat",
+          "look": [
+            "tie"
+          ],
+          "at": 0.1
+        },
+        {
+          "kind": "person",
+          "id": "wombat",
+          "x": 0.78,
+          "label": "ВОМБАТ",
+          "face": "left",
+          "mood": "smile",
+          "at": 0.1
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ТЕПЕРЬ КАКАШКИ",
+          "at": 1.18,
+          "until": 2.48
+        },
+        {
+          "kind": "say",
+          "who": "hu",
+          "text": "ЛЕЗЕМ В КИШКУ",
+          "dx": 40,
+          "at": 2.88,
+          "until": 4.58
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "СЕКРЕТ В СТЕНКАХ",
+          "at": 4.58,
+          "until": 6.98
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "РАСТЯГИВАЕТСЯ НЕРОВНО",
+          "at": 6.98,
+          "until": 9.38
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "2 ЖЁСТКИЕ ЗОНЫ",
+          "at": 9.38,
+          "until": 10.58
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "+ 2 ЭЛАСТИЧНЫЕ",
+          "at": 10.58,
+          "until": 11.78
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "= УГЛЫ",
+          "at": 11.78,
+          "until": 14.58
+        },
+        {
+          "kind": "say",
+          "who": "wombat",
+          "text": "Я ФОРМОЧКА",
+          "dx": -60,
+          "at": 13.68
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ФОРМОЧКА ДЛЯ КУБИКОВ",
+          "at": 14.58
+        }
+      ]
+    },
+    {
+      "id": "prize",
+      "type": "doodle",
+      "title": "ШНОБЕЛЕВКА №2",
+      "items": [
+        {
+          "kind": "person",
+          "id": "yang",
+          "x": 0.22,
+          "label": "ПАТРИЦИЯ ЯН",
+          "face": "right",
+          "mood": "flat",
+          "look": [
+            "glasses"
+          ],
+          "at": 0.1
+        },
+        {
+          "kind": "person",
+          "id": "hu",
+          "x": 0.48,
+          "label": "ДЭВИД ХУ",
+          "face": "right",
+          "mood": "flat",
+          "look": [
+            "tie"
+          ],
+          "at": 0.1
+        },
+        {
+          "kind": "thing",
+          "name": "calendar",
+          "x": 0.2,
+          "text": "2019",
+          "sub": "ФИЗИКА",
+          "at": 0.1
+        },
+        {
+          "kind": "thing",
+          "name": "trophy",
+          "x": 0.78,
+          "at": 1.78
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "1: ЗА МОЧУ",
+          "at": 3.18,
+          "until": 4.28
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "2: ЗА КАКАШКИ",
+          "at": 4.28,
+          "until": 7.98
+        },
+        {
+          "kind": "say",
+          "who": "hu",
+          "text": "ДВАЖДЫ!",
+          "dx": 40,
+          "at": 5.48,
+          "until": 7.08
+        },
+        {
+          "kind": "say",
+          "who": "yang",
+          "text": "С РАЗМАХОМ",
+          "dx": 40,
+          "at": 7.08
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "НАУЧНАЯ КАРЬЕРА",
+          "at": 7.98
+        }
+      ]
+    },
+    {
+      "id": "why",
+      "type": "doodle",
+      "title": "ЗАЧЕМ КУБИКИ",
+      "items": [
+        {
+          "kind": "person",
+          "id": "wombat",
+          "x": 0.72,
+          "label": "ВОМБАТ",
+          "face": "left",
+          "mood": "smile",
+          "at": 0.1
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЗАЧЕМ КУБИКИ?",
+          "at": 0.1,
+          "until": 1.58
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "МЕТКА ТЕРРИТОРИИ",
+          "at": 1.58,
+          "until": 5.38
+        },
+        {
+          "kind": "say",
+          "who": "wombat",
+          "text": "МОЁ!",
+          "dx": -60,
+          "at": 3.28,
+          "until": 4.18
+        },
+        {
+          "kind": "person",
+          "id": "mate",
+          "x": 0.28,
+          "label": "ПАРТНЁР",
+          "face": "right",
+          "mood": "smile",
+          "at": 4.18
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "КУБ ЛЕГКО СЛОЖИТЬ",
+          "at": 5.38,
+          "until": 7.58
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "И НЕ УКАТИТСЯ",
+          "at": 7.58
+        },
+        {
+          "kind": "say",
+          "who": "mate",
+          "text": "А ШАРИК БЫ...",
+          "dx": 40,
+          "at": 8.88,
+          "until": 10.18
+        },
+        {
+          "kind": "say",
+          "who": "mate",
+          "text": "СВИДАНИЕ СОРВАЛОСЬ",
+          "dx": 40,
+          "at": 10.18
+        }
+      ]
+    },
+    {
+      "id": "you",
+      "type": "doodle",
+      "title": "А ТЕПЕРЬ ТЫ",
+      "items": [
+        {
+          "kind": "person",
+          "id": "you",
+          "x": 0.28,
+          "label": "ТЫ",
+          "face": "right",
+          "mood": "sad",
+          "at": 0.1
+        },
+        {
+          "kind": "person",
+          "id": "wombat",
+          "x": 0.72,
+          "label": "ВОМБАТ",
+          "face": "left",
+          "mood": "smile",
+          "at": 0.1
+        },
+        {
+          "kind": "say",
+          "who": "you",
+          "text": "ЗНАКОМИТЬСЯ СЛОЖНО",
+          "dx": 40,
+          "at": 1.58,
+          "until": 2.58
+        },
+        {
+          "kind": "say",
+          "who": "wombat",
+          "text": "ВСПОМНИ МЕНЯ",
+          "dx": -60,
+          "at": 2.58,
+          "until": 4.08
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЗНАКОМСТВО ПО КАКАШКАМ",
+          "at": 4.08,
+          "until": 6.98
+        },
+        {
+          "kind": "say",
+          "who": "wombat",
+          "text": "ДО СИХ ПОР ТАК",
+          "dx": -60,
+          "at": 5.78
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "КАК В 1798",
+          "at": 6.98
+        }
+      ]
+    }
+  ]
+}

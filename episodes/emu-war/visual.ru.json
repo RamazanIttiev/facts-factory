@@ -1,0 +1,712 @@
+{
+  "slug": "emu-war",
+  "scenes": [
+    {
+      "id": "farm",
+      "type": "doodle",
+      "title": "АВСТРАЛИЯ, 1932",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.1,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "1932",
+          "sub": "ГОД"
+        },
+        {
+          "kind": "person",
+          "at": 2.48,
+          "id": "farmer",
+          "x": 0.2,
+          "look": [
+            "cap"
+          ],
+          "mood": "smile",
+          "label": "ФЕРМЕР"
+        },
+        {
+          "kind": "thing",
+          "at": 3.71,
+          "until": 5.25,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЗЕМЛЯ ВЕТЕРАНАМ"
+        },
+        {
+          "kind": "thing",
+          "at": 5.25,
+          "until": 6.81,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ВЕЛИКАЯ ДЕПРЕССИЯ"
+        },
+        {
+          "kind": "thing",
+          "at": 6.81,
+          "until": 8.31,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "СУБСИДИИ: НЕТ"
+        },
+        {
+          "kind": "person",
+          "at": 9.28,
+          "id": "emu",
+          "x": 0.72,
+          "face": "left",
+          "look": [
+            "spikes"
+          ],
+          "mood": "smile",
+          "label": "ЭМУ"
+        },
+        {
+          "kind": "thing",
+          "at": 9.61,
+          "until": 11.71,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "≈ 20 000 ЭМУ"
+        },
+        {
+          "kind": "say",
+          "at": 11.71,
+          "until": 13.58,
+          "who": "emu",
+          "text": "НЯМ",
+          "dx": 0
+        },
+        {
+          "kind": "say",
+          "at": 13.58,
+          "who": "farmer",
+          "text": "ОХУЕННЫЙ ГОД",
+          "dx": 40
+        }
+      ]
+    },
+    {
+      "id": "guns",
+      "type": "doodle",
+      "title": "ДАЙТЕ ПУЛЕМЁТЫ",
+      "items": [
+        {
+          "kind": "person",
+          "at": 0.1,
+          "id": "farmer",
+          "x": 0.2,
+          "look": [
+            "cap"
+          ],
+          "mood": "angry",
+          "label": "ФЕРМЕР"
+        },
+        {
+          "kind": "thing",
+          "at": 0.1,
+          "until": 1.81,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "БЫВШИЕ СОЛДАТЫ"
+        },
+        {
+          "kind": "person",
+          "at": 2.38,
+          "id": "pearce",
+          "x": 0.75,
+          "face": "left",
+          "look": [
+            "glasses",
+            "tie"
+          ],
+          "mood": "flat",
+          "label": "МИНИСТР ПИРС"
+        },
+        {
+          "kind": "say",
+          "at": 3.91,
+          "until": 5.58,
+          "who": "farmer",
+          "text": "ДАЙТЕ ПУЛЕМЁТЫ",
+          "dx": 40
+        },
+        {
+          "kind": "say",
+          "at": 5.58,
+          "until": 6.85,
+          "who": "pearce",
+          "text": "ДА ЛЕГКО",
+          "dx": -100
+        },
+        {
+          "kind": "say",
+          "at": 6.85,
+          "until": 9.21,
+          "who": "pearce",
+          "text": "ХОРОШАЯ МИШЕНЬ!",
+          "dx": -100
+        },
+        {
+          "kind": "thing",
+          "at": 9.21,
+          "until": 11.28,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "МАЙОР МЕРЕДИТ"
+        },
+        {
+          "kind": "thing",
+          "at": 11.28,
+          "until": 12.75,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "2 ПУЛЕМЁТА ЛЬЮИСА"
+        },
+        {
+          "kind": "thing",
+          "at": 12.75,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "10 000 ПАТРОНОВ"
+        }
+      ]
+    },
+    {
+      "id": "ambush",
+      "type": "doodle",
+      "title": "ЗАСАДА У ПЛОТИНЫ",
+      "items": [
+        {
+          "kind": "person",
+          "at": 0.1,
+          "id": "meredith",
+          "x": 0.2,
+          "look": [
+            "mustache",
+            "cap"
+          ],
+          "mood": "smile",
+          "arm": "point",
+          "label": "МЕРЕДИТ"
+        },
+        {
+          "kind": "thing",
+          "at": 0.1,
+          "until": 2.25,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "2",
+          "sub": "НОЯБРЯ"
+        },
+        {
+          "kind": "person",
+          "at": 2.25,
+          "id": "emu",
+          "x": 0.72,
+          "face": "left",
+          "look": [
+            "spikes"
+          ],
+          "mood": "smile",
+          "label": "ЭМУ"
+        },
+        {
+          "kind": "thing",
+          "at": 2.58,
+          "until": 4.01,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "РАЗБЕГАЮТСЯ"
+        },
+        {
+          "kind": "thing",
+          "at": 4.01,
+          "until": 5.45,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "НЕ ПОПАСТЬ"
+        },
+        {
+          "kind": "thing",
+          "at": 5.45,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "4",
+          "sub": "НОЯБРЯ"
+        },
+        {
+          "kind": "thing",
+          "at": 6.41,
+          "until": 8.51,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЗАСАДА"
+        },
+        {
+          "kind": "thing",
+          "at": 8.51,
+          "until": 11.01,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "1000+ ПТИЦ"
+        },
+        {
+          "kind": "say",
+          "at": 11.01,
+          "until": 12.05,
+          "who": "meredith",
+          "text": "ОГОНЬ!",
+          "dx": 40
+        },
+        {
+          "kind": "thing",
+          "at": 12.05,
+          "until": 13.38,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЗАКЛИНИЛО"
+        },
+        {
+          "kind": "thing",
+          "at": 13.38,
+          "until": 14.85,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "12 ПТИЦ"
+        },
+        {
+          "kind": "say",
+          "at": 14.85,
+          "who": "emu",
+          "text": "ВАЛИМ НАХУЙ",
+          "dx": -60
+        }
+      ]
+    },
+    {
+      "id": "truck",
+      "type": "doodle",
+      "title": "ПУЛЕМЁТ НА ГРУЗОВИКЕ",
+      "items": [
+        {
+          "kind": "person",
+          "at": 0.1,
+          "id": "meredith",
+          "x": 0.2,
+          "look": [
+            "mustache",
+            "cap"
+          ],
+          "mood": "angry",
+          "label": "МЕРЕДИТ"
+        },
+        {
+          "kind": "thing",
+          "at": 1.05,
+          "until": 2.51,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ПУЛЕМЁТ → ГРУЗОВИК"
+        },
+        {
+          "kind": "person",
+          "at": 2.51,
+          "id": "emu",
+          "x": 0.82,
+          "face": "left",
+          "look": [
+            "spikes"
+          ],
+          "mood": "smile",
+          "label": "ЭМУ"
+        },
+        {
+          "kind": "say",
+          "at": 3.05,
+          "until": 4.15,
+          "who": "emu",
+          "text": "НЕ ДОГОНИШЬ",
+          "dx": -100
+        },
+        {
+          "kind": "thing",
+          "at": 4.15,
+          "until": 5.51,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ТРЯСЁТ"
+        },
+        {
+          "kind": "thing",
+          "at": 5.51,
+          "until": 7.25,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ВЫСТРЕЛОВ: 0"
+        },
+        {
+          "kind": "thing",
+          "at": 7.25,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "8",
+          "sub": "НОЯБРЯ"
+        },
+        {
+          "kind": "thing",
+          "at": 8.01,
+          "until": 10.25,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "2500 ПАТРОНОВ"
+        },
+        {
+          "kind": "thing",
+          "at": 10.25,
+          "until": 12.75,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "УБИТО: ???"
+        },
+        {
+          "kind": "say",
+          "at": 12.75,
+          "who": "meredith",
+          "text": "ПИЗДЕЦ, А НЕ БЛИЦКРИГ",
+          "dx": 60
+        }
+      ]
+    },
+    {
+      "id": "retreat",
+      "type": "doodle",
+      "title": "ОТСТУПЛЕНИЕ",
+      "items": [
+        {
+          "kind": "person",
+          "at": 0.1,
+          "id": "meredith",
+          "x": 0.2,
+          "look": [
+            "mustache",
+            "cap"
+          ],
+          "mood": "sad",
+          "label": "МЕРЕДИТ"
+        },
+        {
+          "kind": "thing",
+          "at": 0.1,
+          "until": 1.45,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ХА-ХА-ХА"
+        },
+        {
+          "kind": "thing",
+          "at": 1.51,
+          "until": 3.98,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "8 НОЯБРЯ: ОТОЗВАТЬ"
+        },
+        {
+          "kind": "thing",
+          "at": 4.11,
+          "until": 5.38,
+          "name": "book",
+          "x": 0.5,
+          "text": "ОТЧЁТ",
+          "sub": "МАЙОР"
+        },
+        {
+          "kind": "say",
+          "at": 5.38,
+          "until": 7.81,
+          "who": "meredith",
+          "text": "ПОТЕРЬ НЕТ. КРОМЕ ДОСТОИНСТВА",
+          "dx": 60
+        },
+        {
+          "kind": "person",
+          "at": 7.81,
+          "id": "emu",
+          "x": 0.78,
+          "face": "left",
+          "look": [
+            "spikes"
+          ],
+          "mood": "smile",
+          "label": "ЭМУ"
+        },
+        {
+          "kind": "say",
+          "at": 8.91,
+          "until": 10.25,
+          "who": "meredith",
+          "text": "ЭТИ ПТИЦЫ...",
+          "dx": 60
+        },
+        {
+          "kind": "say",
+          "at": 10.25,
+          "until": 12.25,
+          "who": "meredith",
+          "text": "КАК ТАНКИ",
+          "dx": 60
+        },
+        {
+          "kind": "say",
+          "at": 12.25,
+          "who": "emu",
+          "text": "ОХУЕТЬ, СПАСИБО",
+          "dx": -80
+        }
+      ]
+    },
+    {
+      "id": "second",
+      "type": "doodle",
+      "title": "ВТОРОЙ ЗАХОД",
+      "items": [
+        {
+          "kind": "person",
+          "at": 0.1,
+          "id": "meredith",
+          "x": 0.2,
+          "look": [
+            "mustache",
+            "cap"
+          ],
+          "mood": "smile",
+          "label": "МЕРЕДИТ"
+        },
+        {
+          "kind": "person",
+          "at": 0.15,
+          "id": "emu",
+          "x": 0.78,
+          "face": "left",
+          "look": [
+            "spikes"
+          ],
+          "mood": "smile",
+          "label": "ЭМУ"
+        },
+        {
+          "kind": "thing",
+          "at": 1.81,
+          "until": 3.71,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "АРМИЯ СНОВА"
+        },
+        {
+          "kind": "thing",
+          "at": 3.71,
+          "until": 5.11,
+          "name": "book",
+          "x": 0.5,
+          "text": "ОТЧЁТ",
+          "sub": "МЕРЕДИТ"
+        },
+        {
+          "kind": "thing",
+          "at": 5.11,
+          "until": 6.91,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "986 ПТИЦ"
+        },
+        {
+          "kind": "thing",
+          "at": 6.91,
+          "until": 9.15,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "9860 ПАТРОНОВ"
+        },
+        {
+          "kind": "thing",
+          "at": 9.15,
+          "until": 10.95,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "РОВНО 10 НА ПТИЦУ"
+        },
+        {
+          "kind": "say",
+          "at": 10.95,
+          "until": 12.25,
+          "who": "meredith",
+          "text": "КРАСИВО, БЛЯДЬ",
+          "dx": 60
+        },
+        {
+          "kind": "thing",
+          "at": 12.25,
+          "until": 13.58,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ИСТОРИК СОМНЕВАЕТСЯ"
+        },
+        {
+          "kind": "thing",
+          "at": 13.58,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "СКОРЕЕ ВСЕГО, ЗАВЫШЕНО"
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "type": "doodle",
+      "title": "ЧТО СРАБОТАЛО",
+      "items": [
+        {
+          "kind": "person",
+          "at": 0.1,
+          "id": "farmer",
+          "x": 0.2,
+          "look": [
+            "cap"
+          ],
+          "mood": "angry",
+          "label": "ФЕРМЕР"
+        },
+        {
+          "kind": "thing",
+          "at": 1.55,
+          "until": 2.55,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "1934"
+        },
+        {
+          "kind": "thing",
+          "at": 2.55,
+          "until": 4.35,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "1943, 1948"
+        },
+        {
+          "kind": "thing",
+          "at": 4.35,
+          "until": 5.48,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ОТКАЗ"
+        },
+        {
+          "kind": "thing",
+          "at": 5.48,
+          "until": 8.58,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "НАГРАДЫ ЗА ПТИЦ"
+        },
+        {
+          "kind": "thing",
+          "at": 6.78,
+          "name": "money",
+          "x": 0.42
+        },
+        {
+          "kind": "thing",
+          "at": 8.58,
+          "until": 10.31,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ПОЛГОДА 1934"
+        },
+        {
+          "kind": "thing",
+          "at": 10.31,
+          "until": 12.68,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "57 000+ НАГРАД"
+        },
+        {
+          "kind": "person",
+          "at": 12.68,
+          "id": "you",
+          "x": 0.8,
+          "face": "left",
+          "mood": "flat",
+          "label": "ТЫ"
+        },
+        {
+          "kind": "thing",
+          "at": 12.95,
+          "until": 14.31,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ТВОЙ ПЛАН: ПУЛЕМЁТ?"
+        },
+        {
+          "kind": "thing",
+          "at": 14.31,
+          "until": 15.55,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ВСПОМНИ ЭМУ"
+        },
+        {
+          "kind": "say",
+          "at": 15.55,
+          "until": 17.05,
+          "who": "farmer",
+          "text": "БУМАЖКА, СУКА, ПОБЕДИЛА",
+          "dx": 60
+        },
+        {
+          "kind": "thing",
+          "at": 17.05,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "БУМАГА > ПУЛЕМЁТ"
+        }
+      ]
+    }
+  ]
+}

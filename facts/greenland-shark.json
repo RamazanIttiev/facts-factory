@@ -1,0 +1,197 @@
+{
+  "slug": "greenland-shark",
+  "topic_id": 12,
+  "created": "2026-11-13",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Longest lifespan of any known vertebrate",
+      "url": "https://en.wikipedia.org/wiki/Greenland_shark",
+      "tier": 1,
+      "quote": "Greenland sharks have the longest lifespan of any known vertebrate",
+      "accessed": "2026-11-13",
+      "source_date": "2005-05-24T02:39:41Z",
+      "version": null
+    },
+    {
+      "id": "c2",
+      "text": "Tagged 1936, recaptured 1952",
+      "url": "https://en.wikipedia.org/wiki/Greenland_shark",
+      "tier": 1,
+      "quote": "One Greenland shark was tagged off the coast of Greenland in 1936 and recaptured in 1952",
+      "accessed": "2026-11-13",
+      "source_date": "2005-05-24T02:39:41Z",
+      "version": null
+    },
+    {
+      "id": "c3",
+      "text": "Slowest swim speed for its size",
+      "url": "https://en.wikipedia.org/wiki/Greenland_shark",
+      "tier": 1,
+      "quote": "the lowest swim speed and tail-beat frequency for its size across all fish species",
+      "accessed": "2026-11-13",
+      "source_date": "2005-05-24T02:39:41Z",
+      "version": null
+    },
+    {
+      "id": "c4",
+      "text": "Average swim 0.34 m/s",
+      "url": "https://en.wikipedia.org/wiki/Greenland_shark",
+      "tier": 1,
+      "quote": "It swims at an average of 0.34 m (1 ft 1 in) per second",
+      "accessed": "2026-11-13",
+      "source_date": "2005-05-24T02:39:41Z",
+      "version": null
+    },
+    {
+      "id": "c5",
+      "text": "Ambushes sleeping seals",
+      "url": "https://en.wikipedia.org/wiki/Greenland_shark",
+      "tier": 1,
+      "quote": "the sharks are thought to ambush while seals are asleep",
+      "accessed": "2026-11-13",
+      "source_date": "2005-05-24T02:39:41Z",
+      "version": null
+    },
+    {
+      "id": "c6",
+      "text": "Entire reindeer carcass in a stomach",
+      "url": "https://en.wikipedia.org/wiki/Greenland_shark",
+      "tier": 1,
+      "quote": "in one case an entire reindeer carcass",
+      "accessed": "2026-11-13",
+      "source_date": "2005-05-24T02:39:41Z",
+      "version": null
+    },
+    {
+      "id": "c7",
+      "text": "Age from radiocarbon in eye lens",
+      "url": "https://en.wikipedia.org/wiki/Greenland_shark",
+      "tier": 1,
+      "quote": "Estimates of age were made using radiocarbon dating of crystals within the lenses of their eyes",
+      "accessed": "2026-11-13",
+      "source_date": "2005-05-24T02:39:41Z",
+      "version": null
+    },
+    {
+      "id": "c8",
+      "text": "Nuclear tests almost doubled C14",
+      "url": "https://en.wikipedia.org/wiki/Bomb_pulse",
+      "tier": 1,
+      "quote": "Atmospheric nuclear tests almost doubled the concentration of 14 C in the Northern Hemisphere",
+      "accessed": "2026-11-13",
+      "source_date": "2015-10-24T20:55:25Z",
+      "version": null
+    },
+    {
+      "id": "c9",
+      "text": "Tests intensified after 1950 until 1963",
+      "url": "https://en.wikipedia.org/wiki/Bomb_pulse",
+      "tier": 1,
+      "quote": "intensified after 1950 until 1963, when the Limited Test Ban Treaty was signed",
+      "accessed": "2026-11-13",
+      "source_date": "2015-10-24T20:55:25Z",
+      "version": null
+    },
+    {
+      "id": "c10",
+      "text": "Bomb pulse used to age Greenland sharks",
+      "url": "https://en.wikipedia.org/wiki/Bomb_pulse",
+      "tier": 1,
+      "quote": "The bomb pulse has also been used to estimate the age of Greenland sharks",
+      "accessed": "2026-11-13",
+      "source_date": "2015-10-24T20:55:25Z",
+      "version": null
+    },
+    {
+      "id": "c11",
+      "text": "Lens 14C during development",
+      "url": "https://en.wikipedia.org/wiki/Bomb_pulse",
+      "tier": 1,
+      "quote": "measuring the incorporation of 14 C in the eye lens during development",
+      "accessed": "2026-11-13",
+      "source_date": "2015-10-24T20:55:25Z",
+      "version": null
+    },
+    {
+      "id": "c12",
+      "text": "Length-age correlation for larger sharks",
+      "url": "https://en.wikipedia.org/wiki/Bomb_pulse",
+      "tier": 1,
+      "quote": "scientists calculated the correlation between length and age of the sharks to estimate the age of the larger sharks",
+      "accessed": "2026-11-13",
+      "source_date": "2015-10-24T20:55:25Z",
+      "version": null
+    },
+    {
+      "id": "c13",
+      "text": "Oldest 392 +- 120 years",
+      "url": "https://en.wikipedia.org/wiki/Greenland_shark",
+      "tier": 1,
+      "quote": "with the oldest individual estimated to be 392 ± 120 years of age",
+      "accessed": "2026-11-13",
+      "source_date": "2005-05-24T02:39:41Z",
+      "version": null
+    },
+    {
+      "id": "c14",
+      "text": "Lifespan at least 272 years",
+      "url": "https://en.wikipedia.org/wiki/Greenland_shark",
+      "tier": 1,
+      "quote": "the species has a lifespan of at least 272 years",
+      "accessed": "2026-11-13",
+      "source_date": "2005-05-24T02:39:41Z",
+      "version": null
+    },
+    {
+      "id": "c15",
+      "text": "Maturity around 150 years",
+      "url": "https://en.wikipedia.org/wiki/Greenland_shark",
+      "tier": 1,
+      "quote": "reach sexual maturity around 150 years of age",
+      "accessed": "2026-11-13",
+      "source_date": "2005-05-24T02:39:41Z",
+      "version": null
+    },
+    {
+      "id": "c16",
+      "text": "3500 caught yearly as bycatch",
+      "url": "https://en.wikipedia.org/wiki/Greenland_shark",
+      "tier": 1,
+      "quote": "3,500 are caught annually as bycatch in the Arctic and Atlantic Oceans",
+      "accessed": "2026-11-13",
+      "source_date": "2005-05-24T02:39:41Z",
+      "version": null
+    },
+    {
+      "id": "c17",
+      "text": "Gestation 8-18 years",
+      "url": "https://en.wikipedia.org/wiki/Greenland_shark",
+      "tier": 1,
+      "quote": "gestation period of 8 to 18 years",
+      "accessed": "2026-11-13",
+      "source_date": "2005-05-24T02:39:41Z",
+      "version": null
+    },
+    {
+      "id": "c18",
+      "text": "Recapture measurements show slow growth",
+      "url": "https://en.wikipedia.org/wiki/Greenland_shark",
+      "tier": 1,
+      "quote": "Its measurements suggest that Greenland sharks grow at a rate of",
+      "accessed": "2026-11-13",
+      "source_date": "2005-05-24T02:39:41Z",
+      "version": null
+    },
+    {
+      "id": "c19",
+      "text": "Bomb 14C reflected in all organisms of that period",
+      "url": "https://en.wikipedia.org/wiki/Bomb_pulse",
+      "tier": 1,
+      "quote": "is reflected in the tissues and cells of all organisms that lived around the period of nuclear testing",
+      "accessed": "2026-11-13",
+      "source_date": "2015-10-24T20:55:25Z",
+      "version": null
+    }
+  ]
+}

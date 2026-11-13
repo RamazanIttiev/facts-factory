@@ -1,0 +1,671 @@
+{
+  "slug": "greenland-shark",
+  "scenes": [
+    {
+      "id": "tag",
+      "type": "doodle",
+      "title": "ГРЕНЛАНДИЯ, 1936",
+      "items": [
+        {
+          "kind": "person",
+          "id": "shark",
+          "x": 0.72,
+          "face": "left",
+          "look": [
+            "spikes"
+          ],
+          "mood": "flat",
+          "label": "АКУЛА",
+          "at": 0.1
+        },
+        {
+          "kind": "thing",
+          "name": "calendar",
+          "x": 0.2,
+          "text": "1936",
+          "sub": "ГОД",
+          "at": 1.48,
+          "until": 7.28
+        },
+        {
+          "kind": "person",
+          "id": "sci",
+          "x": 0.25,
+          "face": "right",
+          "look": [
+            "glasses"
+          ],
+          "mood": "flat",
+          "label": "УЧЁНЫЙ",
+          "at": 2.78
+        },
+        {
+          "kind": "say",
+          "who": "sci",
+          "text": "ВЕШАЮ МЕТКУ",
+          "dx": 40,
+          "at": 3.18,
+          "until": 5.28
+        },
+        {
+          "kind": "thing",
+          "name": "calendar",
+          "x": 0.2,
+          "text": "1952",
+          "sub": "ГОД",
+          "at": 7.28
+        },
+        {
+          "kind": "say",
+          "who": "sci",
+          "text": "МЕРЯЕМ...",
+          "dx": 40,
+          "at": 9.78,
+          "until": 10.88
+        },
+        {
+          "kind": "say",
+          "who": "sci",
+          "text": "ПОЧТИ НЕ ВЫРОСЛА?!",
+          "dx": 40,
+          "at": 10.88,
+          "until": 11.98
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "16 ЛЕТ",
+          "at": 11.98,
+          "until": 13.48
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "НОЛЬ ПРОГРЕССА",
+          "at": 13.48,
+          "until": 14.58
+        },
+        {
+          "kind": "say",
+          "who": "sci",
+          "text": "СКОЛЬКО ЕЙ ЛЕТ?",
+          "dx": 40,
+          "at": 14.58,
+          "until": 15.78
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ВОЗРАСТ: ???",
+          "at": 15.78
+        }
+      ]
+    },
+    {
+      "id": "slow",
+      "type": "doodle",
+      "title": "САМАЯ МЕДЛЕННАЯ РЫБА",
+      "items": [
+        {
+          "kind": "person",
+          "id": "shark",
+          "x": 0.72,
+          "face": "left",
+          "look": [
+            "spikes"
+          ],
+          "mood": "flat",
+          "label": "АКУЛА",
+          "at": 0.1
+        },
+        {
+          "kind": "thing",
+          "name": "book",
+          "x": 0.3,
+          "text": "БИОЛОГИ",
+          "sub": "ДАННЫЕ",
+          "at": 1.58,
+          "until": 9.18
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "САМАЯ МЕДЛЕННАЯ",
+          "at": 2.78,
+          "until": 4.68
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "СРЕДИ ВСЕХ РЫБ",
+          "at": 4.68,
+          "until": 6.28
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "0,34 М/С",
+          "at": 6.28,
+          "until": 8.28
+        },
+        {
+          "kind": "say",
+          "who": "shark",
+          "text": "ОБЕДАЮ",
+          "dx": -60,
+          "at": 9.18,
+          "until": 11.38
+        },
+        {
+          "kind": "person",
+          "id": "seal",
+          "x": 0.28,
+          "face": "right",
+          "mood": "flat",
+          "label": "ТЮЛЕНЬ",
+          "at": 9.48
+        },
+        {
+          "kind": "say",
+          "who": "seal",
+          "text": "ХРРР...",
+          "dx": 40,
+          "at": 12.38,
+          "until": 13.48
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "В ЖЕЛУДКЕ: ЦЕЛЫЙ ОЛЕНЬ",
+          "at": 14.38
+        },
+        {
+          "kind": "say",
+          "who": "seal",
+          "text": "ОХУЕТЬ",
+          "dx": 40,
+          "at": 15.78
+        }
+      ]
+    },
+    {
+      "id": "eye",
+      "type": "doodle",
+      "title": "ВОЗРАСТ В ГЛАЗУ",
+      "items": [
+        {
+          "kind": "person",
+          "id": "sci",
+          "x": 0.25,
+          "face": "right",
+          "look": [
+            "glasses"
+          ],
+          "mood": "flat",
+          "label": "УЧЁНЫЙ",
+          "at": 0.1
+        },
+        {
+          "kind": "person",
+          "id": "shark",
+          "x": 0.72,
+          "face": "left",
+          "look": [
+            "spikes"
+          ],
+          "mood": "flat",
+          "label": "АКУЛА",
+          "at": 0.1
+        },
+        {
+          "kind": "say",
+          "who": "sci",
+          "text": "СМОТРИМ В ГЛАЗ",
+          "dx": 40,
+          "at": 0.48,
+          "until": 2.48
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ХРУСТАЛИК",
+          "at": 2.48,
+          "until": 3.38
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "КОПИТ УГЛЕРОД",
+          "at": 3.38,
+          "until": 6.18
+        },
+        {
+          "kind": "say",
+          "who": "shark",
+          "text": "Я ЕЩЁ НЕ РОДИЛАСЬ",
+          "dx": -60,
+          "at": 4.58,
+          "until": 6.18
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "УГЛЕРОД = ВОЗРАСТ",
+          "at": 6.18,
+          "until": 7.78
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "РАДИОУГЛЕРОД",
+          "at": 7.78,
+          "until": 9.38
+        },
+        {
+          "kind": "say",
+          "who": "sci",
+          "text": "НО ЕСТЬ ПРОБЛЕМА",
+          "dx": 40,
+          "at": 9.38,
+          "until": 11.18
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ТОЧКА ОТСЧЁТА?",
+          "at": 11.18
+        }
+      ]
+    },
+    {
+      "id": "bomb",
+      "type": "doodle",
+      "title": "ЧАСЫ ИЗ БОМБЫ",
+      "items": [
+        {
+          "kind": "person",
+          "id": "sci",
+          "x": 0.25,
+          "face": "right",
+          "look": [
+            "glasses"
+          ],
+          "mood": "flat",
+          "label": "УЧЁНЫЙ",
+          "at": 0.1
+        },
+        {
+          "kind": "person",
+          "id": "shark",
+          "x": 0.72,
+          "face": "left",
+          "look": [
+            "spikes"
+          ],
+          "mood": "flat",
+          "label": "АКУЛА",
+          "at": 0.1
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЯДЕРНЫЕ БОМБЫ",
+          "at": 1.18,
+          "until": 2.68
+        },
+        {
+          "kind": "thing",
+          "name": "calendar",
+          "x": 0.2,
+          "text": "1950",
+          "sub": "ИСПЫТАНИЯ",
+          "at": 2.68,
+          "until": 9.18
+        },
+        {
+          "kind": "say",
+          "who": "sci",
+          "text": "БАХ! БАХ!",
+          "dx": 40,
+          "at": 3.68,
+          "until": 5.38
+        },
+        {
+          "kind": "thing",
+          "name": "chart",
+          "x": 0.55,
+          "at": 5.38,
+          "until": 11.88
+        },
+        {
+          "kind": "say",
+          "who": "sci",
+          "text": "ПОЧТИ ВДВОЕ!",
+          "dx": 40,
+          "at": 7.58,
+          "until": 9.18
+        },
+        {
+          "kind": "thing",
+          "name": "calendar",
+          "x": 0.2,
+          "text": "1963",
+          "sub": "ЗАПРЕТ",
+          "at": 9.18
+        },
+        {
+          "kind": "say",
+          "who": "sci",
+          "text": "ЗАПРЕТИЛИ",
+          "dx": 40,
+          "at": 10.58,
+          "until": 11.88
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "МЕТКА ВО ВСЁМ ЖИВОМ",
+          "at": 11.88,
+          "until": 15.28
+        },
+        {
+          "kind": "say",
+          "who": "shark",
+          "text": "И ВО МНЕ",
+          "dx": -60,
+          "at": 14.18,
+          "until": 15.28
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "БОМБЫ = КАЛЕНДАРЬ",
+          "at": 15.28
+        },
+        {
+          "kind": "say",
+          "who": "sci",
+          "text": "НАХУЙ КАЛЕНДАРЬ",
+          "dx": 40,
+          "at": 16.98
+        }
+      ]
+    },
+    {
+      "id": "count",
+      "type": "doodle",
+      "title": "СКОЛЬКО ЖЕ ЕЙ",
+      "items": [
+        {
+          "kind": "person",
+          "id": "sci",
+          "x": 0.25,
+          "face": "right",
+          "look": [
+            "glasses"
+          ],
+          "mood": "flat",
+          "label": "УЧЁНЫЙ",
+          "at": 0.1
+        },
+        {
+          "kind": "person",
+          "id": "shark",
+          "x": 0.72,
+          "face": "left",
+          "look": [
+            "spikes"
+          ],
+          "mood": "flat",
+          "label": "АКУЛА",
+          "at": 0.1
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ДЛИНА → ВОЗРАСТ",
+          "at": 1.78,
+          "until": 3.48
+        },
+        {
+          "kind": "say",
+          "who": "sci",
+          "text": "СЧИТАЕМ...",
+          "dx": 40,
+          "at": 3.68,
+          "until": 5.28
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "САМАЯ СТАРАЯ:",
+          "at": 5.28,
+          "until": 6.38
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "392 ГОДА",
+          "at": 6.38,
+          "until": 7.88
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "392 ± 120 ЛЕТ",
+          "at": 7.88
+        },
+        {
+          "kind": "say",
+          "who": "sci",
+          "text": "ПИЗДЕЦ",
+          "dx": 40,
+          "at": 9.28,
+          "until": 10.78
+        },
+        {
+          "kind": "say",
+          "who": "shark",
+          "text": "РЕКОРДСМЕНКА",
+          "dx": -60,
+          "at": 10.78
+        },
+        {
+          "kind": "thing",
+          "name": "trophy",
+          "x": 0.48,
+          "at": 11.88
+        }
+      ]
+    },
+    {
+      "id": "teen",
+      "type": "doodle",
+      "title": "ВЗРОСЛАЯ В 150",
+      "items": [
+        {
+          "kind": "person",
+          "id": "shark",
+          "x": 0.65,
+          "face": "left",
+          "look": [
+            "spikes"
+          ],
+          "mood": "flat",
+          "label": "АКУЛА",
+          "at": 0.1
+        },
+        {
+          "kind": "say",
+          "who": "shark",
+          "text": "Я ЕЩЁ МАЛЕНЬКАЯ",
+          "dx": -60,
+          "at": 1.28,
+          "until": 3.48
+        },
+        {
+          "kind": "thing",
+          "name": "calendar",
+          "x": 0.2,
+          "text": "150",
+          "sub": "ЛЕТ ДО ВЗРОСЛОЙ",
+          "at": 4.08,
+          "until": 6.28
+        },
+        {
+          "kind": "thing",
+          "name": "calendar",
+          "x": 0.2,
+          "text": "8-18",
+          "sub": "ЛЕТ БЕРЕМЕННОСТЬ",
+          "at": 6.28,
+          "until": 11.58
+        },
+        {
+          "kind": "say",
+          "who": "shark",
+          "text": "ВОТ ЭТО СРОК",
+          "dx": -60,
+          "at": 8.18,
+          "until": 9.48
+        },
+        {
+          "kind": "say",
+          "who": "shark",
+          "text": "ПОЛТОРА ВЕКА!",
+          "dx": -60,
+          "at": 9.48,
+          "until": 11.58
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 700,
+          "text": "3 500 В ГОД В СЕТЯХ",
+          "at": 12.58
+        },
+        {
+          "kind": "say",
+          "who": "shark",
+          "text": "ЭТО ЖЕ МЫ",
+          "dx": -60,
+          "at": 13.88,
+          "until": 15.18
+        },
+        {
+          "kind": "say",
+          "who": "shark",
+          "text": "СЛУЧАЙНО?!",
+          "dx": -60,
+          "at": 15.18,
+          "until": 16.28
+        },
+        {
+          "kind": "say",
+          "who": "shark",
+          "text": "ВОТ ТАК, СУКА",
+          "dx": -60,
+          "at": 16.28
+        }
+      ]
+    },
+    {
+      "id": "you",
+      "type": "doodle",
+      "title": "А ТЕПЕРЬ ТЫ",
+      "items": [
+        {
+          "kind": "person",
+          "id": "you",
+          "x": 0.28,
+          "face": "right",
+          "mood": "sad",
+          "label": "ТЫ",
+          "at": 0.1
+        },
+        {
+          "kind": "person",
+          "id": "shark",
+          "x": 0.72,
+          "face": "left",
+          "look": [
+            "spikes"
+          ],
+          "mood": "flat",
+          "label": "АКУЛА",
+          "at": 0.1
+        },
+        {
+          "kind": "thing",
+          "name": "calendar",
+          "x": 0.2,
+          "text": "30",
+          "sub": "ТВОИ ГОДЫ",
+          "at": 0.88
+        },
+        {
+          "kind": "say",
+          "who": "you",
+          "text": "ПОЗДНО?",
+          "dx": 40,
+          "at": 1.88,
+          "until": 3.48
+        },
+        {
+          "kind": "say",
+          "who": "shark",
+          "text": "ВЫДЫХАЙ",
+          "dx": -60,
+          "at": 3.48,
+          "until": 4.78
+        },
+        {
+          "kind": "say",
+          "who": "shark",
+          "text": "Я ДАЖЕ НЕ ПОДРОСТОК",
+          "dx": -60,
+          "at": 4.78
+        }
+      ]
+    }
+  ]
+}

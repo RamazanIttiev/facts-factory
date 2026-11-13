@@ -27,7 +27,7 @@
     "slug": "pitch-drop",
     "category": "experiments",
     "hook_type": "contradiction",
-    "state": "published",
+    "state": "approved",
     "added": "2026-11-09T11:18:24.725Z",
     "note": "rendered locally, video in R2, waiting for the owner"
   },
@@ -76,6 +76,31 @@
     "category": "animals",
     "hook_type": "contradiction",
     "state": "awaiting_approval",
-    "added": "2026-11-11T12:11:19.793Z"
+    "added": "2026-11-11T12:11:19.793Z",
+    "note": "rendered locally, video in R2, waiting for the owner"
+  },
+  {
+    "slug": "greenland-shark",
+    "category": "animals",
+    "hook_type": "contradiction",
+    "state": "awaiting_approval",
+    "added": "2026-11-13T11:22:43.982Z",
+    "note": "rendered locally, video in R2, waiting for the owner"
+  },
+  {
+    "slug": "wombat-cubes",
+    "category": "animals",
+    "hook_type": "question",
+    "state": "awaiting_approval",
+    "added": "2026-11-13T11:28:23.501Z",
+    "note": "rendered locally, video in R2, waiting for the owner"
+  },
+  {
+    "slug": "tardigrades-space",
+    "category": "animals",
+    "hook_type": "contradiction",
+    "state": "awaiting_approval",
+    "added": "2026-11-13T11:35:34.475Z",
+    "note": "rendered locally, video in R2, waiting for the owner"
   }
 ]

@@ -1,0 +1,177 @@
+{
+  "slug": "wombat-cubes",
+  "topic_id": 13,
+  "created": "2026-11-13",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "First recorded January 1798",
+      "url": "https://en.wikipedia.org/wiki/Wombat",
+      "tier": 1,
+      "quote": "It was first recorded in January 1798",
+      "accessed": "2026-11-13",
+      "source_date": "2001-11-09T02:49:15Z",
+      "version": null
+    },
+    {
+      "id": "c2",
+      "text": "Price and Wilson",
+      "url": "https://en.wikipedia.org/wiki/Wombat",
+      "tier": 1,
+      "quote": "when John Price and James Wilson, Europeans who had adopted aboriginal ways",
+      "accessed": "2026-11-13",
+      "source_date": "2001-11-09T02:49:15Z",
+      "version": null
+    },
+    {
+      "id": "c3",
+      "text": "Price saw dung, Wilson called it Whom-batt",
+      "url": "https://en.wikipedia.org/wiki/Wombat",
+      "tier": 1,
+      "quote": "We saw several sorts of dung of different animals, one of which Wilson called a",
+      "accessed": "2026-11-13",
+      "source_date": "2001-11-09T02:49:15Z",
+      "version": null
+    },
+    {
+      "id": "c4",
+      "text": "Cube-shaped faeces",
+      "url": "https://en.wikipedia.org/wiki/Wombat",
+      "tier": 1,
+      "quote": "Wombats leave distinctive cube-shaped faeces",
+      "accessed": "2026-11-13",
+      "source_date": "2001-11-09T02:49:15Z",
+      "version": null
+    },
+    {
+      "id": "c5",
+      "text": "80-100 pieces of 2 cm per night",
+      "url": "https://en.wikipedia.org/wiki/Wombat",
+      "tier": 1,
+      "quote": "The adult wombat produces between 80 and 100, 2 cm (0.8 in) pieces of feces in a single night",
+      "accessed": "2026-11-13",
+      "source_date": "2001-11-09T02:49:15Z",
+      "version": null
+    },
+    {
+      "id": "c6",
+      "text": "4-8 pieces each movement",
+      "url": "https://en.wikipedia.org/wiki/Wombat",
+      "tier": 1,
+      "quote": "four to eight pieces each bowel movement",
+      "accessed": "2026-11-13",
+      "source_date": "2001-11-09T02:49:15Z",
+      "version": null
+    },
+    {
+      "id": "c7",
+      "text": "Method not well understood",
+      "url": "https://en.wikipedia.org/wiki/Wombat",
+      "tier": 1,
+      "quote": "The method by which the wombat produces them is not well understood",
+      "accessed": "2026-11-13",
+      "source_date": "2001-11-09T02:49:15Z",
+      "version": null
+    },
+    {
+      "id": "c8",
+      "text": "Intestine stretches preferentially at walls",
+      "url": "https://en.wikipedia.org/wiki/Wombat",
+      "tier": 1,
+      "quote": "the wombat intestine stretches preferentially at the walls",
+      "accessed": "2026-11-13",
+      "source_date": "2001-11-09T02:49:15Z",
+      "version": null
+    },
+    {
+      "id": "c9",
+      "text": "Two flexible and two stiff areas",
+      "url": "https://en.wikipedia.org/wiki/Wombat",
+      "tier": 1,
+      "quote": "with two flexible and two stiff areas around its intestines",
+      "accessed": "2026-11-13",
+      "source_date": "2001-11-09T02:49:15Z",
+      "version": null
+    },
+    {
+      "id": "c10",
+      "text": "2019 Ig Nobel Physics for cube feces",
+      "url": "https://en.wikipedia.org/wiki/Wombat",
+      "tier": 1,
+      "quote": "In 2019, the production of cube-shaped wombat feces was the subject of the Ig Nobel Prize for Physics",
+      "accessed": "2026-11-13",
+      "source_date": "2001-11-09T02:49:15Z",
+      "version": null
+    },
+    {
+      "id": "c11",
+      "text": "Won by Yang and Hu",
+      "url": "https://en.wikipedia.org/wiki/Wombat",
+      "tier": 1,
+      "quote": "won by Patricia Yang and David Hu",
+      "accessed": "2026-11-13",
+      "source_date": "2001-11-09T02:49:15Z",
+      "version": null
+    },
+    {
+      "id": "c12",
+      "text": "Feces mark territories and attract mates",
+      "url": "https://en.wikipedia.org/wiki/Wombat",
+      "tier": 1,
+      "quote": "As wombats arrange these feces to mark territories and attract mates",
+      "accessed": "2026-11-13",
+      "source_date": "2001-11-09T02:49:15Z",
+      "version": null
+    },
+    {
+      "id": "c13",
+      "text": "Cubes stack and roll less",
+      "url": "https://en.wikipedia.org/wiki/Wombat",
+      "tier": 1,
+      "quote": "the cubic shape makes them more stackable and less likely to roll",
+      "accessed": "2026-11-13",
+      "source_date": "2001-11-09T02:49:15Z",
+      "version": null
+    },
+    {
+      "id": "c14",
+      "text": "Hu won Ig Nobel Physics twice",
+      "url": "https://en.wikipedia.org/wiki/David_Hu_(scientist)",
+      "tier": 1,
+      "quote": "Hu has twice won the Ig Nobel Prize for Physics",
+      "accessed": "2026-11-13",
+      "source_date": "2020-04-21T01:33:58Z",
+      "version": null
+    },
+    {
+      "id": "c15",
+      "text": "2015 prize with Yang for urination",
+      "url": "https://en.wikipedia.org/wiki/David_Hu_(scientist)",
+      "tier": 1,
+      "quote": "In 2015 he shared the prize with Patricia Yang for research on the duration of animal urination",
+      "accessed": "2026-11-13",
+      "source_date": "2020-04-21T01:33:58Z",
+      "version": null
+    },
+    {
+      "id": "c16",
+      "text": "Mammals urinate about 21 +- 13 s",
+      "url": "https://en.wikipedia.org/wiki/David_Hu_(scientist)",
+      "tier": 1,
+      "quote": "nearly all mammals evacuate their bladders in approximately 21 seconds plus or minus 13 seconds",
+      "accessed": "2026-11-13",
+      "source_date": "2020-04-21T01:33:58Z",
+      "version": null
+    },
+    {
+      "id": "c17",
+      "text": "Name from Dharug language",
+      "url": "https://en.wikipedia.org/wiki/Wombat",
+      "tier": 1,
+      "quote": "comes from the now nearly extinct Dharug language",
+      "accessed": "2026-11-13",
+      "source_date": "2001-11-09T02:49:15Z",
+      "version": null
+    }
+  ]
+}

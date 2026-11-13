@@ -1,0 +1,307 @@
+{
+  "slug": "emu-war",
+  "topic_id": 11,
+  "created": "2026-11-11",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Australian Army operation late 1932",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "a nuisance wildlife management operation undertaken by the Australian Army in late 1932",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c2",
+      "text": "Veterans given land",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "given land by the Australian government to take up farming within Western Australia",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c3",
+      "text": "Subsidies promised but not delivered",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "the government promising-and failing to deliver-assistance in the form of subsidies",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c4",
+      "text": "About 20,000 emus",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "the arrival of approximately 20,000 emus",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c5",
+      "text": "Emus ate crops and broke fences",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "The emus consumed and spoiled the crops and left large gaps in fences",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c6",
+      "text": "Ex-soldiers requested machine guns",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "A deputation of ex-soldiers requested the deployment of machine-guns to cull the emus",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c7",
+      "text": "Minister of Defence George Pearce",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "the Minister of Defence , Sir George Pearce",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c8",
+      "text": "Good target practice",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "Pearce also supported the deployment on the grounds that the birds would make good target practice",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c9",
+      "text": "Commander Major Meredith",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "conducted under the command of Major Gwynydd Purves Wynne-Aubrey Meredith",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c10",
+      "text": "Two Lewis guns, 10,000 rounds",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "armed with two Lewis guns",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c11",
+      "text": "10,000 rounds",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "and 10,000 rounds of ammunition",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c12",
+      "text": "2 November first attempt",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "On 2 November 1932, the men travelled to Campion",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c13",
+      "text": "Emus split into small groups",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "the birds split into small groups and ran so that they were difficult to target",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c14",
+      "text": "4 November ambush near dam, 1000+ emus",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "more than 1,000 emus were spotted heading towards their position",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c15",
+      "text": "Ambush at dam",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "Meredith had established an ambush near a local dam",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c16",
+      "text": "Gun jammed after 12",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "The gun jammed after only 12 birds were killed",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c17",
+      "text": "Gun on a truck",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "the truck was unable to gain on the birds, and the ride was so rough that the gunner was unable to fire any shots",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c18",
+      "text": "2,500 rounds by 8 Nov",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "By 8 November, six days after the first engagement, 2,500 rounds of ammunition had been fired.",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c19",
+      "text": "Kill count uncertain",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "The number of birds killed is uncertain",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c20",
+      "text": "No casualties except dignity",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "Meredith's official report noted that his men had suffered no casualties, except for their dignity.",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c21",
+      "text": "Withdrawn 8 Nov after negative coverage",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "Pearce withdrew the military personnel and the guns on 8 November.",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c22",
+      "text": "Invulnerability of tanks",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "They can face machine guns with the invulnerability of tanks.",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c23",
+      "text": "Resumption approved by 12 Nov",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "by 12 November the Minister of Defence approved a resumption of military efforts",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c24",
+      "text": "986 kills, 9,860 rounds, 10 per kill",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "he claimed 986 confirmed kills with 9,860 rounds, at a rate of exactly 10 rounds per confirmed kill",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c25",
+      "text": "Figure likely inflated",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "This figure, however, is highly disputed and is likely to be very inflated.",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c26",
+      "text": "Requests 1934, 1943, 1948 refused",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "requested military assistance in 1934, 1943, and 1948, but were turned down by the government",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c27",
+      "text": "Bounty system effective, 57,034",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "57,034 bounties were claimed over a six-month period in 1934",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c28",
+      "text": "Bounty effective",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "the bounty system that had been instigated in 1923 was continued, and this proved to be effective",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c29",
+      "text": "Ridicule and abandoned",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "The attacks aroused both ridicule of the military and sympathy for the emus",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    },
+    {
+      "id": "c30",
+      "text": "Most complete victory for the bird",
+      "url": "https://en.wikipedia.org/wiki/Emu_War",
+      "tier": 1,
+      "quote": "brought for the bird its most complete victory",
+      "accessed": "2026-11-11",
+      "source_date": "2004-12-14T01:20:35Z",
+      "version": null
+    }
+  ]
+}

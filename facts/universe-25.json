@@ -1,0 +1,237 @@
+{
+  "slug": "universe-25",
+  "topic_id": 10,
+  "created": "2026-11-11",
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Calhoun worked at NIMH",
+      "url": "https://en.wikipedia.org/wiki/Behavioral_sink",
+      "tier": 1,
+      "quote": "While Calhoun was working at the National Institute of Mental Health (NIMH)",
+      "accessed": "2026-11-11",
+      "source_date": "2005-06-02T00:18:07Z",
+      "version": null
+    },
+    {
+      "id": "c2",
+      "text": "July 1968, four pairs of mice introduced",
+      "url": "https://en.wikipedia.org/wiki/John_B._Calhoun",
+      "tier": 1,
+      "quote": "In July 1968, four pairs of mice were introduced into the habitat",
+      "accessed": "2026-11-11",
+      "source_date": "2007-02-02T07:11:41Z",
+      "version": null
+    },
+    {
+      "id": "c3",
+      "text": "No shortage of food or water",
+      "url": "https://en.wikipedia.org/wiki/John_B._Calhoun",
+      "tier": 1,
+      "quote": "There was no shortage of food or water or nesting material.",
+      "accessed": "2026-11-11",
+      "source_date": "2007-02-02T07:11:41Z",
+      "version": null
+    },
+    {
+      "id": "c4",
+      "text": "Free from disease and predation",
+      "url": "https://en.wikipedia.org/wiki/John_B._Calhoun",
+      "tier": 1,
+      "quote": "free from the twin scourges of disease and predation",
+      "accessed": "2026-11-11",
+      "source_date": "2007-02-02T07:11:41Z",
+      "version": null
+    },
+    {
+      "id": "c5",
+      "text": "Utopia for mice",
+      "url": "https://en.wikipedia.org/wiki/John_B._Calhoun",
+      "tier": 1,
+      "quote": "a utopian environment constructed for mice",
+      "accessed": "2026-11-11",
+      "source_date": "2007-02-02T07:11:41Z",
+      "version": null
+    },
+    {
+      "id": "c6",
+      "text": "620 by day 315",
+      "url": "https://en.wikipedia.org/wiki/John_B._Calhoun",
+      "tier": 1,
+      "quote": "The population reached 620 by day 315",
+      "accessed": "2026-11-11",
+      "source_date": "2007-02-02T07:11:41Z",
+      "version": null
+    },
+    {
+      "id": "c7",
+      "text": "Growth dropped, doubling every 145 days",
+      "url": "https://en.wikipedia.org/wiki/John_B._Calhoun",
+      "tier": 1,
+      "quote": "doubling only every 145 days",
+      "accessed": "2026-11-11",
+      "source_date": "2007-02-02T07:11:41Z",
+      "version": null
+    },
+    {
+      "id": "c8",
+      "text": "Expulsion and wounding of young",
+      "url": "https://en.wikipedia.org/wiki/John_B._Calhoun",
+      "tier": 1,
+      "quote": "expulsion of young before weaning was complete, wounding of young",
+      "accessed": "2026-11-11",
+      "source_date": "2007-02-02T07:11:41Z",
+      "version": null
+    },
+    {
+      "id": "c9",
+      "text": "Dominant males failed to defend territory and females",
+      "url": "https://en.wikipedia.org/wiki/John_B._Calhoun",
+      "tier": 1,
+      "quote": "inability of dominant males to maintain the defense of their territory and females",
+      "accessed": "2026-11-11",
+      "source_date": "2007-02-02T07:11:41Z",
+      "version": null
+    },
+    {
+      "id": "c10",
+      "text": "Aggressive females",
+      "url": "https://en.wikipedia.org/wiki/John_B._Calhoun",
+      "tier": 1,
+      "quote": "aggressive behavior of females",
+      "accessed": "2026-11-11",
+      "source_date": "2007-02-02T07:11:41Z",
+      "version": null
+    },
+    {
+      "id": "c11",
+      "text": "Beautiful ones term",
+      "url": "https://en.wikipedia.org/wiki/John_B._Calhoun",
+      "tier": 1,
+      "quote": "\"beautiful ones\" to characterize passive individuals who withdraw from all social interaction",
+      "accessed": "2026-11-11",
+      "source_date": "2007-02-02T07:11:41Z",
+      "version": null
+    },
+    {
+      "id": "c12",
+      "text": "Sleek coats, no scars",
+      "url": "https://en.wikipedia.org/wiki/John_B._Calhoun",
+      "tier": 1,
+      "quote": "Sleek, healthy coats and an absence of scars characterized these males.",
+      "accessed": "2026-11-11",
+      "source_date": "2007-02-02T07:11:41Z",
+      "version": null
+    },
+    {
+      "id": "c13",
+      "text": "No courtship or fighting, only health tasks",
+      "url": "https://en.wikipedia.org/wiki/John_B._Calhoun",
+      "tier": 1,
+      "quote": "never engaging in courtship or fighting, and only performing tasks essential to their health",
+      "accessed": "2026-11-11",
+      "source_date": "2007-02-02T07:11:41Z",
+      "version": null
+    },
+    {
+      "id": "c14",
+      "text": "Last surviving birth day 600, total 2200",
+      "url": "https://en.wikipedia.org/wiki/John_B._Calhoun",
+      "tier": 1,
+      "quote": "The last surviving birth was on day 600, bringing the total population to a mere 2200 mice",
+      "accessed": "2026-11-11",
+      "source_date": "2007-02-02T07:11:41Z",
+      "version": null
+    },
+    {
+      "id": "c15",
+      "text": "Room for 3840",
+      "url": "https://en.wikipedia.org/wiki/John_B._Calhoun",
+      "tier": 1,
+      "quote": "allowed for as many as 3840 mice in terms of nesting space",
+      "accessed": "2026-11-11",
+      "source_date": "2007-02-02T07:11:41Z",
+      "version": null
+    },
+    {
+      "id": "c16",
+      "text": "Females ceased to reproduce",
+      "url": "https://en.wikipedia.org/wiki/John_B._Calhoun",
+      "tier": 1,
+      "quote": "Females ceased to reproduce.",
+      "accessed": "2026-11-11",
+      "source_date": "2007-02-02T07:11:41Z",
+      "version": null
+    },
+    {
+      "id": "c17",
+      "text": "Decline toward extinction",
+      "url": "https://en.wikipedia.org/wiki/John_B._Calhoun",
+      "tier": 1,
+      "quote": "the population declined toward extinction",
+      "accessed": "2026-11-11",
+      "source_date": "2007-02-02T07:11:41Z",
+      "version": null
+    },
+    {
+      "id": "c18",
+      "text": "1972 speech in London",
+      "url": "https://en.wikipedia.org/wiki/John_B._Calhoun",
+      "tier": 1,
+      "quote": "delivered as a speech in 1972 before an audience at the Royal Society of Medicine in London",
+      "accessed": "2026-11-11",
+      "source_date": "2007-02-02T07:11:41Z",
+      "version": null
+    },
+    {
+      "id": "c19",
+      "text": "Spiritual death",
+      "url": "https://en.wikipedia.org/wiki/Behavioral_sink",
+      "tier": 1,
+      "quote": "He characterized the social breakdown as a \"spiritual death\"",
+      "accessed": "2026-11-11",
+      "source_date": "2005-06-02T00:18:07Z",
+      "version": null
+    },
+    {
+      "id": "c20",
+      "text": "Metaphor for humankind",
+      "url": "https://en.wikipedia.org/wiki/Behavioral_sink",
+      "tier": 1,
+      "quote": "John Calhoun himself saw the fate of the population of mice as a metaphor for the potential fate of humankind.",
+      "accessed": "2026-11-11",
+      "source_date": "2005-06-02T00:18:07Z",
+      "version": null
+    },
+    {
+      "id": "c21",
+      "text": "Cleaned every six to eight weeks",
+      "url": "https://en.wikipedia.org/wiki/Behavioral_sink",
+      "tier": 1,
+      "quote": "He only cleaned out Universe 25 every six to eight weeks",
+      "accessed": "2026-11-11",
+      "source_date": "2005-06-02T00:18:07Z",
+      "version": null
+    },
+    {
+      "id": "c22",
+      "text": "Disease and parasitism could explain",
+      "url": "https://en.wikipedia.org/wiki/Behavioral_sink",
+      "tier": 1,
+      "quote": "disease and parasitism could account for many of the phenomena he thought were due to mere proximity",
+      "accessed": "2026-11-11",
+      "source_date": "2005-06-02T00:18:07Z",
+      "version": null
+    },
+    {
+      "id": "c23",
+      "text": "Universe 25 the most famous",
+      "url": "https://en.wikipedia.org/wiki/John_B._Calhoun",
+      "tier": 1,
+      "quote": "the most famous of which was called \"Universe 25\"",
+      "accessed": "2026-11-11",
+      "source_date": "2007-02-02T07:11:41Z",
+      "version": null
+    }
+  ]
+}

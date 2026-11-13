@@ -1,0 +1,547 @@
+{
+  "slug": "siffre-cave",
+  "scenes": [
+    {
+      "id": "glacier",
+      "type": "doodle",
+      "title": "ФРАНЦИЯ, 1962",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.1,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "1962",
+          "sub": "ГОД"
+        },
+        {
+          "kind": "person",
+          "at": 2.45,
+          "id": "siffre",
+          "x": 0.5,
+          "look": [
+            "glasses"
+          ],
+          "mood": "smile",
+          "label": "СИФР"
+        },
+        {
+          "kind": "thing",
+          "at": 4.55,
+          "until": 4.98,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЛЕДНИК"
+        },
+        {
+          "kind": "thing",
+          "at": 4.98,
+          "until": 6.78,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "70 КМ ОТ НИЦЦЫ"
+        },
+        {
+          "kind": "thing",
+          "at": 7.38,
+          "until": 8.45,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "15 ДНЕЙ"
+        },
+        {
+          "kind": "say",
+          "at": 8.45,
+          "until": 10.75,
+          "who": "siffre",
+          "text": "НОРМАЛЬНЫЙ ПЛАН",
+          "dx": -40
+        },
+        {
+          "kind": "thing",
+          "at": 10.75,
+          "until": 13.01,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "КОСМИЧЕСКАЯ ГОНКА"
+        },
+        {
+          "kind": "say",
+          "at": 13.01,
+          "who": "siffre",
+          "text": "ДА НУ НАХРЕН ЛЕДНИК",
+          "dx": -40
+        }
+      ]
+    },
+    {
+      "id": "pit",
+      "type": "doodle",
+      "title": "ПРОПАСТЬ СКАРАССОН",
+      "items": [
+        {
+          "kind": "person",
+          "at": 0.1,
+          "id": "siffre",
+          "x": 0.5,
+          "look": [
+            "glasses"
+          ],
+          "mood": "open",
+          "label": "СИФР"
+        },
+        {
+          "kind": "thing",
+          "at": 0.1,
+          "until": 1.81,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЛЕДНИК? МЕЛОЧЬ"
+        },
+        {
+          "kind": "thing",
+          "at": 3.15,
+          "until": 4.75,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "СКАРАССОН"
+        },
+        {
+          "kind": "thing",
+          "at": 4.75,
+          "until": 6.41,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "АЛЬПЫ"
+        },
+        {
+          "kind": "thing",
+          "at": 6.41,
+          "until": 8.51,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "130 МЕТРОВ ВНИЗ"
+        },
+        {
+          "kind": "thing",
+          "at": 8.51,
+          "until": 9.25,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "БЕЗ ЧАСОВ"
+        },
+        {
+          "kind": "thing",
+          "at": 9.25,
+          "until": 10.05,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "БЕЗ СОЛНЦА"
+        },
+        {
+          "kind": "thing",
+          "at": 10.05,
+          "until": 11.98,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "КОТОРЫЙ ЧАС?"
+        },
+        {
+          "kind": "say",
+          "at": 11.98,
+          "until": 13.85,
+          "who": "siffre",
+          "text": "ОХУЕННЫЙ ОТПУСК",
+          "dx": -40
+        },
+        {
+          "kind": "thing",
+          "at": 13.85,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ОТПУСК МЕЧТЫ"
+        }
+      ]
+    },
+    {
+      "id": "days",
+      "type": "doodle",
+      "title": "ДНИ ПОД ЗЕМЛЁЙ",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.1,
+          "until": 2.05,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "15",
+          "sub": "ДНЕЙ"
+        },
+        {
+          "kind": "person",
+          "at": 1.05,
+          "id": "siffre",
+          "x": 0.5,
+          "look": [
+            "glasses"
+          ],
+          "mood": "flat",
+          "label": "СИФР"
+        },
+        {
+          "kind": "thing",
+          "at": 2.05,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "62–63",
+          "sub": "ДНЯ"
+        },
+        {
+          "kind": "thing",
+          "at": 4.25,
+          "until": 6.61,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ТОЧНО НЕ ЗНАЕМ"
+        },
+        {
+          "kind": "thing",
+          "at": 7.25,
+          "until": 9.65,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "КАК ЧУВСТВУЕМ ВРЕМЯ?"
+        },
+        {
+          "kind": "say",
+          "at": 9.65,
+          "until": 11.81,
+          "who": "siffre",
+          "text": "ГДЕ МОИ ЧАСЫ?",
+          "dx": -40
+        },
+        {
+          "kind": "say",
+          "at": 11.81,
+          "who": "siffre",
+          "text": "ПИЗДЕЦ, А НЕ ОПЫТ",
+          "dx": -40
+        }
+      ]
+    },
+    {
+      "id": "texas",
+      "type": "doodle",
+      "title": "ТЕХАС, 1972",
+      "items": [
+        {
+          "kind": "person",
+          "at": 0.1,
+          "id": "siffre",
+          "x": 0.5,
+          "look": [
+            "glasses"
+          ],
+          "mood": "angry",
+          "label": "СИФР"
+        },
+        {
+          "kind": "say",
+          "at": 2.18,
+          "until": 3.85,
+          "who": "siffre",
+          "text": "МНЕ МАЛО",
+          "dx": -40
+        },
+        {
+          "kind": "thing",
+          "at": 3.98,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "1972",
+          "sub": "ГОД"
+        },
+        {
+          "kind": "thing",
+          "at": 6.05,
+          "until": 8.01,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ПЕЩЕРА ПОЛНОЧЬ"
+        },
+        {
+          "kind": "thing",
+          "at": 8.01,
+          "until": 10.41,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "6 МЕСЯЦЕВ"
+        },
+        {
+          "kind": "thing",
+          "at": 10.41,
+          "until": 12.41,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "БЕЗ ПОДСКАЗОК"
+        },
+        {
+          "kind": "thing",
+          "at": 12.41,
+          "until": 13.38,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "48 ЧАСОВ"
+        },
+        {
+          "kind": "thing",
+          "at": 13.38,
+          "until": 14.91,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "А НЕ 24"
+        },
+        {
+          "kind": "say",
+          "at": 14.91,
+          "until": 16.38,
+          "who": "siffre",
+          "text": "СУТКИ, БЛЯДЬ, ВДВОЕ",
+          "dx": -40
+        },
+        {
+          "kind": "thing",
+          "at": 16.38,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "СУТКИ × 2"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "type": "doodle",
+      "title": "ЦЕНА НАУКИ",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.1,
+          "until": 4.85,
+          "name": "trophy",
+          "x": 0.15
+        },
+        {
+          "kind": "thing",
+          "at": 2.45,
+          "until": 3.51,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "NASA"
+        },
+        {
+          "kind": "thing",
+          "at": 3.51,
+          "until": 4.85,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "АРМИЯ ФРАНЦИИ"
+        },
+        {
+          "kind": "person",
+          "at": 4.85,
+          "id": "siffre",
+          "x": 0.5,
+          "look": [
+            "glasses"
+          ],
+          "mood": "sad",
+          "label": "СИФР"
+        },
+        {
+          "kind": "thing",
+          "at": 5.95,
+          "until": 8.45,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ОПРАВИЛСЯ?"
+        },
+        {
+          "kind": "thing",
+          "at": 8.45,
+          "until": 9.98,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ТОЛЬКО ЧАСТИЧНО"
+        },
+        {
+          "kind": "thing",
+          "at": 9.98,
+          "name": "money",
+          "x": 0.15
+        },
+        {
+          "kind": "thing",
+          "at": 9.98,
+          "until": 12.31,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ДОЛГИ"
+        },
+        {
+          "kind": "person",
+          "at": 12.41,
+          "id": "nathalie",
+          "x": 0.88,
+          "face": "left",
+          "mood": "sad",
+          "label": "НАТАЛИ"
+        },
+        {
+          "kind": "thing",
+          "at": 13.38,
+          "until": 14.28,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "РАЗВОД"
+        },
+        {
+          "kind": "say",
+          "at": 14.28,
+          "until": 15.58,
+          "who": "siffre",
+          "text": "ОХУЕТЬ ЦЕНА",
+          "dx": -40
+        },
+        {
+          "kind": "thing",
+          "at": 15.58,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЦЕНА ЛЮБОПЫТСТВА"
+        }
+      ]
+    },
+    {
+      "id": "end",
+      "type": "doodle",
+      "title": "СНОВА В ПЕЩЕРУ, 1999",
+      "items": [
+        {
+          "kind": "thing",
+          "at": 0.41,
+          "name": "calendar",
+          "x": 0.15,
+          "text": "1999",
+          "sub": "ГОД"
+        },
+        {
+          "kind": "person",
+          "at": 1.41,
+          "id": "siffre",
+          "x": 0.5,
+          "look": [
+            "glasses"
+          ],
+          "mood": "smile",
+          "label": "СИФР"
+        },
+        {
+          "kind": "thing",
+          "at": 3.01,
+          "until": 4.55,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "НОВЫЙ ГОД!"
+        },
+        {
+          "kind": "thing",
+          "at": 4.55,
+          "until": 6.41,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "МИМО НА 3 ДНЯ"
+        },
+        {
+          "kind": "thing",
+          "at": 6.41,
+          "until": 7.75,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ИЗУЧАЛ ВРЕМЯ"
+        },
+        {
+          "kind": "thing",
+          "at": 7.75,
+          "until": 9.01,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ДЕЛО ЖИЗНИ"
+        },
+        {
+          "kind": "say",
+          "at": 9.01,
+          "until": 10.38,
+          "who": "siffre",
+          "text": "ПРОЕБАЛ 3 ДНЯ",
+          "dx": -40
+        },
+        {
+          "kind": "person",
+          "at": 10.38,
+          "id": "you",
+          "x": 0.85,
+          "face": "left",
+          "mood": "flat",
+          "label": "ТЫ"
+        },
+        {
+          "kind": "say",
+          "at": 11.08,
+          "until": 13.25,
+          "who": "you",
+          "text": "КАКОЕ СЕГОДНЯ ЧИСЛО?",
+          "dx": -120
+        },
+        {
+          "kind": "thing",
+          "at": 13.25,
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ОТЛИЧНАЯ КОМПАНИЯ"
+        }
+      ]
+    }
+  ]
+}

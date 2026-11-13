@@ -1,0 +1,727 @@
+{
+  "slug": "tardigrades-space",
+  "scenes": [
+    {
+      "id": "meet",
+      "type": "doodle",
+      "title": "ВОДЯНОЙ МЕДВЕДЬ",
+      "items": [
+        {
+          "kind": "person",
+          "id": "tardi",
+          "x": 0.72,
+          "label": "ТИХОХОДКА",
+          "face": "left",
+          "mood": "smile",
+          "at": 0.1
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "0,05–0,5 ММ",
+          "at": 1.78,
+          "until": 4.38
+        },
+        {
+          "kind": "say",
+          "who": "tardi",
+          "text": "Я КРОХА",
+          "dx": -60,
+          "at": 2.98,
+          "until": 4.38
+        },
+        {
+          "kind": "thing",
+          "name": "calendar",
+          "x": 0.2,
+          "text": "1773",
+          "sub": "ГОД",
+          "at": 4.38,
+          "until": 9.08
+        },
+        {
+          "kind": "person",
+          "id": "goeze",
+          "x": 0.25,
+          "label": "ЗООЛОГ",
+          "face": "right",
+          "mood": "flat",
+          "look": [
+            "mustache"
+          ],
+          "at": 5.98,
+          "until": 9.08
+        },
+        {
+          "kind": "say",
+          "who": "goeze",
+          "text": "ВОДЯНОЙ МЕДВЕДЬ",
+          "dx": 40,
+          "at": 6.78,
+          "until": 9.08
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "«МЕДЛЕННО ХОДЯЩАЯ»",
+          "at": 9.08,
+          "until": 12.08
+        },
+        {
+          "kind": "say",
+          "who": "tardi",
+          "text": "ЭТО Я",
+          "dx": -60,
+          "at": 10.28,
+          "until": 12.08
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "БЕЗОБИДНО?",
+          "at": 12.08,
+          "until": 13.28
+        },
+        {
+          "kind": "say",
+          "who": "tardi",
+          "text": "НУ-НУ",
+          "dx": -60,
+          "at": 13.28,
+          "until": 14.48
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "В КОСМОС? 1964",
+          "at": 14.48,
+          "until": 17.18
+        },
+        {
+          "kind": "say",
+          "who": "tardi",
+          "text": "ДАВНО ПОРА",
+          "dx": -60,
+          "at": 15.68,
+          "until": 17.18
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "РАДИАЦИЯ? НОРМ",
+          "at": 17.18
+        }
+      ]
+    },
+    {
+      "id": "space",
+      "type": "doodle",
+      "title": "ОТКРЫТЫЙ КОСМОС, 2007",
+      "items": [
+        {
+          "kind": "person",
+          "id": "tardi",
+          "x": 0.65,
+          "label": "ТИХОХОДКА",
+          "face": "left",
+          "mood": "smile",
+          "at": 0.1
+        },
+        {
+          "kind": "thing",
+          "name": "calendar",
+          "x": 0.2,
+          "text": "2007",
+          "sub": "ГОД",
+          "at": 0.1
+        },
+        {
+          "kind": "say",
+          "who": "tardi",
+          "text": "ЛЕЧУ!",
+          "dx": -60,
+          "at": 1.18,
+          "until": 2.68
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "СПУТНИК «ФОТОН»",
+          "at": 2.68,
+          "until": 3.88
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "НИЗКАЯ ОРБИТА",
+          "at": 3.88,
+          "until": 4.98
+        },
+        {
+          "kind": "say",
+          "who": "tardi",
+          "text": "МЕНЯ СУШАТ",
+          "dx": -60,
+          "at": 4.98,
+          "until": 6.88
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ВАКУУМ",
+          "at": 6.88,
+          "until": 8.08
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "10 ДНЕЙ",
+          "at": 8.08,
+          "until": 9.38
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "БЕЗ СКАФАНДРА",
+          "at": 9.38,
+          "until": 10.78
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "БЕЗ НИХУЯ",
+          "at": 10.78
+        }
+      ]
+    },
+    {
+      "id": "back",
+      "type": "doodle",
+      "title": "ПРОСТО ДОБАВЬ ВОДЫ",
+      "items": [
+        {
+          "kind": "person",
+          "id": "sci",
+          "x": 0.25,
+          "label": "УЧЁНЫЙ",
+          "face": "right",
+          "mood": "flat",
+          "look": [
+            "glasses"
+          ],
+          "at": 0.1
+        },
+        {
+          "kind": "person",
+          "id": "tardi",
+          "x": 0.72,
+          "label": "ТИХОХОДКА",
+          "face": "left",
+          "mood": "smile",
+          "at": 0.1
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "КАПЛЯ ВОДЫ",
+          "at": 0.98,
+          "until": 2.68
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "БОЛЬШЕ 68%",
+          "at": 2.68,
+          "until": 4.68
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "БЕЗ УЛЬТРАФИОЛЕТА",
+          "at": 4.68,
+          "until": 6.98
+        },
+        {
+          "kind": "say",
+          "who": "tardi",
+          "text": "Я ЖИВАЯ!",
+          "dx": -60,
+          "at": 6.18,
+          "until": 7.98
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЗА ПОЛЧАСА",
+          "at": 6.98,
+          "until": 9.58
+        },
+        {
+          "kind": "say",
+          "who": "sci",
+          "text": "ПОЛЧАСА?!",
+          "dx": 40,
+          "at": 7.98,
+          "until": 9.58
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "МНОГИЕ УМЕРЛИ",
+          "at": 9.58,
+          "until": 10.98
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "НО ДАЛИ ЗАРОДЫШИ",
+          "at": 10.98,
+          "until": 13.28
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "БЕЗ СУШКИ",
+          "at": 13.28,
+          "until": 15.38
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ВАКУУМ + УФ",
+          "at": 15.38,
+          "until": 17.68
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ВЫЖИЛИ ТРОЕ",
+          "at": 17.68
+        }
+      ]
+    },
+    {
+      "id": "moon",
+      "type": "doodle",
+      "title": "РЕЙС НА ЛУНУ, 2019",
+      "items": [
+        {
+          "kind": "person",
+          "id": "tardi",
+          "x": 0.72,
+          "label": "ТИХОХОДКА",
+          "face": "left",
+          "mood": "smile",
+          "at": 0.1
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "НА ЛУНУ!",
+          "at": 1.28,
+          "until": 2.48
+        },
+        {
+          "kind": "thing",
+          "name": "calendar",
+          "x": 0.2,
+          "text": "2019",
+          "sub": "ГОД",
+          "at": 2.48
+        },
+        {
+          "kind": "say",
+          "who": "tardi",
+          "text": "Я В КАПСУЛЕ",
+          "dx": -60,
+          "at": 3.68,
+          "until": 5.08
+        },
+        {
+          "kind": "say",
+          "who": "tardi",
+          "text": "ЛЕЧУ НА «БЕРЕШИТЕ»",
+          "dx": -60,
+          "at": 5.08,
+          "until": 6.88
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ПЕРВАЯ ЧАСТНАЯ",
+          "at": 6.88,
+          "until": 8.88
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "11 АПРЕЛЯ",
+          "at": 8.88,
+          "until": 10.48
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ГИРОСКОПЫ: ОТКАЗ",
+          "at": 10.48,
+          "until": 12.68
+        },
+        {
+          "kind": "say",
+          "who": "tardi",
+          "text": "ДВИГАТЕЛЬ?!",
+          "dx": -60,
+          "at": 11.98,
+          "until": 13.48
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "УДАР О ЛУНУ",
+          "at": 12.68,
+          "until": 14.58
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "500+ КМ/Ч",
+          "at": 14.58
+        },
+        {
+          "kind": "say",
+          "who": "tardi",
+          "text": "ПИЗДЕЦ",
+          "dx": -60,
+          "at": 16.18
+        }
+      ]
+    },
+    {
+      "id": "survive",
+      "type": "doodle",
+      "title": "ВЫЖИЛИ ИЛИ НЕТ",
+      "items": [
+        {
+          "kind": "person",
+          "id": "sci",
+          "x": 0.25,
+          "label": "УЧЁНЫЙ",
+          "face": "right",
+          "mood": "flat",
+          "look": [
+            "glasses"
+          ],
+          "at": 0.1
+        },
+        {
+          "kind": "person",
+          "id": "tardi",
+          "x": 0.72,
+          "label": "ТИХОХОДКА",
+          "face": "left",
+          "mood": "smile",
+          "at": 0.1
+        },
+        {
+          "kind": "say",
+          "who": "sci",
+          "text": "МОГЛИ ВЫЖИТЬ?",
+          "dx": 40,
+          "at": 0.38,
+          "until": 2.28
+        },
+        {
+          "kind": "say",
+          "who": "tardi",
+          "text": "Я-ТО?",
+          "dx": -60,
+          "at": 2.28,
+          "until": 4.08
+        },
+        {
+          "kind": "thing",
+          "name": "calendar",
+          "x": 0.2,
+          "text": "2021",
+          "sub": "МАЙ",
+          "at": 4.08
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "СКОРЕЕ ВСЕГО НЕТ",
+          "at": 5.68,
+          "until": 9.58
+        },
+        {
+          "kind": "say",
+          "who": "tardi",
+          "text": "УДАР...",
+          "dx": -60,
+          "at": 8.18,
+          "until": 10.78
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ДАВЛЕНИЕ ВЫШЕ ПРЕДЕЛА",
+          "at": 9.58,
+          "until": 13.18
+        },
+        {
+          "kind": "say",
+          "who": "sci",
+          "text": "ПО ИЗМЕРЕНИЯМ",
+          "dx": 40,
+          "at": 11.28,
+          "until": 13.18
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "А ЕСЛИ ВЫЖИЛИ?",
+          "at": 13.18,
+          "until": 14.98
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "НЕТ ВОДЫ",
+          "at": 14.98,
+          "until": 16.68
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "НЕТ ЕДЫ",
+          "at": 16.68
+        },
+        {
+          "kind": "say",
+          "who": "tardi",
+          "text": "СУКА",
+          "dx": -60,
+          "at": 17.38
+        }
+      ]
+    },
+    {
+      "id": "legal",
+      "type": "doodle",
+      "title": "А ЭТО ЗАКОННО?",
+      "items": [
+        {
+          "kind": "person",
+          "id": "tardi",
+          "x": 0.72,
+          "label": "ТИХОХОДКА",
+          "face": "left",
+          "mood": "smile",
+          "at": 0.1
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "САМОЕ СМЕШНОЕ",
+          "at": 0.38,
+          "until": 1.58
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЭТО ЗАКОННО",
+          "at": 1.58,
+          "until": 4.08
+        },
+        {
+          "kind": "say",
+          "who": "tardi",
+          "text": "ЧЕГО?",
+          "dx": -60,
+          "at": 2.58,
+          "until": 4.08
+        },
+        {
+          "kind": "thing",
+          "name": "book",
+          "x": 0.3,
+          "text": "ДОГОВОР",
+          "at": 4.08
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ЗАПРЕЩЕНО:",
+          "at": 4.08,
+          "until": 6.08
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ОРУЖИЕ",
+          "at": 6.08,
+          "until": 6.78
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ОРУЖИЕ И ПОМЕХИ",
+          "at": 6.78,
+          "until": 8.78
+        },
+        {
+          "kind": "say",
+          "who": "tardi",
+          "text": "А МЫ?",
+          "dx": -60,
+          "at": 8.78,
+          "until": 9.98
+        },
+        {
+          "kind": "say",
+          "who": "tardi",
+          "text": "НИ СЛОВА",
+          "dx": -60,
+          "at": 9.98
+        }
+      ]
+    },
+    {
+      "id": "you",
+      "type": "doodle",
+      "title": "А ТЕПЕРЬ ТЫ",
+      "items": [
+        {
+          "kind": "person",
+          "id": "you",
+          "x": 0.28,
+          "label": "ТЫ",
+          "face": "right",
+          "mood": "smile",
+          "at": 0.1
+        },
+        {
+          "kind": "person",
+          "id": "tardi",
+          "x": 0.72,
+          "label": "ТИХОХОДКА",
+          "face": "left",
+          "mood": "smile",
+          "at": 0.1
+        },
+        {
+          "kind": "say",
+          "who": "you",
+          "text": "МЕНЯ НЕ СЛОМАТЬ",
+          "dx": 40,
+          "at": 1.28,
+          "until": 2.78
+        },
+        {
+          "kind": "say",
+          "who": "tardi",
+          "text": "ВСПОМНИ МЕНЯ",
+          "dx": -60,
+          "at": 2.78,
+          "until": 4.18
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "КОСМОС НЕ ВЗЯЛ",
+          "at": 4.18,
+          "until": 5.48
+        },
+        {
+          "kind": "thing",
+          "name": "sign",
+          "x": 0.5,
+          "y": 760,
+          "text": "ВЗЯЛА ПОСАДКА",
+          "at": 5.48
+        },
+        {
+          "kind": "say",
+          "who": "tardi",
+          "text": "КРИВАЯ, БЛЯДЬ",
+          "dx": -60,
+          "at": 6.18
+        }
+      ]
+    }
+  ]
+}
